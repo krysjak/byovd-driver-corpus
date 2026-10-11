@@ -1,0 +1,41 @@
+{
+  "filename": "vmnetuserif.sys",
+  "stored_as": "drivers/vmnetuserif.sys",
+  "sha256": "1191DD88953DBF63EE7A51182FFC019E75D78FCB13B8790644139EF9273656E4",
+  "sha1": "A0005477CEEFEE4C833325F90006357A4B3AE8C8",
+  "md5": "1BF8B1EDA63954C5C6932E41FD5AA857",
+  "filenames": [
+    "vmnetuserif.sys"
+  ],
+  "size_bytes": 30664,
+  "company": "Broadcom Inc.",
+  "product": "VMware network application interface driver (64-bit)",
+  "description": "VMware network application interface driver (64-bit)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

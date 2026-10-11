@@ -1,0 +1,41 @@
+{
+  "filename": "vmbusproxy.sys",
+  "stored_as": "drivers/vmbusproxy.sys",
+  "sha256": "10915CBC92DE7B95CCDC79CB6A9AA96B4F0190BC8B291F75FA47D78ABCADBDCA",
+  "sha1": "7C9BC578F4CD789D2BF05F727B5EA1C2FF1BC988",
+  "md5": "0EB834AAE61D88250DC42F2BEAA9D973",
+  "filenames": [
+    "vmbusproxy.sys"
+  ],
+  "size_bytes": 98304,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Hyper-V VMBus Proxy Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

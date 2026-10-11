@@ -1,0 +1,42 @@
+{
+  "filename": "flpydisk.sys",
+  "stored_as": "drivers/flpydisk.sys",
+  "sha256": "2B920DCEDB85453F619C599083046B6DE8670886AB2D13593771DFADCCEBBEB2",
+  "sha1": "7989EAAE9A4BD54D374CD7D4E213ED33528FA4B8",
+  "md5": "27FDBA8F9DC034A82735E6F28768377C",
+  "filenames": [
+    "flpydisk.sys",
+    "flpydisk_1.sys"
+  ],
+  "size_bytes": 65536,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Floppy Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

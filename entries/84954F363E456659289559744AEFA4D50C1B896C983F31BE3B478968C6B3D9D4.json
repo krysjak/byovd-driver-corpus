@@ -1,0 +1,43 @@
+{
+  "filename": "WwanNet.sys",
+  "stored_as": "drivers/WwanNet.sys",
+  "sha256": "84954F363E456659289559744AEFA4D50C1B896C983F31BE3B478968C6B3D9D4",
+  "sha1": "9D66D325135AF3003CDC6AD3687D11FA9C0C5C15",
+  "md5": "47A9D3A60B2F0D135A7E6F6D1A8DEAFB",
+  "filenames": [
+    "WwanNet.sys"
+  ],
+  "size_bytes": 459320,
+  "company": "Fibocom Wireless Inc.",
+  "product": "Fibocom Wwan 5G NetAdapter Stack",
+  "description": "Fibocom Wwan NetAdapter Mbb-Client Driver\"",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "contiguous physical allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

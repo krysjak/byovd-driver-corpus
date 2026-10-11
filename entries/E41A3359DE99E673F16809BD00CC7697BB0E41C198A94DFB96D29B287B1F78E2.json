@@ -1,0 +1,39 @@
+{
+  "filename": "urssynopsys.sys",
+  "stored_as": "drivers/urssynopsys.sys",
+  "sha256": "E41A3359DE99E673F16809BD00CC7697BB0E41C198A94DFB96D29B287B1F78E2",
+  "sha1": "09A15FEC4341C7CBEAE190D326AF5E770A0CC297",
+  "md5": "505F4CA3A039CB41A02A28785D35ED06",
+  "filenames": [
+    "urssynopsys.sys"
+  ],
+  "size_bytes": 66992,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "USB Role-Switch Driver for Synopsys Core",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

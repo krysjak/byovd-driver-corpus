@@ -1,0 +1,39 @@
+{
+  "filename": "swmbbser00.sys",
+  "stored_as": "drivers/swmbbser00.sys",
+  "sha256": "45869A4B5914F428C5476ED2BFACFCEE9BE78359D62CD757E4349F75A0E80D78",
+  "sha1": "0F7539B5DDBBA1BBFEA1973E4E79CA3220333EF6",
+  "md5": "D3861A262D664952C9D46E899D632474",
+  "filenames": [
+    "swmbbser00.sys"
+  ],
+  "size_bytes": 287816,
+  "company": "Sierra Wireless Incorporated",
+  "product": "Sierra Wireless Incorporated USB Modem/Serial Device Driver",
+  "description": "USB Modem/Serial Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,40 @@
+{
+  "filename": "evbda.sys",
+  "stored_as": "drivers/evbda.sys",
+  "sha256": "60FE372E60F532099A242EF73C24C142CEB66CE7B1F7CA48B826A02D9DD513C9",
+  "sha1": "D564E4461E032360D5CE57ADD1E1FE9A5E093940",
+  "md5": "12C40357B8103BF60F7485498C914CF3",
+  "filenames": [
+    "evbda.sys",
+    "evbda_1.sys"
+  ],
+  "size_bytes": 3441568,
+  "company": "Marvell Semiconductor Inc.",
+  "product": "QLogic 10 GigE",
+  "description": "QLogic 10 GigE VBD",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

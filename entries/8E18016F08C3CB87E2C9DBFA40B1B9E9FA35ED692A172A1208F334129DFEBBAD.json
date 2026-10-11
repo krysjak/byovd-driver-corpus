@@ -1,0 +1,41 @@
+{
+  "filename": "iaStorAC_6.sys",
+  "stored_as": "drivers/iaStorAC_6.sys",
+  "sha256": "8E18016F08C3CB87E2C9DBFA40B1B9E9FA35ED692A172A1208F334129DFEBBAD",
+  "sha1": "1E7C19CADD64C1EBFF31C6E906269719C5B7BF37",
+  "md5": "18763231FF358B20084E95F0F22EBC08",
+  "filenames": [
+    "iaStorAC_6.sys"
+  ],
+  "size_bytes": 1036288,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Rapid Storage Technology driver ",
+  "description": "Intel(R) Rapid Storage Technology driver - x64",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

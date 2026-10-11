@@ -1,0 +1,40 @@
+{
+  "filename": "ufxsynopsys.sys",
+  "stored_as": "drivers/ufxsynopsys.sys",
+  "sha256": "4B8938777B92F4F1B3199DEF96F03E710CC22D8A2720297F3F1B53A696D3347F",
+  "sha1": "71DB31410B116C6AFD749D3AA4AE6A3277DA8946",
+  "md5": "186850C50025B806B391D69E916EE770",
+  "filenames": [
+    "ufxsynopsys.sys",
+    "ufxsynopsys_1.sys"
+  ],
+  "size_bytes": 198064,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "UFX Synopsys Client Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

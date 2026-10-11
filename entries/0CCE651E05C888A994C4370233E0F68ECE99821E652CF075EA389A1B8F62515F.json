@@ -1,0 +1,42 @@
+{
+  "filename": "serial.sys",
+  "stored_as": "drivers/serial.sys",
+  "sha256": "0CCE651E05C888A994C4370233E0F68ECE99821E652CF075EA389A1B8F62515F",
+  "sha1": "339FB97840C87F6A52F3E560CBE0DC6D630AF064",
+  "md5": "FC96CAFDDA51408494B3F68A21B7F05E",
+  "filenames": [
+    "serial.sys",
+    "serial_1.sys"
+  ],
+  "size_bytes": 122880,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Serial Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

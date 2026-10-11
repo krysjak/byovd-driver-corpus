@@ -1,0 +1,47 @@
+{
+  "filename": "condrv.sys",
+  "stored_as": "drivers/condrv.sys",
+  "sha256": "3B424955065267757DD33A3B04836D7853A5345E67E8D11CEEDF6CCD064095B9",
+  "sha1": "4B5774BB739AFDDF8232EFAD98692E99FA9B57BE",
+  "md5": "6F8988BC8542FA477966BCE94DDE8FED",
+  "filenames": [
+    "condrv.sys"
+  ],
+  "size_bytes": 91440,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Console Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwOpenProcess",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process handle access",
+    "process termination"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

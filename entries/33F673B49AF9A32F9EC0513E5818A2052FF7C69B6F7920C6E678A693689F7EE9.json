@@ -1,0 +1,41 @@
+{
+  "filename": "Intel_NF_I2C_2.sys",
+  "stored_as": "drivers/Intel_NF_I2C_2.sys",
+  "sha256": "33F673B49AF9A32F9EC0513E5818A2052FF7C69B6F7920C6E678A693689F7EE9",
+  "sha1": "A8451EA6CE2279326587F20F0671FF8AA006B5C2",
+  "md5": "FE6262341402DB50CBD3EB08DC3523D0",
+  "filenames": [
+    "Intel_NF_I2C_2.sys"
+  ],
+  "size_bytes": 218056,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) NF I2C Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "dptf_cpu_7.sys",
+  "stored_as": "drivers/dptf_cpu_7.sys",
+  "sha256": "36628984FB45C711AF6D230D4B8B565AF7E94BC3F5E5C0C3BE4D867AEC01B97D",
+  "sha1": "415334B5F4F7FAFDB9C657740941C4971E4E72F3",
+  "md5": "2E034D188092D6DCAE2CC35BA326F684",
+  "filenames": [
+    "dptf_cpu_7.sys"
+  ],
+  "size_bytes": 74120,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Dynamic Tuning",
+  "description": "Intel(R) Dynamic Tuning CPU Participant",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

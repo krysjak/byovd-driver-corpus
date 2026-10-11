@@ -1,0 +1,41 @@
+{
+  "filename": "pcw.sys",
+  "stored_as": "drivers/pcw.sys",
+  "sha256": "B6C09B56EA59B7A63D1E77EC982A9EFA2E9F381DBEF461F490AFC0037D1C24B8",
+  "sha1": "8E99D0A021C23C8DE7A2310E970546D9EB6C429E",
+  "md5": "86ADF9B97A3C7ED2A954531EEF715397",
+  "filenames": [
+    "pcw.sys"
+  ],
+  "size_bytes": 103896,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Performance Counters for Windows Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "MmCopyVirtualMemory"
+  ],
+  "capability_profile": [
+    "cross-process memory copy",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "HWiNFO_x64_206.sys",
+  "stored_as": "drivers/HWiNFO_x64_206.sys",
+  "sha256": "7D4250BC1528F92C262DD425B490874BDBEF224761E130716766924B95F3C8B2",
+  "sha1": "D5C05FDD5BEC31A2FDCBB56C4AF0167F1549F318",
+  "md5": "736C636F1D686CF9B08299A56FCFDE79",
+  "filenames": [
+    "HWiNFO_x64_206.sys"
+  ],
+  "size_bytes": 57512,
+  "company": "REALiX",
+  "product": "HWiNFO AMD64 Kernel Driver",
+  "description": "HWiNFO AMD64 Kernel Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

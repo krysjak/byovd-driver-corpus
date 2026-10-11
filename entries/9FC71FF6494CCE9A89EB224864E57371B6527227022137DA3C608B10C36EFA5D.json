@@ -1,0 +1,39 @@
+{
+  "filename": "bam.sys",
+  "stored_as": "drivers/bam.sys",
+  "sha256": "9FC71FF6494CCE9A89EB224864E57371B6527227022137DA3C608B10C36EFA5D",
+  "sha1": "9E5C5499AD2A351DFEB171FA8F520FF4A2FE900F",
+  "md5": "F9F24468A3001A923A2631269A49288E",
+  "filenames": [
+    "bam.sys"
+  ],
+  "size_bytes": 124400,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "BAM Kernel Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

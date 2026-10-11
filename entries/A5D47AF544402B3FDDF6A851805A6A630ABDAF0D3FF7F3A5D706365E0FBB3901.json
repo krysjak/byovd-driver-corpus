@@ -1,0 +1,43 @@
+{
+  "filename": "RTDVHDA.sys",
+  "stored_as": "drivers/RTDVHDA.sys",
+  "sha256": "A5D47AF544402B3FDDF6A851805A6A630ABDAF0D3FF7F3A5D706365E0FBB3901",
+  "sha1": "8772C5496CB1E94CD54A2DFB67ECE8A17C179FC2",
+  "md5": "8A2FB0F3A851CF12626A23B98EBDEAFB",
+  "filenames": [
+    "RTDVHDA.sys"
+  ],
+  "size_bytes": 2004504,
+  "company": "Realtek Semiconductor Corp.",
+  "product": "Realtek(r) High Definition Audio Function Driver",
+  "description": "Realtek(r) High Definition Audio Function Driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

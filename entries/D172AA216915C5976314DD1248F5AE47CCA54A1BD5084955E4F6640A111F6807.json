@@ -1,0 +1,44 @@
+{
+  "filename": "sdstor.sys",
+  "stored_as": "drivers/sdstor.sys",
+  "sha256": "D172AA216915C5976314DD1248F5AE47CCA54A1BD5084955E4F6640A111F6807",
+  "sha1": "2609D99E5CAB548C99E9442001B134916D49DF77",
+  "md5": "A80EEE7632EBB394EEE37095DF329B2A",
+  "filenames": [
+    "sdstor.sys",
+    "sdstor_1.sys"
+  ],
+  "size_bytes": 140792,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SD Storage Class Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

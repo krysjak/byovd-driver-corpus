@@ -1,0 +1,39 @@
+{
+  "filename": "RtkSdcaXu.sys",
+  "stored_as": "drivers/RtkSdcaXu.sys",
+  "sha256": "0641267C2412E714052FDBFD5ED940111BE907F0E30BAC23CA0029B518A1ECFC",
+  "sha1": "7EE9BF2599044A9D2A803DF739EE8C98F2B85937",
+  "md5": "D2E94DEA03E3C33840FDF80D19045E73",
+  "filenames": [
+    "RtkSdcaXu.sys"
+  ],
+  "size_bytes": 687144,
+  "company": "Realtek Semiconductor Corp.",
+  "product": "Realtek SDCA Extension Unit Driver",
+  "description": "Realtek SDCA Extension Unit Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

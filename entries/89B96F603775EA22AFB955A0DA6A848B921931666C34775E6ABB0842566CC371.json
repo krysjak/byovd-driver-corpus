@@ -1,0 +1,39 @@
+{
+  "filename": "Usb4HostRouter.sys",
+  "stored_as": "drivers/Usb4HostRouter.sys",
+  "sha256": "89B96F603775EA22AFB955A0DA6A848B921931666C34775E6ABB0842566CC371",
+  "sha1": "7538B5D3A23FDAF1F3446886CB9B6CB256FF55DC",
+  "md5": "6E31FDC711D2E58E6600FDFFF61B8A01",
+  "filenames": [
+    "Usb4HostRouter.sys"
+  ],
+  "size_bytes": 714224,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "USB4(TM) Host Router Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

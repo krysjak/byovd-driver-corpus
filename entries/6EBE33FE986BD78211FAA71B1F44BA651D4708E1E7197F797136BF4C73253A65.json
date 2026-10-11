@@ -1,0 +1,45 @@
+{
+  "filename": "xvdd.sys",
+  "stored_as": "drivers/xvdd.sys",
+  "sha256": "6EBE33FE986BD78211FAA71B1F44BA651D4708E1E7197F797136BF4C73253A65",
+  "sha1": "099A3F81652917DB8FE0B719BF63FF87A3A665F1",
+  "md5": "4B02439CB80BA8E3EBBF6D55229F7D51",
+  "filenames": [
+    "xvdd.sys"
+  ],
+  "size_bytes": 696048,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft Gaming Filesystem Driver",
+  "description": "XVD Disk Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process lookup"
+  ],
+  "creates_device": false,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

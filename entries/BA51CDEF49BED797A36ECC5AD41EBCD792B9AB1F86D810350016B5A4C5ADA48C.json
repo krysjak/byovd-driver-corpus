@@ -1,0 +1,41 @@
+{
+  "filename": "SynTPUWP.sys",
+  "stored_as": "drivers/SynTPUWP.sys",
+  "sha256": "BA51CDEF49BED797A36ECC5AD41EBCD792B9AB1F86D810350016B5A4C5ADA48C",
+  "sha1": "6A3D2F86756EEA65C4EB49092AB7728A7D611162",
+  "md5": "76494BC6DEF95C308CF62EA9311BE774",
+  "filenames": [
+    "SynTPUWP.sys"
+  ],
+  "size_bytes": 752984,
+  "company": "Synaptics Incorporated",
+  "product": "Synaptics Pointing Device Driver",
+  "description": "Synaptics Touchpad Win64 Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

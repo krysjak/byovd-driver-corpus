@@ -1,0 +1,43 @@
+{
+  "filename": "Netwtw08.sys",
+  "stored_as": "drivers/Netwtw08.sys",
+  "sha256": "18E1A3736F2D1ECCE196C008A474ABBB430B3F1310C731D5B58D9E9F13DE90B3",
+  "sha1": "314EF12EDD6174D1D319DAB39AB7B6BBD88F008F",
+  "md5": "61A41DBA0D1D6159AB8BF7C0B952B064",
+  "filenames": [
+    "Netwtw08.sys"
+  ],
+  "size_bytes": 8815104,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "Intel® Wireless WiFi Link Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

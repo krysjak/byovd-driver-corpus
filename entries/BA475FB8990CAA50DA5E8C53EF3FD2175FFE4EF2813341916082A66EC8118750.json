@@ -1,0 +1,39 @@
+{
+  "filename": "ksecdd.sys",
+  "stored_as": "drivers/ksecdd.sys",
+  "sha256": "BA475FB8990CAA50DA5E8C53EF3FD2175FFE4EF2813341916082A66EC8118750",
+  "sha1": "A5043B1A6EA65F27356A04963FA612795B85542A",
+  "md5": "9AB724A176D87551702B94FEFB2071E8",
+  "filenames": [
+    "ksecdd.sys"
+  ],
+  "size_bytes": 230888,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Kernel Security Support Provider Interface",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmCopyVirtualMemory"
+  ],
+  "capability_profile": [
+    "cross-process memory copy"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

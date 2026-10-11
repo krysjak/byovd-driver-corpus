@@ -1,0 +1,41 @@
+{
+  "filename": "amdpmf.sys",
+  "stored_as": "drivers/amdpmf.sys",
+  "sha256": "3B877B4AB3862A4D700605043501EC04E1A5CDA3595156F4C3BF36815E9FB04C",
+  "sha1": "17CB4DE82A365B704D0FF6553A43FE3ED56CC4AA",
+  "md5": "926AF88B5FCF8DE8BD56BEBBC1B77FA8",
+  "filenames": [
+    "amdpmf.sys"
+  ],
+  "size_bytes": 202136,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "AMD PMF Device Driver",
+  "description": "AMD PMF Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

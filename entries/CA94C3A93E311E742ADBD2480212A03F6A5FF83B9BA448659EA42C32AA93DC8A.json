@@ -1,0 +1,46 @@
+{
+  "filename": "vmbusr.sys",
+  "stored_as": "drivers/vmbusr.sys",
+  "sha256": "CA94C3A93E311E742ADBD2480212A03F6A5FF83B9BA448659EA42C32AA93DC8A",
+  "sha1": "C3CBA4B84432C882E35814521805A5751C31AD45",
+  "md5": "A3B1D666C76A726325CF3CBDF5E04B2F",
+  "filenames": [
+    "vmbusr.sys",
+    "vmbusr_1.sys"
+  ],
+  "size_bytes": 316904,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Hyper-V Virtual Machine Bus Root Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "process address-space attach"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

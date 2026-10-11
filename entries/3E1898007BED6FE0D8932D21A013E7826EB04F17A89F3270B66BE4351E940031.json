@@ -1,0 +1,39 @@
+{
+  "filename": "fse.sys",
+  "stored_as": "drivers/fse.sys",
+  "sha256": "3E1898007BED6FE0D8932D21A013E7826EB04F17A89F3270B66BE4351E940031",
+  "sha1": "91EDDA5F5369E525850F6D3FFCE09BC848B067DA",
+  "md5": "11D99CF92024A07AC41E43F57B316D64",
+  "filenames": [
+    "fse.sys"
+  ],
+  "size_bytes": 230888,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Flow Steering Engine Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

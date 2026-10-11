@@ -1,0 +1,39 @@
+{
+  "filename": "NDKPerf.sys",
+  "stored_as": "drivers/NDKPerf.sys",
+  "sha256": "14C80E43627C3145FBA83528016B0FCE14A726C8130EAC03EF1C2AC83FB485BB",
+  "sha1": "A6E12225CCE84D170C124FB85062D4C6E5A4000A",
+  "md5": "CE091328500FAAAD6953043BE257CB89",
+  "filenames": [
+    "NDKPerf.sys"
+  ],
+  "size_bytes": 83448,
+  "company": "",
+  "product": "",
+  "description": "",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

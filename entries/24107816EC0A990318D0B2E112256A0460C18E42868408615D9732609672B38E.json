@@ -1,0 +1,43 @@
+{
+  "filename": "Wdf01000.sys",
+  "stored_as": "drivers/Wdf01000.sys",
+  "sha256": "24107816EC0A990318D0B2E112256A0460C18E42868408615D9732609672B38E",
+  "sha1": "480D743BA941F2EDC6AB60DAEE6E0B57E937F4AB",
+  "md5": "476B996AA02933665D76E36010657F44",
+  "filenames": [
+    "Wdf01000.sys"
+  ],
+  "size_bytes": 988640,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Kernel Mode Driver Framework Runtime",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

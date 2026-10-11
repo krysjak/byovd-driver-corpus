@@ -1,0 +1,49 @@
+{
+  "filename": "lxcore.sys",
+  "stored_as": "drivers/lxcore.sys",
+  "sha256": "CC1E56586944C7D161B3A7AB9EBEF351A72F1820291FD1565046344CC9C4ECA4",
+  "sha1": "A7376087C7FFCA360F62FED4FB85231B92E5589D",
+  "md5": "94034B4728321AB227557C935D38E8EF",
+  "filenames": [
+    "lxcore.sys"
+  ],
+  "size_bytes": 1127936,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "LX Core",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmLoadSystemImage",
+    "MmProbeAndLockPages",
+    "ZwMapViewOfSection",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process termination",
+    "section mapping (kernel R/W surface)",
+    "system image loading"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

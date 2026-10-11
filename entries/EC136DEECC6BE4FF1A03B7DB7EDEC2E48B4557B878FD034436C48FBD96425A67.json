@@ -1,0 +1,41 @@
+{
+  "filename": "amdacpbus_1.sys",
+  "stored_as": "drivers/amdacpbus_1.sys",
+  "sha256": "EC136DEECC6BE4FF1A03B7DB7EDEC2E48B4557B878FD034436C48FBD96425A67",
+  "sha1": "3A3199D50245F40936AD6882C5BBAD8DAEDDB9C1",
+  "md5": "56B19F3F5E044B5EE50A8A6B673CB15F",
+  "filenames": [
+    "amdacpbus_1.sys"
+  ],
+  "size_bytes": 6188472,
+  "company": "Advanced Micro Devices",
+  "product": "AMD Audio CoProcessor",
+  "description": "AMD Audio CoProcessor",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

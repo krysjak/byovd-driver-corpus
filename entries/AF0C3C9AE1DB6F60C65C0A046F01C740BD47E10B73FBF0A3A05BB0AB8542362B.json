@@ -1,0 +1,40 @@
+{
+  "filename": "intelpmax.sys",
+  "stored_as": "drivers/intelpmax.sys",
+  "sha256": "AF0C3C9AE1DB6F60C65C0A046F01C740BD47E10B73FBF0A3A05BB0AB8542362B",
+  "sha1": "DF2BEE9186B29703290E05E22F06CC1DB931371C",
+  "md5": "76DC389A4F660AE3688B1683A566F162",
+  "filenames": [
+    "intelpmax.sys",
+    "intelpmax_1.sys"
+  ],
+  "size_bytes": 65536,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Intel Power Limit Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

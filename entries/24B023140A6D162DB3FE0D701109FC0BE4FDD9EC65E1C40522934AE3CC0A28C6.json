@@ -1,0 +1,45 @@
+{
+  "filename": "ntfs.sys",
+  "stored_as": "drivers/ntfs.sys",
+  "sha256": "24B023140A6D162DB3FE0D701109FC0BE4FDD9EC65E1C40522934AE3CC0A28C6",
+  "sha1": "7D51FCE87B96A2F32DCDCC64C3D23EB4754AB7CA",
+  "md5": "7BE24DA2E71B3BED7BBCE3C2AC7D5B6B",
+  "filenames": [
+    "ntfs.sys"
+  ],
+  "size_bytes": 3556856,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "NT File System Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

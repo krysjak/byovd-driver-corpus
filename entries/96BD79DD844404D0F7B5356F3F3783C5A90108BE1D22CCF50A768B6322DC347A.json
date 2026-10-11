@@ -1,0 +1,39 @@
+{
+  "filename": "dptf_cpu_6.sys",
+  "stored_as": "drivers/dptf_cpu_6.sys",
+  "sha256": "96BD79DD844404D0F7B5356F3F3783C5A90108BE1D22CCF50A768B6322DC347A",
+  "sha1": "916AE0E8C246D9C4788215CA73B773F5579D0962",
+  "md5": "E7B48720252E0FE6712EDF6B9DD3500F",
+  "filenames": [
+    "dptf_cpu_6.sys"
+  ],
+  "size_bytes": 75248,
+  "company": "Intel Corporation",
+  "product": "Dynamic Platform Thermal Framework",
+  "description": "DPTF CPU Device (64-Bit)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

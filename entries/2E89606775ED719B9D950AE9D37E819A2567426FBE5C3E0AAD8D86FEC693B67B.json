@@ -1,0 +1,41 @@
+{
+  "filename": "HttpDebuggerSdk.sys",
+  "stored_as": "drivers/HttpDebuggerSdk.sys",
+  "sha256": "2E89606775ED719B9D950AE9D37E819A2567426FBE5C3E0AAD8D86FEC693B67B",
+  "sha1": "5266036308E0D0EB837CC3126DBA5A0B6EC270FC",
+  "md5": "947C624C4BD48F8C66FCD00FC0F947D4",
+  "filenames": [
+    "HttpDebuggerSdk.sys"
+  ],
+  "size_bytes": 100136,
+  "company": "Windows (R) Win 7 DDK provider",
+  "product": "Windows (R) Win 7 DDK driver",
+  "description": "NetFilter SDK WFP Driver (WPP)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

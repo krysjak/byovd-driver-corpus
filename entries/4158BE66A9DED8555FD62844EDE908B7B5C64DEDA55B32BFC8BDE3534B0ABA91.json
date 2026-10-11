@@ -1,0 +1,39 @@
+{
+  "filename": "TEEDriverx64_1.sys",
+  "stored_as": "drivers/TEEDriverx64_1.sys",
+  "sha256": "4158BE66A9DED8555FD62844EDE908B7B5C64DEDA55B32BFC8BDE3534B0ABA91",
+  "sha1": "8E5667C32DE29B689B194FC810BF82438BA2C0BE",
+  "md5": "124B5296DF58E1F0ED3E9122431B136D",
+  "filenames": [
+    "TEEDriverx64_1.sys"
+  ],
+  "size_bytes": 178976,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Management Engine Interface",
+  "description": "Intel(R) Management Engine Interface",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

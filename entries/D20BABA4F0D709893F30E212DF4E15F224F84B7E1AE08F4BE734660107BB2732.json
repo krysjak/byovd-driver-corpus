@@ -1,0 +1,41 @@
+{
+  "filename": "Classpnp.sys",
+  "stored_as": "drivers/Classpnp.sys",
+  "sha256": "D20BABA4F0D709893F30E212DF4E15F224F84B7E1AE08F4BE734660107BB2732",
+  "sha1": "78E6F5E0B00816AC23966FF41EB4CEF4EBCFC06C",
+  "md5": "E7D810658448A05AAF91700A236B186F",
+  "filenames": [
+    "Classpnp.sys"
+  ],
+  "size_bytes": 505304,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SCSI Class System Dll",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

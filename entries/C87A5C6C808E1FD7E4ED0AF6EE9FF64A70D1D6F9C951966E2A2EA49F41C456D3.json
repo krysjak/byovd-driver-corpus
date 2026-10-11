@@ -1,0 +1,39 @@
+{
+  "filename": "asmthub3.sys",
+  "stored_as": "drivers/asmthub3.sys",
+  "sha256": "C87A5C6C808E1FD7E4ED0AF6EE9FF64A70D1D6F9C951966E2A2EA49F41C456D3",
+  "sha1": "1B0AC225AAF4E69F5AB679DB4BAA5D6FB352C88B",
+  "md5": "DB5B39DFDE775F792B2E28E7B6B9CD9A",
+  "filenames": [
+    "asmthub3.sys"
+  ],
+  "size_bytes": 160936,
+  "company": "ASMedia Technology Inc",
+  "product": "ASMedia USB 3.1 Host Drivers",
+  "description": "ASMedia USB3 Hub Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

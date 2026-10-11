@@ -1,0 +1,40 @@
+{
+  "filename": "IPMIDrv.sys",
+  "stored_as": "drivers/IPMIDrv.sys",
+  "sha256": "4399C3F5E6DB1ADA50447B3725EBA48849CE1B437BD1593B5084F165148DEFA0",
+  "sha1": "4B81A0347ECD6CEF22E5AE8738DD58BA5C3AC68E",
+  "md5": "DAEAF84E2A9620BEF93254D0BBF76BD3",
+  "filenames": [
+    "IPMIDrv.sys",
+    "IPMIDrv_1.sys"
+  ],
+  "size_bytes": 169440,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "WMI IPMI DRIVER",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

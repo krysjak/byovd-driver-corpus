@@ -1,0 +1,44 @@
+{
+  "filename": "sdbus.sys",
+  "stored_as": "drivers/sdbus.sys",
+  "sha256": "C1E9481B69992105ADDA6D0E0AE577452F3CE8714CA3F5C7ECB55DF2D0897479",
+  "sha1": "67FFA0AED6D88DA4B77C7F4CF7BEDADBA81F54F1",
+  "md5": "0BAA91899707D0A70A842D5C126FA698",
+  "filenames": [
+    "sdbus.sys",
+    "sdbus_1.sys"
+  ],
+  "size_bytes": 345560,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SecureDigital Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,44 @@
+{
+  "filename": "nvmedisk.sys",
+  "stored_as": "drivers/nvmedisk.sys",
+  "sha256": "ED789955358FEB3D5E7FAA3BB46E6CF69656774DBC73F61328F4071347F5724D",
+  "sha1": "D657DFCDDC0EBC766769A3A499545B11DF2D80B1",
+  "md5": "6A4CD2563CDE071A97A2E3862AF62CCE",
+  "filenames": [
+    "nvmedisk.sys",
+    "nvmedisk_1.sys"
+  ],
+  "size_bytes": 128488,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Nvme Disk Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

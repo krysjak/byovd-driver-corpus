@@ -1,0 +1,40 @@
+{
+  "filename": "vpci_2.sys",
+  "stored_as": "drivers/vpci_2.sys",
+  "sha256": "F7D0D46266582D5C7ACEA29CC7D75D1C4A28A237DF3AD34E43BE9CD1EA78F1D1",
+  "sha1": "297393A4002266146A055761ED2468E58CAECE7A",
+  "md5": "982441187C93E352D2EFF561BC9979DE",
+  "filenames": [
+    "vpci_2.sys",
+    "vpci_3.sys"
+  ],
+  "size_bytes": 161184,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Virtual PCI Bus",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,42 @@
+{
+  "filename": "hidbatt.sys",
+  "stored_as": "drivers/hidbatt.sys",
+  "sha256": "23FC4EAD8368F57CF40993491F3FE7E48D2866870EEFDCE923F78BA387830E45",
+  "sha1": "28182A470F8333BA1C96731F0D658338A7253D74",
+  "md5": "AD72D2B31ADD72BB9A4EB4D2C051A09C",
+  "filenames": [
+    "hidbatt.sys",
+    "hidbatt_1.sys"
+  ],
+  "size_bytes": 75168,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Hid Battery Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

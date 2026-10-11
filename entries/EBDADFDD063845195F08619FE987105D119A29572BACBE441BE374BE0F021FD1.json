@@ -1,0 +1,39 @@
+{
+  "filename": "vmswitch.sys",
+  "stored_as": "drivers/vmswitch.sys",
+  "sha256": "EBDADFDD063845195F08619FE987105D119A29572BACBE441BE374BE0F021FD1",
+  "sha1": "6717A93F968BF613A9D505AD6A284CFADE1364B1",
+  "md5": "341C34EA6F70C8F9263A4ACA38E1236E",
+  "filenames": [
+    "vmswitch.sys"
+  ],
+  "size_bytes": 2569680,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft® Network Virtualization Service Provider",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

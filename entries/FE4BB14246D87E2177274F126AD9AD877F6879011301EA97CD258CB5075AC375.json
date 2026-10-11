@@ -1,0 +1,41 @@
+{
+  "filename": "IshOed.sys",
+  "stored_as": "drivers/IshOed.sys",
+  "sha256": "FE4BB14246D87E2177274F126AD9AD877F6879011301EA97CD258CB5075AC375",
+  "sha1": "509E8AC67C61A3749FB4CD6915AD9D83B3A8BB92",
+  "md5": "2D9D3694DFE1A9C76F8C2603EE19D2DD",
+  "filenames": [
+    "IshOed.sys"
+  ],
+  "size_bytes": 73808,
+  "company": "Intel",
+  "product": "ISS",
+  "description": "Intel(R) Integrated Sensor Solution",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

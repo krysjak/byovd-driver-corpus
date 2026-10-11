@@ -1,0 +1,43 @@
+{
+  "filename": "ST_Accel.sys",
+  "stored_as": "drivers/ST_Accel.sys",
+  "sha256": "2098B2F4E012A74A5D7A9A2AA1D6DBD2E10B4DA4461F6C15881263D3508E17BB",
+  "sha1": "7D4F0C34FBB6CC9CF14AB06AD7CFF9F488A0E5F8",
+  "md5": "C81FF7B2EC243657D98CAE93984D5EC9",
+  "filenames": [
+    "ST_Accel.sys"
+  ],
+  "size_bytes": 75392,
+  "company": "STMicroelectronics",
+  "product": "STM 3-Axis Accelerometer",
+  "description": "STM Accelerometer Device Driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "contiguous physical allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

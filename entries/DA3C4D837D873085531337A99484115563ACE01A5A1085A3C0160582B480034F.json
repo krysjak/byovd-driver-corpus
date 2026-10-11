@@ -1,0 +1,41 @@
+{
+  "filename": "physX64.sys",
+  "stored_as": "drivers/physX64.sys",
+  "sha256": "DA3C4D837D873085531337A99484115563ACE01A5A1085A3C0160582B480034F",
+  "sha1": "180FC3844BE7703CF0635D1AFBE78DE71C0DB72B",
+  "md5": "7C0B34E30F62110CCEBC2F09BF79869C",
+  "filenames": [
+    "physX64.sys"
+  ],
+  "size_bytes": 148768,
+  "company": "AGEIA Technologies, Inc.",
+  "product": "AGEIA PhysX Processor WDM Driver",
+  "description": "AGEIA PhysX Processor WDM Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

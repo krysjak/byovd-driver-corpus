@@ -1,0 +1,42 @@
+{
+  "filename": "dumpsd.sys",
+  "stored_as": "drivers/dumpsd.sys",
+  "sha256": "923F7B0ADDAC1717C87E47CADE65938D42985A7B0EF799D0B3ABFA8A1F3941BA",
+  "sha1": "93660116645B28867123720E2BCAF9906F123560",
+  "md5": "B5105BC2A71948859D4BEA420128B852",
+  "filenames": [
+    "dumpsd.sys",
+    "dumpsd_1.sys"
+  ],
+  "size_bytes": 234960,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SD Crashdump Port Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

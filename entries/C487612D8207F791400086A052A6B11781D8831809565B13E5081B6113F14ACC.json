@@ -1,0 +1,42 @@
+{
+  "filename": "TbtBusDrv.sys",
+  "stored_as": "drivers/TbtBusDrv.sys",
+  "sha256": "C487612D8207F791400086A052A6B11781D8831809565B13E5081B6113F14ACC",
+  "sha1": "9B68FDEBB9D173BBC825D35FAF1932BE53DDE6E7",
+  "md5": "7DB011D7110C30ED773D97435107FDE6",
+  "filenames": [
+    "TbtBusDrv.sys"
+  ],
+  "size_bytes": 3183200,
+  "company": "Intel Corporation",
+  "product": "Thunderbolt(TM) Bus Driver",
+  "description": "Thunderbolt(TM) Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 100,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

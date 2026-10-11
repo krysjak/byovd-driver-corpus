@@ -1,0 +1,53 @@
+{
+  "filename": "igdkmdn64_13.sys",
+  "stored_as": "drivers/igdkmdn64_13.sys",
+  "sha256": "1393166390047D354D75AC3C77130349800C8E65DAED1D9490A472FED535C16C",
+  "sha1": "F627484B91657678ED0EC6C204298ACE6D3C9BE8",
+  "md5": "9D3E92D3443556F2113045E5F0F1ABF6",
+  "filenames": [
+    "igdkmdn64_13.sys"
+  ],
+  "size_bytes": 13218856,
+  "company": "Intel Corporation",
+  "product": "Intel HD Graphics Drivers for Windows(R)",
+  "description": "Intel Graphics Kernel Mode New Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver",
+    "ZwMapViewOfSection"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "driver loading",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process lookup",
+    "section mapping (kernel R/W surface)"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 140,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

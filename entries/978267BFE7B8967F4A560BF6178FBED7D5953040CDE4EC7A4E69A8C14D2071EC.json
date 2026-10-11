@@ -1,0 +1,39 @@
+{
+  "filename": "partmgr.sys",
+  "stored_as": "drivers/partmgr.sys",
+  "sha256": "978267BFE7B8967F4A560BF6178FBED7D5953040CDE4EC7A4E69A8C14D2071EC",
+  "sha1": "7502D81D07D1289EA71D211ABCCD6B43AEC95CE1",
+  "md5": "5797DD3B622B0A6E113A90F993A522E2",
+  "filenames": [
+    "partmgr.sys"
+  ],
+  "size_bytes": 226800,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Partition driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "CtiAIo64.sys",
+  "stored_as": "drivers/CtiAIo64.sys",
+  "sha256": "90B1422B71BAF1AD713DBF7D5E74B566622DEFF44451F7E69667562D3E221A45",
+  "sha1": "4BECA13D2AE4EC99764D46432EF59554569882DC",
+  "md5": "58E831247EF3772F3D7AC0B630B9EB00",
+  "filenames": [
+    "CtiAIo64.sys"
+  ],
+  "size_bytes": 39672,
+  "company": "Creative Technology Innovation Co., LTd.",
+  "product": "CtiAIo64 Driver Version 1.1",
+  "description": "CTIA IO driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

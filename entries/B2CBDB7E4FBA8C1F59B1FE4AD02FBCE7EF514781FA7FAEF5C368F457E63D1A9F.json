@@ -1,0 +1,39 @@
+{
+  "filename": "mlx4eth63.sys",
+  "stored_as": "drivers/mlx4eth63.sys",
+  "sha256": "B2CBDB7E4FBA8C1F59B1FE4AD02FBCE7EF514781FA7FAEF5C368F457E63D1A9F",
+  "sha1": "C47E2F07BA31D8AECF74335DE4895934DFF912A1",
+  "md5": "9E3B1BDC7E8B84E5DC2331BA71CBBDDD",
+  "filenames": [
+    "mlx4eth63.sys"
+  ],
+  "size_bytes": 709952,
+  "company": "Mellanox",
+  "product": "MLNX_EN",
+  "description": "Mellanox ConnectX 10Gb Ethernet Adapter NDIS 6.60 driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

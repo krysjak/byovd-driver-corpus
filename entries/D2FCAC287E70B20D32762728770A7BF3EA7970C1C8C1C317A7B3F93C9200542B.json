@@ -1,0 +1,41 @@
+{
+  "filename": "VerifierExt.sys",
+  "stored_as": "drivers/VerifierExt.sys",
+  "sha256": "D2FCAC287E70B20D32762728770A7BF3EA7970C1C8C1C317A7B3F93C9200542B",
+  "sha1": "8F617EFFFA4A1E66FAB82A8B9A575283238B61EF",
+  "md5": "B0001C4C55DF526FF5D20B3EE442D9F2",
+  "filenames": [
+    "VerifierExt.sys"
+  ],
+  "size_bytes": 271848,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Driver Verifier Extension",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

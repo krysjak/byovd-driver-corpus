@@ -1,0 +1,43 @@
+{
+  "filename": "rdpdr.sys",
+  "stored_as": "drivers/rdpdr.sys",
+  "sha256": "44176316C7F66C945D44AF6A9274DCD6C5FB9D71766B9D6B3B60F2533DD38FAD",
+  "sha1": "8C19712BB73A7BF7768D504BBCB5672B9ECA7786",
+  "md5": "524B8A2152A47FBA31060262026BBEB1",
+  "filenames": [
+    "rdpdr.sys"
+  ],
+  "size_bytes": 212992,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft RDP Device redirector",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

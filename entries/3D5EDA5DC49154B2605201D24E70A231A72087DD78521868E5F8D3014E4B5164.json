@@ -1,0 +1,41 @@
+{
+  "filename": "amdgpio3.sys",
+  "stored_as": "drivers/amdgpio3.sys",
+  "sha256": "3D5EDA5DC49154B2605201D24E70A231A72087DD78521868E5F8D3014E4B5164",
+  "sha1": "6F8B8F54ED3E437668CEBC878D49117F55F41319",
+  "md5": "6E466AF1AC4443EEE7EC8DFCCAD171A6",
+  "filenames": [
+    "amdgpio3.sys",
+    "amdgpio3_1.sys",
+    "amdgpio3_2.sys"
+  ],
+  "size_bytes": 33592,
+  "company": "Advanced Micro Devices, Inc",
+  "product": "AMD GPIO Controller Driver",
+  "description": "AMD GPIO Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 3
+}

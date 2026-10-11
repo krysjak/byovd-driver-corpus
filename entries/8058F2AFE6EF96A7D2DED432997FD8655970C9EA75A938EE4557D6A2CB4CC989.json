@@ -1,0 +1,39 @@
+{
+  "filename": "libusb0.sys",
+  "stored_as": "drivers/libusb0.sys",
+  "sha256": "8058F2AFE6EF96A7D2DED432997FD8655970C9EA75A938EE4557D6A2CB4CC989",
+  "sha1": "81D2B572EC0D24ABA11ED6BFA9174FFAD54140B7",
+  "md5": "16E18CED459B1824234890386EE66CD5",
+  "filenames": [
+    "libusb0.sys"
+  ],
+  "size_bytes": 52832,
+  "company": "http://libusb-win32.sourceforge.net",
+  "product": "LibUSB-Win32 - Kernel Driver",
+  "description": "LibUSB-Win32 - Kernel Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,60 @@
+{
+  "filename": "nvlddmkm.sys",
+  "stored_as": "drivers/nvlddmkm.sys",
+  "sha256": "C28FD719733F0AF2E56D48EF0EF1ABE67E6FA71972D870C2F03D2D66FCC509F0",
+  "sha1": "E3D8D4E4171D9587CA15EF33CB99D3ADE86A5BE5",
+  "md5": "412CB552E064341DC5F43B2772563B89",
+  "filenames": [
+    "nvlddmkm.sys"
+  ],
+  "size_bytes": 120332520,
+  "company": "NVIDIA Corporation",
+  "product": "NVIDIA Windows Kernel Mode Driver, Version 610.88 ",
+  "description": "NVIDIA Windows Kernel Mode Driver, Version 610.88 ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver",
+    "ZwMapViewOfSection",
+    "ZwOpenProcess",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "driver loading",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach",
+    "process handle access",
+    "process lookup",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

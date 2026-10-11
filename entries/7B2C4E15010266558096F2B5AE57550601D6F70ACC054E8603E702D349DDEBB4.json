@@ -1,0 +1,44 @@
+{
+  "filename": "hdaudbus.sys",
+  "stored_as": "drivers/hdaudbus.sys",
+  "sha256": "7B2C4E15010266558096F2B5AE57550601D6F70ACC054E8603E702D349DDEBB4",
+  "sha1": "F49A5278C26227E7E3E4A1743462A40BE4545F5B",
+  "md5": "0AA5D597380B2585FDAC7E53C0660F30",
+  "filenames": [
+    "hdaudbus.sys",
+    "hdaudbus_1.sys"
+  ],
+  "size_bytes": 204800,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "High Definition Audio Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

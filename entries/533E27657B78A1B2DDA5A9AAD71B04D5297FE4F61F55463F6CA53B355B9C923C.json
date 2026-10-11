@@ -1,0 +1,43 @@
+{
+  "filename": "mssecflt.sys",
+  "stored_as": "drivers/mssecflt.sys",
+  "sha256": "533E27657B78A1B2DDA5A9AAD71B04D5297FE4F61F55463F6CA53B355B9C923C",
+  "sha1": "E1005DBF33808BAD37FBC7F22C3A9D60BF35AFBB",
+  "md5": "5A6719636FEABA346294201526606208",
+  "filenames": [
+    "mssecflt.sys"
+  ],
+  "size_bytes": 392680,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Security Events Component file system filter driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "MmCopyMemory",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "arbitrary memory copy",
+    "process address-space attach",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

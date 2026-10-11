@@ -1,0 +1,41 @@
+{
+  "filename": "ATSwpWDF.sys",
+  "stored_as": "drivers/ATSwpWDF.sys",
+  "sha256": "250FE2B40D9FC73574358858D3922DFD6EE3219E2A8008D786D1D23015E681AC",
+  "sha1": "8AEBD5AF8A32EE8280253B13604CD2BEE1C10E5E",
+  "md5": "D8ED748B592CE1374D1DA69CE44E2719",
+  "filenames": [
+    "ATSwpWDF.sys"
+  ],
+  "size_bytes": 542880,
+  "company": "AuthenTec, Inc.",
+  "product": " Swipe Fingerprint Sensor WDF USB Driver",
+  "description": " AuthenTec Swipe Sensor WDF USB Driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace",
+    "ZwMapViewOfSection"
+  ],
+  "capability_profile": [
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "iaLPSS2_GPIO2_ADL.sys",
+  "stored_as": "drivers/iaLPSS2_GPIO2_ADL.sys",
+  "sha256": "818D4E3228A9A52EE86FADE0EF07686FB625F5747F8A3DCBCA7A40AFF2C5C3E8",
+  "sha1": "D27F254488A0387F6C41CA5EE8B431D00C2603AE",
+  "md5": "974D04F22B23B9BAEF565340697F8B55",
+  "filenames": [
+    "iaLPSS2_GPIO2_ADL.sys"
+  ],
+  "size_bytes": 150616,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO GPIO Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

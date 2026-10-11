@@ -1,0 +1,43 @@
+{
+  "filename": "asmtxhci.sys",
+  "stored_as": "drivers/asmtxhci.sys",
+  "sha256": "03008CC5FB2446C08DEA0EE1BA79F34D3C933600F2B77705B5C94AAB47496355",
+  "sha1": "CEFDDE53E7B6B9B62D21CCD6444C71F5036F8498",
+  "md5": "E982C13AE03192528C52FAF1B3A4ACB7",
+  "filenames": [
+    "asmtxhci.sys"
+  ],
+  "size_bytes": 483504,
+  "company": "ASMedia Technology Inc",
+  "product": "ASMedia USB 3.1 Host Drivers",
+  "description": "ASMedia xHCI Host Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 110,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

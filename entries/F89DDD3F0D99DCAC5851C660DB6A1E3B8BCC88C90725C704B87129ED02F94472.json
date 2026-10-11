@@ -1,0 +1,40 @@
+{
+  "filename": "i8042prt.sys",
+  "stored_as": "drivers/i8042prt.sys",
+  "sha256": "F89DDD3F0D99DCAC5851C660DB6A1E3B8BCC88C90725C704B87129ED02F94472",
+  "sha1": "42200567DADD363815ADDA2FCFACF94CAEEB07CE",
+  "md5": "5993BDE47B375AADE70C0FE0BCC6F51E",
+  "filenames": [
+    "i8042prt.sys",
+    "i8042prt_1.sys"
+  ],
+  "size_bytes": 155648,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "i8042 Port Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

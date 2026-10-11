@@ -1,0 +1,39 @@
+{
+  "filename": "iorate.sys",
+  "stored_as": "drivers/iorate.sys",
+  "sha256": "F35E1F621E1694495EE51306FE950739F3A83CDE80D005476D1E960303EEF53B",
+  "sha1": "47AAA90239F39A5FAF77A168FE1D96252617D8D1",
+  "md5": "907123DC3C0F03F961276A3F18EA9254",
+  "filenames": [
+    "iorate.sys"
+  ],
+  "size_bytes": 91624,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "I/O rate control Filter",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

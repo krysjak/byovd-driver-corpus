@@ -1,0 +1,40 @@
+{
+  "filename": "Hsp.sys",
+  "stored_as": "drivers/Hsp.sys",
+  "sha256": "54A4374AE70C31479C3BFC6FA22B9051880953E81AE93E2F560CFF170400BF89",
+  "sha1": "8113DF48ED763C6DB0AFF9725E2590D2929F8182",
+  "md5": "E8B278887952F3421E2507171D603D9C",
+  "filenames": [
+    "Hsp.sys",
+    "Hsp_1.sys"
+  ],
+  "size_bytes": 124400,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "HSP Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

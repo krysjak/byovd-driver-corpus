@@ -1,0 +1,39 @@
+{
+  "filename": "Dumpstorport.sys",
+  "stored_as": "drivers/Dumpstorport.sys",
+  "sha256": "64C11EB22AD2F95060A7918CFEF9D512C7E4143EFA16260BC978C7A3EE1A7B0C",
+  "sha1": "B76B1B5C6991A0BAB5D12630778BB623AAA2F40A",
+  "md5": "1032E83839E2DDE72D5B30CD64AF7D4C",
+  "filenames": [
+    "Dumpstorport.sys"
+  ],
+  "size_bytes": 108008,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Storport Dump Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

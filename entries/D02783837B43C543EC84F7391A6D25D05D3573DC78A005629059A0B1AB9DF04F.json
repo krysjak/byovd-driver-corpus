@@ -1,0 +1,43 @@
+{
+  "filename": "qcwlan64_1.sys",
+  "stored_as": "drivers/qcwlan64_1.sys",
+  "sha256": "D02783837B43C543EC84F7391A6D25D05D3573DC78A005629059A0B1AB9DF04F",
+  "sha1": "5C983AEBEC35526F440D7363B477A65D06C11EBD",
+  "md5": "DA0C0ADADA63333D2BBB4A14F9AEA34F",
+  "filenames": [
+    "qcwlan64_1.sys"
+  ],
+  "size_bytes": 3150168,
+  "company": "Qualcomm Atheros, Inc.",
+  "product": "Driver for Qualcomm Atheros QCA61x4/QCA9377 Network Adapter",
+  "description": "Qualcomm Atheros Extensible Wireless LAN device driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

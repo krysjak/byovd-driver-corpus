@@ -1,0 +1,39 @@
+{
+  "filename": "NETwNs32.sys",
+  "stored_as": "drivers/NETwNs32.sys",
+  "sha256": "494D5F5EE070E1BD719B9A50B11EE15DC4297C9D86B30C24579F782CEEF9100A",
+  "sha1": "88219AC6C60CE73500FFBFB909D6E5FF966AB42C",
+  "md5": "D98BD0F579FE745CEF75E87EA88C4775",
+  "filenames": [
+    "NETwNs32.sys"
+  ],
+  "size_bytes": 7530736,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "Intel® Wireless WiFi Link Driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

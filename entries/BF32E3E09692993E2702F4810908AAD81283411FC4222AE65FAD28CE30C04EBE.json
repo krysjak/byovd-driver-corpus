@@ -1,0 +1,40 @@
+{
+  "filename": "amdppm.sys",
+  "stored_as": "drivers/amdppm.sys",
+  "sha256": "BF32E3E09692993E2702F4810908AAD81283411FC4222AE65FAD28CE30C04EBE",
+  "sha1": "9F797E6A76ED5FDC25CEE3EE45CDB983F7C7969A",
+  "md5": "1C48AC041B65B4EB5A64C37D1EE781B3",
+  "filenames": [
+    "amdppm.sys",
+    "amdppm_2.sys"
+  ],
+  "size_bytes": 275944,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Processor Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

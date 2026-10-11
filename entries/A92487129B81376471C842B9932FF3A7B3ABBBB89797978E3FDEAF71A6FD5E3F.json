@@ -1,0 +1,40 @@
+{
+  "filename": "iaLPSS2i_I2C_GLK.sys",
+  "stored_as": "drivers/iaLPSS2i_I2C_GLK.sys",
+  "sha256": "A92487129B81376471C842B9932FF3A7B3ABBBB89797978E3FDEAF71A6FD5E3F",
+  "sha1": "7DAF5030A0444B5DD6101875CDCAAEB90509C3CB",
+  "md5": "2ED3B41C7CB4101ACB15D84D8AB5AA9D",
+  "filenames": [
+    "iaLPSS2i_I2C_GLK.sys",
+    "iaLPSS2i_I2C_GLK_1.sys"
+  ],
+  "size_bytes": 177664,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO I2C Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "ahcache.sys",
+  "stored_as": "drivers/ahcache.sys",
+  "sha256": "8C57B690C2F0E3F1083A63B990460EE6E457F54C57C927BA7F8E09033CAD704A",
+  "sha1": "859941DE94B034BBA550EC11D60E61AA8B35C18C",
+  "md5": "BEB45BB7476FA2064470146955C12862",
+  "filenames": [
+    "ahcache.sys"
+  ],
+  "size_bytes": 372736,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Application Compatibility Cache",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "MmCopyVirtualMemory",
+    "PsLookupProcessByProcessId",
+    "ZwMapViewOfSection"
+  ],
+  "capability_profile": [
+    "cross-process memory copy",
+    "process address-space attach",
+    "process lookup",
+    "section mapping (kernel R/W surface)"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,61 @@
+{
+  "filename": "dxgkrnl.sys",
+  "stored_as": "drivers/dxgkrnl.sys",
+  "sha256": "8F57DD6EFDCE62637075629C711A4D376ECBD7C77B09B0F82F5C261B3EE41358",
+  "sha1": "D58273D48BEE7D1EFA7368F4E41C5777D7E96353",
+  "md5": "7325C5EF71355B40DB8137BFC2340E08",
+  "filenames": [
+    "dxgkrnl.sys"
+  ],
+  "size_bytes": 5207584,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "DirectX Graphics Kernel",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwMapViewOfSection",
+    "ZwOpenProcess",
+    "ZwOpenSection",
+    "ZwSetSystemInformation",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach",
+    "process handle access",
+    "process lookup",
+    "process termination",
+    "section mapping (kernel R/W surface)",
+    "section object access",
+    "system information set"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

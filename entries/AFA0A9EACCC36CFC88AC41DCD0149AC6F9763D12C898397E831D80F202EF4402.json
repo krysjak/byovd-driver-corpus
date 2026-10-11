@@ -1,0 +1,40 @@
+{
+  "filename": "amdsbs.sys",
+  "stored_as": "drivers/amdsbs.sys",
+  "sha256": "AFA0A9EACCC36CFC88AC41DCD0149AC6F9763D12C898397E831D80F202EF4402",
+  "sha1": "3D2ED79A4B29BF3D29C6BA549F8B1BD56400764C",
+  "md5": "C516B52D95F7581C2F6D15D83771C472",
+  "filenames": [
+    "amdsbs.sys",
+    "amdsbs_1.sys"
+  ],
+  "size_bytes": 260512,
+  "company": "AMD Technologies Inc.",
+  "product": "AMD Technology AHCI Compatible Controller",
+  "description": "AMD Technology AHCI Compatible Controller Driver for Windows - AMD64 platform",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

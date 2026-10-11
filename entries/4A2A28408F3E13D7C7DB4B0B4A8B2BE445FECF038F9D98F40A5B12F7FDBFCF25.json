@@ -1,0 +1,40 @@
+{
+  "filename": "xboxgip_2.sys",
+  "stored_as": "drivers/xboxgip_2.sys",
+  "sha256": "4A2A28408F3E13D7C7DB4B0B4A8B2BE445FECF038F9D98F40A5B12F7FDBFCF25",
+  "sha1": "611430989F9A2F8B3B03C70B624CBBA413D020C9",
+  "md5": "7D4EEFE811830A781DF5627CE175CEC2",
+  "filenames": [
+    "xboxgip_2.sys",
+    "xboxgip_3.sys"
+  ],
+  "size_bytes": 417792,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Game Input Protocol Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "process handle access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 55,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

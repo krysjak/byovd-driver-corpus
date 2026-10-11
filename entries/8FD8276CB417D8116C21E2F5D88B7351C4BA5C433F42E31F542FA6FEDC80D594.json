@@ -1,0 +1,39 @@
+{
+  "filename": "NETwtw06_5.sys",
+  "stored_as": "drivers/NETwtw06_5.sys",
+  "sha256": "8FD8276CB417D8116C21E2F5D88B7351C4BA5C433F42E31F542FA6FEDC80D594",
+  "sha1": "D896E717AAB750AAC5DA155BAAB68BCF50ABECFF",
+  "md5": "8E734C73488DEB8A73FDEE1388586E62",
+  "filenames": [
+    "NETwtw06_5.sys"
+  ],
+  "size_bytes": 8827168,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "Intel® Wireless WiFi Link Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

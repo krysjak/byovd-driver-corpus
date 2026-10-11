@@ -1,0 +1,40 @@
+{
+  "filename": "iaLPSS2i_I2C_CNL.sys",
+  "stored_as": "drivers/iaLPSS2i_I2C_CNL.sys",
+  "sha256": "F105EDD16E38F5C0044CC7139E4084A04B0AE3212171A1C7F6FE759F3F5F77FC",
+  "sha1": "2D48737FB6DC8ED9B6D50FB06867E91C72DC50F9",
+  "md5": "897478D8FACEAE8681F6F3502201EC68",
+  "filenames": [
+    "iaLPSS2i_I2C_CNL.sys",
+    "iaLPSS2i_I2C_CNL_1.sys"
+  ],
+  "size_bytes": 177152,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO I2C Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

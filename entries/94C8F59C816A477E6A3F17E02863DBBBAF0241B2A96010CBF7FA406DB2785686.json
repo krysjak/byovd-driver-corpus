@@ -1,0 +1,39 @@
+{
+  "filename": "ipf_cpu_1.sys",
+  "stored_as": "drivers/ipf_cpu_1.sys",
+  "sha256": "94C8F59C816A477E6A3F17E02863DBBBAF0241B2A96010CBF7FA406DB2785686",
+  "sha1": "ABEF78F622360C0B3C5D933A5A2893568CC957EE",
+  "md5": "26EDB48D962EB1DCE5E92E1E0C83B69C",
+  "filenames": [
+    "ipf_cpu_1.sys"
+  ],
+  "size_bytes": 79512,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Innovation Platform Framework",
+  "description": "Intel(R) Innovation Platform Framework CPU Participant",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

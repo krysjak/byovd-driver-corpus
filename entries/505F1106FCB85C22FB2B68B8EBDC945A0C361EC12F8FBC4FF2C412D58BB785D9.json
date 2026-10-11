@@ -1,0 +1,40 @@
+{
+  "filename": "pcmcia.sys",
+  "stored_as": "drivers/pcmcia.sys",
+  "sha256": "505F1106FCB85C22FB2B68B8EBDC945A0C361EC12F8FBC4FF2C412D58BB785D9",
+  "sha1": "B5F8CAA16B285023B3E8688CEB1E7B473D2A4DBB",
+  "md5": "D8A0E2B1330FFC122B9B72B0CB2A17C1",
+  "filenames": [
+    "pcmcia.sys",
+    "pcmcia_1.sys"
+  ],
+  "size_bytes": 156992,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "PCMCIA Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

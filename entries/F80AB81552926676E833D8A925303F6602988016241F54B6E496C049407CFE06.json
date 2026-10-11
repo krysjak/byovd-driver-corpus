@@ -1,0 +1,43 @@
+{
+  "filename": "dwprot.sys",
+  "stored_as": "drivers/dwprot.sys",
+  "sha256": "F80AB81552926676E833D8A925303F6602988016241F54B6E496C049407CFE06",
+  "sha1": "89F2D99F158A188BCD45964F893C23033EFF5AAC",
+  "md5": "5ACE1DEEF102DF84FC7FAF497D132C98",
+  "filenames": [
+    "dwprot.sys"
+  ],
+  "size_bytes": 153880,
+  "company": "Doctor Web, Ltd.",
+  "product": "Dr.Web Anti-Virus",
+  "description": "Dr.Web Protection for Windows",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "PsLookupProcessByProcessId",
+    "ZwMapViewOfSection"
+  ],
+  "capability_profile": [
+    "process address-space attach",
+    "process lookup",
+    "section mapping (kernel R/W surface)"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

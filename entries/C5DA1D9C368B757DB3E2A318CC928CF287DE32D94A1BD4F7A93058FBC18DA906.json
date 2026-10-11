@@ -1,0 +1,41 @@
+{
+  "filename": "iaStorVD_2.sys",
+  "stored_as": "drivers/iaStorVD_2.sys",
+  "sha256": "C5DA1D9C368B757DB3E2A318CC928CF287DE32D94A1BD4F7A93058FBC18DA906",
+  "sha1": "9F8FC3D825DDC70A52C6C481A3825CACE708E618",
+  "md5": "2C2232F7E03AE788A43D7940B8FEE5F0",
+  "filenames": [
+    "iaStorVD_2.sys"
+  ],
+  "size_bytes": 1547464,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Rapid Storage Technology driver ",
+  "description": "Intel(R) Rapid Storage Technology driver - x64",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

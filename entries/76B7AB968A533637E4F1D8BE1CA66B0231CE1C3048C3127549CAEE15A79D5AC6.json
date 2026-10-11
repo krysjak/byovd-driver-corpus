@@ -1,0 +1,45 @@
+{
+  "filename": "fltMgr.sys",
+  "stored_as": "drivers/fltMgr.sys",
+  "sha256": "76B7AB968A533637E4F1D8BE1CA66B0231CE1C3048C3127549CAEE15A79D5AC6",
+  "sha1": "1472BB0F8EFD0391F93EF9EE3485DCEEACD64615",
+  "md5": "EA06C19624940A7FEAB6A9B35CCBCD86",
+  "filenames": [
+    "fltMgr.sys"
+  ],
+  "size_bytes": 611792,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Filesystem Filter Manager",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

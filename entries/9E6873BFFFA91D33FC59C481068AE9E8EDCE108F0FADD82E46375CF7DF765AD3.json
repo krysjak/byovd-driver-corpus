@@ -1,0 +1,39 @@
+{
+  "filename": "iaLPSS2_SPI.sys",
+  "stored_as": "drivers/iaLPSS2_SPI.sys",
+  "sha256": "9E6873BFFFA91D33FC59C481068AE9E8EDCE108F0FADD82E46375CF7DF765AD3",
+  "sha1": "883F7D5D46E0D74FFA2DADC6687EFF6DA7D09094",
+  "md5": "291F56FDA7E4A53E3F14D9C3BEB8996B",
+  "filenames": [
+    "iaLPSS2_SPI.sys"
+  ],
+  "size_bytes": 159352,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO SPI Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,40 @@
+{
+  "filename": "cht4vx64.sys",
+  "stored_as": "drivers/cht4vx64.sys",
+  "sha256": "9EC811C11EBF399A5C4FDDD07A9E63975F2145151306C8599F64DC35A0966EB0",
+  "sha1": "39DD15E5B799B7EABA26D67AC38B583DB9CAF500",
+  "md5": "A31DAAEF9BA7D22DBFB68B7E9B17CD40",
+  "filenames": [
+    "cht4vx64.sys",
+    "cht4vx64_1.sys"
+  ],
+  "size_bytes": 1854880,
+  "company": "Chelsio Communications",
+  "product": "Chelsio Communications Unified Network I/O Controller",
+  "description": "Virtual Bus Driver for Chelsio ® T5/T6 Chipset",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

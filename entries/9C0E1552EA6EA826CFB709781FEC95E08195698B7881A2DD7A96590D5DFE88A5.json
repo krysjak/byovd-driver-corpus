@@ -1,0 +1,43 @@
+{
+  "filename": "mskssrv.sys",
+  "stored_as": "drivers/mskssrv.sys",
+  "sha256": "9C0E1552EA6EA826CFB709781FEC95E08195698B7881A2DD7A96590D5DFE88A5",
+  "sha1": "4A7170CD8D7DD041CF56D755B09D4B389409D9B6",
+  "md5": "530C41B7BDD1A185E88F8926A2B4D93F",
+  "filenames": [
+    "mskssrv.sys"
+  ],
+  "size_bytes": 77824,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "MS KS Server",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

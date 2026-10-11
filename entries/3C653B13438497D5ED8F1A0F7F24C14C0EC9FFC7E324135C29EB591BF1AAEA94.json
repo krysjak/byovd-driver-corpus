@@ -1,0 +1,41 @@
+{
+  "filename": "rtcx21x64.sys",
+  "stored_as": "drivers/rtcx21x64.sys",
+  "sha256": "3C653B13438497D5ED8F1A0F7F24C14C0EC9FFC7E324135C29EB591BF1AAEA94",
+  "sha1": "BD796381DED9399E565C6415EC75E50F07E3DEF0",
+  "md5": "F1FF821EC7AEEB7CD2FBCC58FE745E80",
+  "filenames": [
+    "rtcx21x64.sys"
+  ],
+  "size_bytes": 539648,
+  "company": "Realtek                                        ",
+  "product": "Realtek PCIe Adapter                                        ",
+  "description": "Realtek NetAdapter Driver                                        ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

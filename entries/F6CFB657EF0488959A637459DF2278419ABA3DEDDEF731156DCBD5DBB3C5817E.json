@@ -1,0 +1,39 @@
+{
+  "filename": "atihdwt6_3.sys",
+  "stored_as": "drivers/atihdwt6_3.sys",
+  "sha256": "F6CFB657EF0488959A637459DF2278419ABA3DEDDEF731156DCBD5DBB3C5817E",
+  "sha1": "0BA77854DD164577E30191D7E75C513F4AB34513",
+  "md5": "08D3A5CE2FE501438099002524E26E5F",
+  "filenames": [
+    "atihdwt6_3.sys"
+  ],
+  "size_bytes": 107936,
+  "company": "Advanced Micro Devices",
+  "product": "AMD HD Audio Driver",
+  "description": "AMD High Definition Audio Function Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

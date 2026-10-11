@@ -1,0 +1,42 @@
+{
+  "filename": "vmgencounter.sys",
+  "stored_as": "drivers/vmgencounter.sys",
+  "sha256": "BFD17E40B498AA842D59FD38E0FF128416CC6CF0AF9CB2EB7637C5E265180258",
+  "sha1": "1586B0D36D247D38D604F377BA681F8E17B79C70",
+  "md5": "920813EC80D2012D5A9EF94AC35A7FEC",
+  "filenames": [
+    "vmgencounter.sys",
+    "vmgencounter_1.sys"
+  ],
+  "size_bytes": 58672,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Virtual Machine Generation Counter",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "physical memory mapping",
+    "system information set"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

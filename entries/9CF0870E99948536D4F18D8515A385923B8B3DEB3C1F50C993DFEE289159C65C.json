@@ -1,0 +1,39 @@
+{
+  "filename": "swg3kser00.sys",
+  "stored_as": "drivers/swg3kser00.sys",
+  "sha256": "9CF0870E99948536D4F18D8515A385923B8B3DEB3C1F50C993DFEE289159C65C",
+  "sha1": "D24EB4EA5659EFFB7EAD8E002AD788D8841B307E",
+  "md5": "ABB3DDE1953D944C20B5934166388EB7",
+  "filenames": [
+    "swg3kser00.sys"
+  ],
+  "size_bytes": 287504,
+  "company": "Sierra Wireless Incorporated",
+  "product": "Sierra Wireless Incorporated USB Modem/Serial Device Driver",
+  "description": "USB Modem/Serial Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

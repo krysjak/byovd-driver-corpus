@@ -1,0 +1,41 @@
+{
+  "filename": "IntcOED_12.sys",
+  "stored_as": "drivers/IntcOED_12.sys",
+  "sha256": "8FA62A1BA471E525DE1825E1E08F7E8B0585BEFE126EFD432AAE8563F5E28F27",
+  "sha1": "78687EC2CCE1568ED6318E60C76FE6566E5DB436",
+  "md5": "3119733BB6BAE4837FBFF276DF36CC78",
+  "filenames": [
+    "IntcOED_12.sys"
+  ],
+  "size_bytes": 1165904,
+  "company": "Intel(R) Corporation",
+  "product": "Intel® Smart Sound Technology (Intel® SST) OED",
+  "description": "Intel® Smart Sound Technology (Intel® SST) OED",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

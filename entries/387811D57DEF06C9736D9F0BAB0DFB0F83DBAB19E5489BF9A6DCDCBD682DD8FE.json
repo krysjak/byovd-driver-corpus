@@ -1,0 +1,40 @@
+{
+  "filename": "amdi2c_3.sys",
+  "stored_as": "drivers/amdi2c_3.sys",
+  "sha256": "387811D57DEF06C9736D9F0BAB0DFB0F83DBAB19E5489BF9A6DCDCBD682DD8FE",
+  "sha1": "3BC822EFF605EE91C84902A71659E1F52EAD9660",
+  "md5": "D0E26E590DE1424CCC4F77D1687049EF",
+  "filenames": [
+    "amdi2c_3.sys",
+    "amdi2c_5.sys"
+  ],
+  "size_bytes": 45568,
+  "company": "Advanced Micro Devices, Inc",
+  "product": "AMD I2C Controller Driver",
+  "description": "AMD I2C Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 55,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

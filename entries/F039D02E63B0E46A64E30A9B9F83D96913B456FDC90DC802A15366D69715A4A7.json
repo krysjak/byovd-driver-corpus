@@ -1,0 +1,39 @@
+{
+  "filename": "ibtpci.sys",
+  "stored_as": "drivers/ibtpci.sys",
+  "sha256": "F039D02E63B0E46A64E30A9B9F83D96913B456FDC90DC802A15366D69715A4A7",
+  "sha1": "EF4A410B0643143F9B593ECC285C2C7DA11CB23D",
+  "md5": "1A04E3529586A6674975FD7396B773CD",
+  "filenames": [
+    "ibtpci.sys"
+  ],
+  "size_bytes": 19637144,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Wireless Bluetooth(R)",
+  "description": "Intel(R) Wireless Bluetooth(R) PCIe Function Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

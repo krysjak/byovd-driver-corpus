@@ -1,0 +1,39 @@
+{
+  "filename": "AtihdWT6.sys",
+  "stored_as": "drivers/AtihdWT6.sys",
+  "sha256": "BA04C1DEDDC62380548A34681A320DF644EBA0C387576953B50C7A05CD8CA012",
+  "sha1": "3F2FC6CDCF9AFE7B4329354259C4F891A6D08910",
+  "md5": "50DC0AA74FBA44D93F8B5B7C96E90FCA",
+  "filenames": [
+    "AtihdWT6.sys"
+  ],
+  "size_bytes": 255304,
+  "company": "Advanced Micro Devices",
+  "product": "AMD HD Audio Driver",
+  "description": "AMD High Definition Audio Function Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

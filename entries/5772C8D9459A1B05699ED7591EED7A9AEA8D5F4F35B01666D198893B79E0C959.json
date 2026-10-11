@@ -1,0 +1,45 @@
+{
+  "filename": "droidcamvideo.sys",
+  "stored_as": "drivers/droidcamvideo.sys",
+  "sha256": "5772C8D9459A1B05699ED7591EED7A9AEA8D5F4F35B01666D198893B79E0C959",
+  "sha1": "953D73C0E89FEAB03D8C98BA6F58BFAC187FA2B7",
+  "md5": "F0357B94DDE14DC16C759AC7EB240CE5",
+  "filenames": [
+    "droidcamvideo.sys"
+  ],
+  "size_bytes": 136360,
+  "company": "Windows (R) Win 7 DDK provider",
+  "product": "DroidCam",
+  "description": "Virtual Video Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

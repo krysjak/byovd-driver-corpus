@@ -1,0 +1,43 @@
+{
+  "filename": "stwrt.sys",
+  "stored_as": "drivers/stwrt.sys",
+  "sha256": "DDFC33C46D27701025C4EF0A14ED500AAE3C42AB115BCBE36A69234AD120589C",
+  "sha1": "D21905763B5C2710C755272392BF3C56BA091751",
+  "md5": "506297253A7542476EDED5EF785C92A4",
+  "filenames": [
+    "stwrt.sys"
+  ],
+  "size_bytes": 459264,
+  "company": "IDT, Inc.",
+  "product": "IDT PC Audio",
+  "description": "IDT PC Audio",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

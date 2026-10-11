@@ -1,0 +1,41 @@
+{
+  "filename": "AppvVemgr.sys",
+  "stored_as": "drivers/AppvVemgr.sys",
+  "sha256": "C8BCD77030F948A6287ADDA728FCBA6B4297DEC9FE6A05CDECCEF624075C8AE1",
+  "sha1": "A90FB6E87B9A7F2BD39FB6B267CFFF4A84259674",
+  "md5": "633A321028E777F0F5A9F055559F34EA",
+  "filenames": [
+    "AppvVemgr.sys"
+  ],
+  "size_bytes": 218432,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Application Virtualization VE Manager Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwOpenProcess",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "process handle access",
+    "process termination"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

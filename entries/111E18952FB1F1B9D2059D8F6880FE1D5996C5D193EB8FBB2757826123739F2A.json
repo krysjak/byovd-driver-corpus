@@ -1,0 +1,41 @@
+{
+  "filename": "VSTBS36.SYS",
+  "stored_as": "drivers/VSTBS36.SYS",
+  "sha256": "111E18952FB1F1B9D2059D8F6880FE1D5996C5D193EB8FBB2757826123739F2A",
+  "sha1": "6957ABABBC4141A4EBD589B81AD400B996D22446",
+  "md5": "A42B22601CC2754428B5F82E040FD1C7",
+  "filenames": [
+    "VSTBS36.SYS"
+  ],
+  "size_bytes": 287744,
+  "company": "Conexant Systems, Inc.",
+  "product": "SoftK56 Modem Driver",
+  "description": "HSF_HWB3 WDM driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

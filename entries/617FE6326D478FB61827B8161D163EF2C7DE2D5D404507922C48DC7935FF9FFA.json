@@ -1,0 +1,39 @@
+{
+  "filename": "ocnd65.sys",
+  "stored_as": "drivers/ocnd65.sys",
+  "sha256": "617FE6326D478FB61827B8161D163EF2C7DE2D5D404507922C48DC7935FF9FFA",
+  "sha1": "AB38552BB1E4F93BC0041FADE7B121286019A1EF",
+  "md5": "ABED910E061820030BB868112825250A",
+  "filenames": [
+    "ocnd65.sys"
+  ],
+  "size_bytes": 531376,
+  "company": "Emulex",
+  "product": "Emulex NDIS 6.40 miniport (x64)",
+  "description": "Emulex Win10 NDIS 6.40 Miniport (x64)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

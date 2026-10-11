@@ -1,0 +1,44 @@
+{
+  "filename": "USBSTOR.SYS",
+  "stored_as": "drivers/USBSTOR.SYS",
+  "sha256": "59363B1EF2BBF72267DED60C081111D432249D2DA6EB2A21C8D238F5498ECD65",
+  "sha1": "3080DA03FD2722A10D93A37E8DC3A0FF3B2FBCA3",
+  "md5": "1A943FEF92F3BABD27D68E7F9A10C6F5",
+  "filenames": [
+    "USBSTOR.SYS",
+    "USBSTOR_1.SYS"
+  ],
+  "size_bytes": 206304,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "USB Mass Storage Class Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

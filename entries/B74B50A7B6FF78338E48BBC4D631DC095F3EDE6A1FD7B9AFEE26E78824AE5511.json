@@ -1,0 +1,40 @@
+{
+  "filename": "scmbus_1.sys",
+  "stored_as": "drivers/scmbus_1.sys",
+  "sha256": "B74B50A7B6FF78338E48BBC4D631DC095F3EDE6A1FD7B9AFEE26E78824AE5511",
+  "sha1": "EF1ADD5CB0C74AE7ACE6A83DD5AECE3576F6727B",
+  "md5": "99E5816422FE467759A2DC6A8FD300AA",
+  "filenames": [
+    "scmbus_1.sys",
+    "scmbus_3.sys"
+  ],
+  "size_bytes": 263576,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Storage Class Memory Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 90,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

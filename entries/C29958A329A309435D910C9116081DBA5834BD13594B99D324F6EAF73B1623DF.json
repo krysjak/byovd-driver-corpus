@@ -1,0 +1,43 @@
+{
+  "filename": "WiMan_8.sys",
+  "stored_as": "drivers/WiMan_8.sys",
+  "sha256": "C29958A329A309435D910C9116081DBA5834BD13594B99D324F6EAF73B1623DF",
+  "sha1": "D28D86C269D29581E774ED0DFD8FFCD88F64404A",
+  "md5": "1BA24C04F2139FE7C402196BFE8E9C8A",
+  "filenames": [
+    "WiMan_8.sys"
+  ],
+  "size_bytes": 152360,
+  "company": "",
+  "product": "",
+  "description": "",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

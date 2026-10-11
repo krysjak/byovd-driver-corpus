@@ -1,0 +1,39 @@
+{
+  "filename": "amdgpio2_4.sys",
+  "stored_as": "drivers/amdgpio2_4.sys",
+  "sha256": "8AE3E0D6D00933D6591CDD42EFFCB4F1A8706A81768768F0CAD187BB778D5AD1",
+  "sha1": "5BD96F22A0CE3621CB8DE85F28E42FFFEF35F64E",
+  "md5": "3709E9F627E5BFD231869E735F93E78B",
+  "filenames": [
+    "amdgpio2_4.sys"
+  ],
+  "size_bytes": 56024,
+  "company": "Advanced Micro Devices, Inc",
+  "product": "AMD GPIO Controller Driver",
+  "description": "AMD GPIO Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

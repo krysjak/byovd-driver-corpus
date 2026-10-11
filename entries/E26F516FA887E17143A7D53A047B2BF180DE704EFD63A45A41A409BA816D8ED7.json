@@ -1,0 +1,44 @@
+{
+  "filename": "spaceport_1.sys",
+  "stored_as": "drivers/spaceport_1.sys",
+  "sha256": "E26F516FA887E17143A7D53A047B2BF180DE704EFD63A45A41A409BA816D8ED7",
+  "sha1": "64C76D8F29E75ED4E5FCC047687EF592A10C13EA",
+  "md5": "0835509BD13E767E9D645C4F9CBEF179",
+  "filenames": [
+    "spaceport_1.sys",
+    "spaceport_3.sys"
+  ],
+  "size_bytes": 1021344,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Storage Spaces Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

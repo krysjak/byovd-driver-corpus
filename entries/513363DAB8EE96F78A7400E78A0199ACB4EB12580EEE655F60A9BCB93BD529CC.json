@@ -1,0 +1,39 @@
+{
+  "filename": "iaLPSS2_I2C_1.sys",
+  "stored_as": "drivers/iaLPSS2_I2C_1.sys",
+  "sha256": "513363DAB8EE96F78A7400E78A0199ACB4EB12580EEE655F60A9BCB93BD529CC",
+  "sha1": "C92F31BD7C821D64AF5A9C1EDA998C16112A5C0E",
+  "md5": "35AA788A33F360F62799CB5FB313F50A",
+  "filenames": [
+    "iaLPSS2_I2C_1.sys"
+  ],
+  "size_bytes": 195680,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO I2C Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

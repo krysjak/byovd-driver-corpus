@@ -1,0 +1,43 @@
+{
+  "filename": "st7007_1.sys",
+  "stored_as": "drivers/st7007_1.sys",
+  "sha256": "4A6BE74D7058C171229E45CE1AEF90CC992D5F07B6138A1DA978D70711B8737C",
+  "sha1": "3D778F9A0CC90F150E563DF1D7B81C35DA124387",
+  "md5": "9E7956263A2A7A421E727B9B144BFF1B",
+  "filenames": [
+    "st7007_1.sys"
+  ],
+  "size_bytes": 69896,
+  "company": "STMicroelectronics",
+  "product": "ST7007 Function driver",
+  "description": "WDF ST7007 Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

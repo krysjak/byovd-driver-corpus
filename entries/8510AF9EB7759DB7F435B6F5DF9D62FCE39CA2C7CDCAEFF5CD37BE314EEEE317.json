@@ -1,0 +1,43 @@
+{
+  "filename": "CmgHiber_1.sys",
+  "stored_as": "drivers/CmgHiber_1.sys",
+  "sha256": "8510AF9EB7759DB7F435B6F5DF9D62FCE39CA2C7CDCAEFF5CD37BE314EEEE317",
+  "sha1": "5F7D8B9359117F0F3D1CCE63B3DAB88965D4B9DF",
+  "md5": "4E2345D4B374E3834FC67EBD51BF14E5",
+  "filenames": [
+    "CmgHiber_1.sys"
+  ],
+  "size_bytes": 149728,
+  "company": "Dell Inc.",
+  "product": "Dell Data Protection Encryption",
+  "description": "CmgHiber Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 100,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

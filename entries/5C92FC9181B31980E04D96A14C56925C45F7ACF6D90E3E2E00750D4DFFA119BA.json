@@ -1,0 +1,45 @@
+{
+  "filename": "refs.sys",
+  "stored_as": "drivers/refs.sys",
+  "sha256": "5C92FC9181B31980E04D96A14C56925C45F7ACF6D90E3E2E00750D4DFFA119BA",
+  "sha1": "518BE8E606DC383B10C9D616948420A11C26FBB9",
+  "md5": "4FE0FF494A0BF08119BE4A135066FF4B",
+  "filenames": [
+    "refs.sys"
+  ],
+  "size_bytes": 3528168,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "NT ReFS FS Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

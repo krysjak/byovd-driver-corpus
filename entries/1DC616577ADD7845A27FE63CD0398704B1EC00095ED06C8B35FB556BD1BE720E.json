@@ -1,0 +1,39 @@
+{
+  "filename": "tbt100x.sys",
+  "stored_as": "drivers/tbt100x.sys",
+  "sha256": "1DC616577ADD7845A27FE63CD0398704B1EC00095ED06C8B35FB556BD1BE720E",
+  "sha1": "98BBBF8E62F4E06B8EB297244F19027DFA402D30",
+  "md5": "561D9298C3BC0D6E191300F8DD4B8414",
+  "filenames": [
+    "tbt100x.sys"
+  ],
+  "size_bytes": 137680,
+  "company": "Intel Corporation",
+  "product": "Thunderbolt(TM) Bus Driver",
+  "description": "Thunderbolt(TM) Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

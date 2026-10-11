@@ -1,0 +1,41 @@
+{
+  "filename": "clfs.sys",
+  "stored_as": "drivers/clfs.sys",
+  "sha256": "5880C90802C71110794D4BE2552225B9D7784ECAE63DF144AE0177C11F35546C",
+  "sha1": "C67DD28721423F455CC96E224257AF30E7D78D15",
+  "md5": "DCF5EC0612E12FE01201C66C3E6A7D31",
+  "filenames": [
+    "clfs.sys"
+  ],
+  "size_bytes": 570840,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Common Log File System Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

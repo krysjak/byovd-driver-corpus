@@ -1,0 +1,55 @@
+{
+  "filename": "amdkmdag.sys",
+  "stored_as": "drivers/amdkmdag.sys",
+  "sha256": "8E55DC86A58D07E4AF756B5CAD8E3B14594ADC280395F0F15D207E4124E9549C",
+  "sha1": "D1E3BB1ADD7D5D5C8DD728B534D9FFEAE85537DF",
+  "md5": "DD2937EAB5A94D5C36AA74D1E755F58F",
+  "filenames": [
+    "amdkmdag.sys"
+  ],
+  "size_bytes": 102145040,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "ATI Radeon Family",
+  "description": "ATI Radeon Kernel Mode Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver",
+    "ZwOpenProcess",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach",
+    "process handle access",
+    "process lookup",
+    "process termination"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

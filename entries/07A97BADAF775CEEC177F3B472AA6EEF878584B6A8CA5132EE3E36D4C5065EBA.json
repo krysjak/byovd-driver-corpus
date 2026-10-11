@@ -1,0 +1,39 @@
+{
+  "filename": "e1dn.sys",
+  "stored_as": "drivers/e1dn.sys",
+  "sha256": "07A97BADAF775CEEC177F3B472AA6EEF878584B6A8CA5132EE3E36D4C5065EBA",
+  "sha1": "EE759FB286CC673EACB77B8D719E24A04FD96E0E",
+  "md5": "71EA94952E2E21CD514A99FB86503F1F",
+  "filenames": [
+    "e1dn.sys"
+  ],
+  "size_bytes": 1739360,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Ethernet Connection I219",
+  "description": "Intel(R) Ethernet Controller (NetAdapterCx 2.2)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

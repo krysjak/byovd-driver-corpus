@@ -1,0 +1,41 @@
+{
+  "filename": "ipoib6x.sys",
+  "stored_as": "drivers/ipoib6x.sys",
+  "sha256": "585BF746BF943E5F0FD09C6CF3B96643BB1E4B9D0489D205E11A99F7742E6444",
+  "sha1": "0EC1D57A625E5407113FD253130909700AB1CEEE",
+  "md5": "A73BA5D0E080002650F0FFFFF01C4DFE",
+  "filenames": [
+    "ipoib6x.sys"
+  ],
+  "size_bytes": 579376,
+  "company": "Mellanox",
+  "product": "MLNX_EN",
+  "description": "Mellanox ConnectX based IPoIB Adapter ( NDIS 6.4) Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,42 @@
+{
+  "filename": "pciidex.sys",
+  "stored_as": "drivers/pciidex.sys",
+  "sha256": "4556E5165781778FCE316704152CAFD406BA02C33C4909C51888FD6BA1C025E5",
+  "sha1": "AC238976255CFE81613E9453AF63904111112421",
+  "md5": "3314DDCE20BCD33C0C3525024A3C8901",
+  "filenames": [
+    "pciidex.sys",
+    "pciidex_1.sys"
+  ],
+  "size_bytes": 91632,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "PCI IDE Bus Driver Extension",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

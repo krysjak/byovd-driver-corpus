@@ -1,0 +1,41 @@
+{
+  "filename": "IntcOED_7.sys",
+  "stored_as": "drivers/IntcOED_7.sys",
+  "sha256": "ACABB510C4DE938B0D58970F3CCEC8B221100B31766480C29892253C5E7F5A1F",
+  "sha1": "15C1F13176101DD8CEA21F90207D6F1C09CF8D6A",
+  "md5": "C7D6DDA8589923515D56B46DF83DFD1D",
+  "filenames": [
+    "IntcOED_7.sys"
+  ],
+  "size_bytes": 1289168,
+  "company": "Intel(R) Corporation",
+  "product": "Intel(R) Smart Sound Technology OED",
+  "description": "Intel(R) Smart Sound Technology OED",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

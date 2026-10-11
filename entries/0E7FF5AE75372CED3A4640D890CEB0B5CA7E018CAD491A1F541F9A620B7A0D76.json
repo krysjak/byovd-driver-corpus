@@ -1,0 +1,42 @@
+{
+  "filename": "netvsc.sys",
+  "stored_as": "drivers/netvsc.sys",
+  "sha256": "0E7FF5AE75372CED3A4640D890CEB0B5CA7E018CAD491A1F541F9A620B7A0D76",
+  "sha1": "27B17EC69728DBC2595DD344DC5F6006288025F9",
+  "md5": "0CB1232CE2C03BC5CBE21C969037BAFB",
+  "filenames": [
+    "netvsc.sys",
+    "netvsc_1.sys"
+  ],
+  "size_bytes": 398808,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Virtual NDIS Miniport",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

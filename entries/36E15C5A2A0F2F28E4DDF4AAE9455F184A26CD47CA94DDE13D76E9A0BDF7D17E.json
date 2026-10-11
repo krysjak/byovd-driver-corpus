@@ -1,0 +1,42 @@
+{
+  "filename": "WdNisDrv_1.sys",
+  "stored_as": "drivers/WdNisDrv_1.sys",
+  "sha256": "36E15C5A2A0F2F28E4DDF4AAE9455F184A26CD47CA94DDE13D76E9A0BDF7D17E",
+  "sha1": "73CC2C40A8FFDE1EA6C4C26002495DD8D06D7C2D",
+  "md5": "8CBE7DF54ED48B91B673A03C909C88AA",
+  "filenames": [
+    "WdNisDrv_1.sys",
+    "WdNisDrv_2.sys"
+  ],
+  "size_bytes": 102816,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Windows Defender Network Stream Filter",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

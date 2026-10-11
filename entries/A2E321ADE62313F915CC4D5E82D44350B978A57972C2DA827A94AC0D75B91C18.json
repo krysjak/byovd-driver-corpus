@@ -1,0 +1,42 @@
+{
+  "filename": "USBXHCI_2.SYS",
+  "stored_as": "drivers/USBXHCI_2.SYS",
+  "sha256": "A2E321ADE62313F915CC4D5E82D44350B978A57972C2DA827A94AC0D75B91C18",
+  "sha1": "99516E7B751DD21288991A9B8DD000B15C5352C6",
+  "md5": "F4587E8D460660C7C9BC97FFE3582867",
+  "filenames": [
+    "USBXHCI_2.SYS",
+    "USBXHCI_3.SYS"
+  ],
+  "size_bytes": 726400,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "USB XHCI Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

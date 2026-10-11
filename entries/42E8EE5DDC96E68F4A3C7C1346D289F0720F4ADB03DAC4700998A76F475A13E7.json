@@ -1,0 +1,41 @@
+{
+  "filename": "cimfs.sys",
+  "stored_as": "drivers/cimfs.sys",
+  "sha256": "42E8EE5DDC96E68F4A3C7C1346D289F0720F4ADB03DAC4700998A76F475A13E7",
+  "sha1": "C8A1407A56C697AAEE3A136288D1DCFBBEABB581",
+  "md5": "9002CF695B573C4C28623B087C44C550",
+  "filenames": [
+    "cimfs.sys"
+  ],
+  "size_bytes": 284144,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "CimFS driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

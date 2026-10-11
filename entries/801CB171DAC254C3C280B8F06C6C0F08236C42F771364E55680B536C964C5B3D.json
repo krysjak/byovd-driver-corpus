@@ -1,0 +1,41 @@
+{
+  "filename": "netio.sys",
+  "stored_as": "drivers/netio.sys",
+  "sha256": "801CB171DAC254C3C280B8F06C6C0F08236C42F771364E55680B536C964C5B3D",
+  "sha1": "2F2364E559E8BBE96598AA4A752E0DF2A55ACADC",
+  "md5": "71AA515E1591C267866BEE4F53F70088",
+  "filenames": [
+    "netio.sys"
+  ],
+  "size_bytes": 746992,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Network I/O Subsystem",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "NETwen00_1.sys",
+  "stored_as": "drivers/NETwen00_1.sys",
+  "sha256": "96AB48F8CA7DE9120B1FB5AE9CDC5A26AEB08BF48CF3F5ADF0E6A531B81BF648",
+  "sha1": "B1C05019F7EDAF751BA2A7A1E4BC7C9880005931",
+  "md5": "491F2F8CC5ED045A4F8B3D9507DCB152",
+  "filenames": [
+    "NETwen00_1.sys"
+  ],
+  "size_bytes": 2677728,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "Intel® Wireless WiFi Link Driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

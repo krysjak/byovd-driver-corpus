@@ -1,0 +1,43 @@
+{
+  "filename": "crashdmp.sys",
+  "stored_as": "drivers/crashdmp.sys",
+  "sha256": "25698C7ADCBB3B0413D7D58E0355D828C48FE2C8F673040F7372382AF4A6ED53",
+  "sha1": "6D7A09C67D5E64C3F9F3DA03462E627BAF9CF69F",
+  "md5": "68619CFB0D944864B555A9CC52A5E217",
+  "filenames": [
+    "crashdmp.sys"
+  ],
+  "size_bytes": 161272,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Crash Dump Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "system information set"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

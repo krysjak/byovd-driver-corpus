@@ -1,0 +1,41 @@
+{
+  "filename": "tcusb_1.sys",
+  "stored_as": "drivers/tcusb_1.sys",
+  "sha256": "5F645C229C4F7E177AE8B1126FEDE1D9BF3F436F9EAEDDC3804A41D9AF6A5BB4",
+  "sha1": "976EF125DA4EE8C5A3D212AC47772EE8660AE3D4",
+  "md5": "9BAAD1DB231539E7F786A074BC0B5264",
+  "filenames": [
+    "tcusb_1.sys"
+  ],
+  "size_bytes": 63848,
+  "company": "AuthenTec, Inc.",
+  "product": "TouchChip USB Kernel Driver",
+  "description": "TouchChip USB Kernel Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

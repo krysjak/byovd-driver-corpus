@@ -1,0 +1,71 @@
+{
+  "filename": "snxpsamd.sys",
+  "stored_as": "drivers/snxpsamd.sys",
+  "sha256": "22BD1A35A70DC998ACF94ECD076151168A117A8C883D90EF9EB0E5FEDC9399EF",
+  "sha1": "08715462C549E84713B6C1CF1106091DDAA63187",
+  "md5": "EFEE04C916F0348B38FAE3C20CEC38D3",
+  "filenames": [
+    "snxpsamd.sys"
+  ],
+  "size_bytes": 111520,
+  "company": "SUNIX Co., Ltd.",
+  "product": "SUNIX Multi I/O Card",
+  "description": "SUNIX Serial Driver (x64)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 105,
+  "in_loldrivers": true,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {
+    "loldrivers_id": "300cdb55-6e01-4365-83e5-5783be2f9262",
+    "category": "vulnerable driver",
+    "verified": "TRUE",
+    "mitre_id": "T1068",
+    "cve": [],
+    "created": "2026-08-31",
+    "commands": [
+      {
+        "Command": "sc.exe create snxpsamd type= kernel binPath= C:\\\\windows\\\\temp\\\\snxpsamd.sys && sc.exe start snxpsamd",
+        "Description": "SUNIX Serial Driver x64 version 10.1.0.0 is affected by CVE-2024-55412. This exact signed build exposes raw I/O-port operations to low-privilege callers through IOCTLs including 0x9C403C04 and 0x9C403C08. An attacker can use the unrestricted port read/write primitives to disclose information, tamper with privileged hardware state, and elevate privileges.",
+        "Usecase": "Read and write arbitrary I/O ports",
+        "Privileges": "User",
+        "OperatingSystem": "Windows"
+      }
+    ],
+    "resources": [
+      "https://github.com/magicsword-io/LOLDrivers/issues/409",
+      "https://github.com/fluffycats31/vulnerable-drivers",
+      "https://nvd.nist.gov/vuln/detail/CVE-2024-55412",
+      "https://github.com/heyheysky/vulnerable-driver/blob/master/CVE-2024-55412/CVE-2024-55412_snxpsamd.sys_README.md"
+    ]
+  },
+  "usage": {
+    "documented": true,
+    "commands": [
+      {
+        "Command": "sc.exe create snxpsamd type= kernel binPath= C:\\\\windows\\\\temp\\\\snxpsamd.sys && sc.exe start snxpsamd",
+        "Description": "SUNIX Serial Driver x64 version 10.1.0.0 is affected by CVE-2024-55412. This exact signed build exposes raw I/O-port operations to low-privilege callers through IOCTLs including 0x9C403C04 and 0x9C403C08. An attacker can use the unrestricted port read/write primitives to disclose information, tamper with privileged hardware state, and elevate privileges.",
+        "Usecase": "Read and write arbitrary I/O ports",
+        "Privileges": "User",
+        "OperatingSystem": "Windows"
+      }
+    ],
+    "usecase": "vulnerable driver",
+    "notes": "Documented in LOLDrivers; command/use-case fields are public data."
+  },
+  "duplicate_count": 1
+}

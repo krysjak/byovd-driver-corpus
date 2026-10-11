@@ -1,0 +1,45 @@
+{
+  "filename": "mrxsmb.sys",
+  "stored_as": "drivers/mrxsmb.sys",
+  "sha256": "A0EDBE066A3D52BF0134E7D76A757102617D1CABFEE5C0CC5E6CE9125FB0FD7A",
+  "sha1": "F375C5E7C4D5FCF5E6E20C55E934E23DB6002422",
+  "md5": "C597717DE2519BD95571412A12E354DE",
+  "filenames": [
+    "mrxsmb.sys"
+  ],
+  "size_bytes": 943616,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Windows NT SMB Minirdr",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "srvnet.sys",
+  "stored_as": "drivers/srvnet.sys",
+  "sha256": "D6A74DECFD0F11FB6FFB4CACB157F6345EF5514B1DBC3B4102363F6EBCFEF9BB",
+  "sha1": "471689E84636731AD2A18863C9F7DA33ADB5B328",
+  "md5": "E6C8BC3F3195298735D82BA2B083B29F",
+  "filenames": [
+    "srvnet.sys"
+  ],
+  "size_bytes": 405504,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Server Network driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

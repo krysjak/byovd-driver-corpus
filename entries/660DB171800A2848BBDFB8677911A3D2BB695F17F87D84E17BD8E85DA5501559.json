@@ -1,0 +1,43 @@
+{
+  "filename": "i3chost.sys",
+  "stored_as": "drivers/i3chost.sys",
+  "sha256": "660DB171800A2848BBDFB8677911A3D2BB695F17F87D84E17BD8E85DA5501559",
+  "sha1": "C7BB4CF27AE5A91E3D4FFF64219F495B181264EE",
+  "md5": "338F57B995812D19CFC571697CEE5A71",
+  "filenames": [
+    "i3chost.sys"
+  ],
+  "size_bytes": 349592,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "I3C HostController Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

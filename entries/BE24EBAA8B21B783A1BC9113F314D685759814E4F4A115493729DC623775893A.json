@@ -1,0 +1,39 @@
+{
+  "filename": "IntcPMT.sys",
+  "stored_as": "drivers/IntcPMT.sys",
+  "sha256": "BE24EBAA8B21B783A1BC9113F314D685759814E4F4A115493729DC623775893A",
+  "sha1": "0403E23BD76211C79E30F619E3584B011475BAD5",
+  "md5": "0A923B4CC4DE148ED686488D196096A1",
+  "filenames": [
+    "IntcPMT.sys"
+  ],
+  "size_bytes": 66496,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Platform Monitoring Technology Driver",
+  "description": "Intel(R) Platform Monitoring Technology Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

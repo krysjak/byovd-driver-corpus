@@ -1,0 +1,39 @@
+{
+  "filename": "rtwlane613.sys",
+  "stored_as": "drivers/rtwlane613.sys",
+  "sha256": "021EDBDD44F9E208AB343F24F467BBC3EFA02E0CC2FF727179488BFAD2F2F481",
+  "sha1": "25FEFF9E5CF6E8775B6301B0758706FDB7E7EDEC",
+  "md5": "103B13C00B0CDF1853E786A21B2F7A81",
+  "filenames": [
+    "rtwlane613.sys"
+  ],
+  "size_bytes": 18363024,
+  "company": "Realtek Semiconductor Corporation                           ",
+  "product": "Realtek  PCIEWireless LAN PCI-E NIC                                     ",
+  "description": "Realtek PCIE NDIS Driver 239ddee",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

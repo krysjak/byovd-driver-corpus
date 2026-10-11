@@ -1,0 +1,41 @@
+{
+  "filename": "tdx.sys",
+  "stored_as": "drivers/tdx.sys",
+  "sha256": "3E221BD24B0D171812EB354A73DEDC209F7CB3DACB78523D3F0651352269ACCF",
+  "sha1": "93587F253B32CD1A938056FF25550F170A40000C",
+  "md5": "B5D8C4A0944224F9FFBE55082CACCF27",
+  "filenames": [
+    "tdx.sys"
+  ],
+  "size_bytes": 181712,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "TDI Translation Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

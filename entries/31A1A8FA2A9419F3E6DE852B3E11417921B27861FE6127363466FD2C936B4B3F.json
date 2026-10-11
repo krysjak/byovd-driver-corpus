@@ -1,0 +1,40 @@
+{
+  "filename": "volmgr_2.sys",
+  "stored_as": "drivers/volmgr_2.sys",
+  "sha256": "31A1A8FA2A9419F3E6DE852B3E11417921B27861FE6127363466FD2C936B4B3F",
+  "sha1": "291ACF15DF64A2271573D6AC54E2269A1B51824B",
+  "md5": "1DD7B493136E6F8E5852A72A39801D79",
+  "filenames": [
+    "volmgr_2.sys",
+    "volmgr_3.sys"
+  ],
+  "size_bytes": 132480,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Volume Manager Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

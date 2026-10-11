@@ -1,0 +1,42 @@
+{
+  "filename": "bthmodem.sys",
+  "stored_as": "drivers/bthmodem.sys",
+  "sha256": "B4DD5BDF4119C92AC27F40F40FDA788D7C722814F03573598166A2EC909DE4A4",
+  "sha1": "DBCD814A514F2D4A45F68E6C193E20D3919A1B84",
+  "md5": "5FC653281F80ECEF7C92F6D641C14277",
+  "filenames": [
+    "bthmodem.sys",
+    "bthmodem_1.sys"
+  ],
+  "size_bytes": 114688,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Bluetooth Communications Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

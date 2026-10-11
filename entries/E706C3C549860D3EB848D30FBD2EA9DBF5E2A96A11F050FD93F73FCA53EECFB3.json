@@ -1,0 +1,40 @@
+{
+  "filename": "ramdisk.sys",
+  "stored_as": "drivers/ramdisk.sys",
+  "sha256": "E706C3C549860D3EB848D30FBD2EA9DBF5E2A96A11F050FD93F73FCA53EECFB3",
+  "sha1": "426FA2A51C02A592E31145684D3F4BAD619F6A25",
+  "md5": "3EEC837D3CEBC183CF2AB5272D065B99",
+  "filenames": [
+    "ramdisk.sys",
+    "ramdisk_1.sys"
+  ],
+  "size_bytes": 75232,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "RAM Disk Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

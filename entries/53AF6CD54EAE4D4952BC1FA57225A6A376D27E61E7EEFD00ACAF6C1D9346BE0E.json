@@ -1,0 +1,44 @@
+{
+  "filename": "evbd0a.sys",
+  "stored_as": "drivers/evbd0a.sys",
+  "sha256": "53AF6CD54EAE4D4952BC1FA57225A6A376D27E61E7EEFD00ACAF6C1D9346BE0E",
+  "sha1": "6F0FD28BB29F3519CC7EBDB10A4196ABCD935368",
+  "md5": "7F4B99B92E31D1B644503F85FEC13CB1",
+  "filenames": [
+    "evbd0a.sys",
+    "evbd0a_1.sys"
+  ],
+  "size_bytes": 3424160,
+  "company": "QLogic Corporation",
+  "product": "QLogic 10 GigE",
+  "description": "QLogic 10 GigE VBD",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

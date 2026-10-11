@@ -1,0 +1,48 @@
+{
+  "filename": "netcxrd_1.sys",
+  "stored_as": "drivers/netcxrd_1.sys",
+  "sha256": "BD1198516A5576AF702DCD833E0EE3F3AA72425A62DAE755C3D1FB126649D0F7",
+  "sha1": "0C491663B1310F5804A462FC48E91B4E8CF6CBED",
+  "md5": "EEDD323D67CA8D3B1CF45BD50052DA3C",
+  "filenames": [
+    "netcxrd_1.sys",
+    "netcxrd_2.sys"
+  ],
+  "size_bytes": 331776,
+  "company": "",
+  "product": "",
+  "description": "",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwOpenProcess",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process handle access",
+    "process termination"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,45 @@
+{
+  "filename": "b57nd60x.sys",
+  "stored_as": "drivers/b57nd60x.sys",
+  "sha256": "D583A3FF28C35501119F096A17F5E3B1CC207ECE60977DB2C81AC94A79EA32A5",
+  "sha1": "49D86ED7749B8F26308F952D47AE97CA1922ACCC",
+  "md5": "8EC7190368711C009DB21F037A108382",
+  "filenames": [
+    "b57nd60x.sys"
+  ],
+  "size_bytes": 368168,
+  "company": "Broadcom Corporation",
+  "product": "Broadcom NetXtreme Gigabit Ethernet Driver",
+  "description": "Broadcom NetXtreme Gigabit Ethernet NDIS6.x Unified Driver.",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 115,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

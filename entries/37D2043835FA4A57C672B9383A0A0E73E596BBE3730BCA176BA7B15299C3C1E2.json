@@ -1,0 +1,40 @@
+{
+  "filename": "intelppm_1.sys",
+  "stored_as": "drivers/intelppm_1.sys",
+  "sha256": "37D2043835FA4A57C672B9383A0A0E73E596BBE3730BCA176BA7B15299C3C1E2",
+  "sha1": "4D2CFAB700D2DA7C167F45C629A569B95F1BBA75",
+  "md5": "6458AECD43DF66C6F88D6029F7F6FF2B",
+  "filenames": [
+    "intelppm_1.sys",
+    "intelppm_3.sys"
+  ],
+  "size_bytes": 300432,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Processor Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

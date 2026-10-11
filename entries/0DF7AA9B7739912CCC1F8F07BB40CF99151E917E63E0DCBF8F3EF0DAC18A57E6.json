@@ -1,0 +1,45 @@
+{
+  "filename": "b57nd60a_1.sys",
+  "stored_as": "drivers/b57nd60a_1.sys",
+  "sha256": "0DF7AA9B7739912CCC1F8F07BB40CF99151E917E63E0DCBF8F3EF0DAC18A57E6",
+  "sha1": "FC666AA50DC0136A432D3EE9905B815329D9B924",
+  "md5": "5C534D930A61063C233DF55B9CC085CD",
+  "filenames": [
+    "b57nd60a_1.sys"
+  ],
+  "size_bytes": 557856,
+  "company": "Broadcom Limited",
+  "product": "Broadcom NetXtreme Gigabit Ethernet Driver",
+  "description": "Broadcom NetXtreme Gigabit Ethernet NDIS6.x Unified Driver.",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 115,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

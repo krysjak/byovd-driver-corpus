@@ -1,0 +1,43 @@
+{
+  "filename": "rdbss.sys",
+  "stored_as": "drivers/rdbss.sys",
+  "sha256": "6817A01FAA09F7CF11F6745DA584CC5667A4616522744B78E6A3D77559E57F48",
+  "sha1": "E0F56A8C42A8DF847837767135BF8A7CF0F68DF7",
+  "md5": "B7AFAFFF83CCCD6405AEAB733D606E44",
+  "filenames": [
+    "rdbss.sys"
+  ],
+  "size_bytes": 566760,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Redirected Drive Buffering SubSystem Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

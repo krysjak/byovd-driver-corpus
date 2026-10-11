@@ -1,0 +1,48 @@
+{
+  "filename": "ataport_2.sys",
+  "stored_as": "drivers/ataport_2.sys",
+  "sha256": "F198A94329350CE6FFAE7D1F431799E8EC345EFE2E7C52DF8BDE9C72D2C78116",
+  "sha1": "AB8438DB77323BCA83DD0529E4E96C6254F207A7",
+  "md5": "D3922D7786584FF6CD8D00A67606B558",
+  "filenames": [
+    "ataport_2.sys",
+    "ataport_3.sys"
+  ],
+  "size_bytes": 284032,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "ATAPI Driver Extension",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 140,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

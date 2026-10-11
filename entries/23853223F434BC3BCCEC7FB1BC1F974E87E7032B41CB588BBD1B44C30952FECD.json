@@ -1,0 +1,39 @@
+{
+  "filename": "UcmCxUcsiNvppc.sys",
+  "stored_as": "drivers/UcmCxUcsiNvppc.sys",
+  "sha256": "23853223F434BC3BCCEC7FB1BC1F974E87E7032B41CB588BBD1B44C30952FECD",
+  "sha1": "ECFA5F51C661AC60162F68744D1BBB7C78C6682C",
+  "md5": "5C100BA18C44C4F8D36211284B5F4C1D",
+  "filenames": [
+    "UcmCxUcsiNvppc.sys"
+  ],
+  "size_bytes": 709008,
+  "company": "NVIDIA Corporation",
+  "product": "NVPPC",
+  "description": "NVIDIA PPC Function Driver.",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

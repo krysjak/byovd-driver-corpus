@@ -1,0 +1,41 @@
+{
+  "filename": "TbtBusDrv_3.sys",
+  "stored_as": "drivers/TbtBusDrv_3.sys",
+  "sha256": "E7E3C3E18E928D2B7E81FC5609E1D4F20029C45E642C26EADEA6DCFF98D22C2F",
+  "sha1": "650A2F5EC372992368533B962E67DC9DA93E618E",
+  "md5": "92B3681E40DE5A34688433F8C568CA66",
+  "filenames": [
+    "TbtBusDrv_3.sys"
+  ],
+  "size_bytes": 2552272,
+  "company": "Intel Corporation",
+  "product": "Thunderbolt(TM) Bus Driver",
+  "description": "Thunderbolt(TM) Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "bcmwl63_2.sys",
+  "stored_as": "drivers/bcmwl63_2.sys",
+  "sha256": "9B18E146F1D8F002137C1E8A000B0A59789837DCBCDC9A28A2F262F9B5496A1D",
+  "sha1": "2FB1A2A7562B34F7760D3482B17C6BBBA31F3060",
+  "md5": "55D5954B31946C2139B5F2B4D10749E1",
+  "filenames": [
+    "bcmwl63_2.sys"
+  ],
+  "size_bytes": 6748336,
+  "company": "Broadcom Corporation",
+  "product": "Broadcom 802.11 Network Adapter wireless driver",
+  "description": "Broadcom 802.11 Network Adapter wireless driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

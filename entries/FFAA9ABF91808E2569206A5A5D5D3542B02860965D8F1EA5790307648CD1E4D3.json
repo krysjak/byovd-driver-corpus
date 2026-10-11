@@ -1,0 +1,42 @@
+{
+  "filename": "cht4sx64.sys",
+  "stored_as": "drivers/cht4sx64.sys",
+  "sha256": "FFAA9ABF91808E2569206A5A5D5D3542B02860965D8F1EA5790307648CD1E4D3",
+  "sha1": "B35F32FD33B8B3D7F3ED58B7B856190A867C3DE6",
+  "md5": "ECB99F55AA110AC10B7D4795CB66464F",
+  "filenames": [
+    "cht4sx64.sys",
+    "cht4sx64_1.sys"
+  ],
+  "size_bytes": 320944,
+  "company": "Chelsio Communications",
+  "product": "Chelsio Communications iSCSI Controller",
+  "description": "Chelsio iSCSI VMiniport Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

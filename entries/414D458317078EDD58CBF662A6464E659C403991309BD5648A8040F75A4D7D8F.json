@@ -1,0 +1,40 @@
+{
+  "filename": "npcap.sys",
+  "stored_as": "drivers/npcap.sys",
+  "sha256": "414D458317078EDD58CBF662A6464E659C403991309BD5648A8040F75A4D7D8F",
+  "sha1": "7D272BDAF7CEC7A78E3F783EB25845151A65A825",
+  "md5": "F84BF1529FFE88E3CCA8220B9A8CE313",
+  "filenames": [
+    "npcap.sys",
+    "npcap_1.sys"
+  ],
+  "size_bytes": 80456,
+  "company": "Nmap Software LLC",
+  "product": "Npcap",
+  "description": "npcap.sys (NT6 AMD64) Kernel Filter Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,42 @@
+{
+  "filename": "iaStorAVC.sys",
+  "stored_as": "drivers/iaStorAVC.sys",
+  "sha256": "A46A34E6DC1573D29B87AD22B336C6A7358A657A416B1643C0D3DAD671D81692",
+  "sha1": "AD6BE9C81E05628AF93FF3BA070EDCCE381F8422",
+  "md5": "76B3DFB22C302DBA9FA58C62D9668D04",
+  "filenames": [
+    "iaStorAVC.sys",
+    "iaStorAVC_1.sys"
+  ],
+  "size_bytes": 885568,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Rapid Storage Technology driver (inbox)",
+  "description": "Intel(R) Rapid Storage Technology driver (inbox) - x64",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

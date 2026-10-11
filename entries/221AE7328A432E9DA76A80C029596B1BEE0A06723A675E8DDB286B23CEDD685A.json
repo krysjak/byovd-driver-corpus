@@ -1,0 +1,45 @@
+{
+  "filename": "ndis.sys",
+  "stored_as": "drivers/ndis.sys",
+  "sha256": "221AE7328A432E9DA76A80C029596B1BEE0A06723A675E8DDB286B23CEDD685A",
+  "sha1": "CD4471E4745D073A59BA3D93809096DFE13E82DF",
+  "md5": "12497FE12A8C5BB376E1EBB2DB4C31CC",
+  "filenames": [
+    "ndis.sys"
+  ],
+  "size_bytes": 1828352,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Network Driver Interface Specification (NDIS)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

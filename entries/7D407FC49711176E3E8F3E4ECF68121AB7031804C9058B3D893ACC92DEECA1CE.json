@@ -1,0 +1,43 @@
+{
+  "filename": "winhvr.sys",
+  "stored_as": "drivers/winhvr.sys",
+  "sha256": "7D407FC49711176E3E8F3E4ECF68121AB7031804C9058B3D893ACC92DEECA1CE",
+  "sha1": "A5C71E8B8CE66F1220C3C4EF6B28C85B8A8F3B91",
+  "md5": "D53BE6E7188953AE164C4E69EC0163A9",
+  "filenames": [
+    "winhvr.sys"
+  ],
+  "size_bytes": 153064,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Windows Hypervisor Root Interface Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "system information set"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

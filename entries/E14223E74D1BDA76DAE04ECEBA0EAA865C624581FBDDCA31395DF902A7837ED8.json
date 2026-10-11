@@ -1,0 +1,41 @@
+{
+  "filename": "ipt.sys",
+  "stored_as": "drivers/ipt.sys",
+  "sha256": "E14223E74D1BDA76DAE04ECEBA0EAA865C624581FBDDCA31395DF902A7837ED8",
+  "sha1": "BA5711B674A456DB57A5681B81DAC2EE25DA4B6F",
+  "md5": "491C1C826221375281CC169922981B12",
+  "filenames": [
+    "ipt.sys"
+  ],
+  "size_bytes": 103936,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "IPT Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,40 @@
+{
+  "filename": "iaLPSS2i_GPIO2_BXT_P.sys",
+  "stored_as": "drivers/iaLPSS2i_GPIO2_BXT_P.sys",
+  "sha256": "2141DE558461B592D4111A0388D1AAC8062FA72CD1E2A2D2D68279A9633288E9",
+  "sha1": "33AA47FC5A149896110E343209C14A530D4487BE",
+  "md5": "806D14CEAF25E5F2DFCBA8E7E33B86BB",
+  "filenames": [
+    "iaLPSS2i_GPIO2_BXT_P.sys",
+    "iaLPSS2i_GPIO2_BXT_P_1.sys"
+  ],
+  "size_bytes": 93184,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO GPIO Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "amdsfhkmdf.sys",
+  "stored_as": "drivers/amdsfhkmdf.sys",
+  "sha256": "7BBBB39686512191D3A7F785326CDDC3579F0FF2654228A6AAFCE0E05A2EF86A",
+  "sha1": "2634D207C85E54839D1EAD38D371207FDAC854E8",
+  "md5": "2F63A22B5AD963ACF77587A134F5C7A6",
+  "filenames": [
+    "amdsfhkmdf.sys"
+  ],
+  "size_bytes": 159936,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "AMD SFH KMDF",
+  "description": "AMD SFH KMDF",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

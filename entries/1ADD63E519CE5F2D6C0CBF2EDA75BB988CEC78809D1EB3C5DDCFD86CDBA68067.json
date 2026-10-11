@@ -1,0 +1,45 @@
+{
+  "filename": "kipudrv.sys",
+  "stored_as": "drivers/kipudrv.sys",
+  "sha256": "1ADD63E519CE5F2D6C0CBF2EDA75BB988CEC78809D1EB3C5DDCFD86CDBA68067",
+  "sha1": "BAE3B8A733CAAED638638DA17BD3D85F0F279EDA",
+  "md5": "2B3B8A3E64F5CE0DBF208EC5E5707782",
+  "filenames": [
+    "kipudrv.sys"
+  ],
+  "size_bytes": 832184,
+  "company": "Advanced Micro Devices, Inc",
+  "product": "AMD IPU Driver",
+  "description": "AMD IPU Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

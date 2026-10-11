@@ -1,0 +1,43 @@
+{
+  "filename": "CmgPCS_1.sys",
+  "stored_as": "drivers/CmgPCS_1.sys",
+  "sha256": "4DD31A1972C2FD4DDFDB2CFAD916603DE4EF9D2179827F55847FA1A24B0E4E62",
+  "sha1": "58F362D582E908D0277F5F2F077923B418AA7201",
+  "md5": "DF960F98D039CCD7BF13872A36640FFD",
+  "filenames": [
+    "CmgPCS_1.sys"
+  ],
+  "size_bytes": 159456,
+  "company": "Dell Inc.",
+  "product": "CmgPCS.sys (64b,rls)",
+  "description": "Port Controls Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 110,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

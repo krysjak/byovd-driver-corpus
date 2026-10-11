@@ -1,0 +1,43 @@
+{
+  "filename": "WiMan.sys",
+  "stored_as": "drivers/WiMan.sys",
+  "sha256": "819C2F1CB0367B4C7A4CE6AD834E04647E5C3F4DB6CAE7B39D0F79C959C9EE0E",
+  "sha1": "4A693AC2F6A55C78D475215E43ACC524D655C0ED",
+  "md5": "54C29AD4268F56C07351EB3CEA078F71",
+  "filenames": [
+    "WiMan.sys"
+  ],
+  "size_bytes": 171952,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless Manageability",
+  "description": "Intel® Wireless Manageability",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

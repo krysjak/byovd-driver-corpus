@@ -1,0 +1,45 @@
+{
+  "filename": "droidcamaudio.sys",
+  "stored_as": "drivers/droidcamaudio.sys",
+  "sha256": "AD10D5D6F5CA02A114FC2890C9D5B8A595B8E244CCB89810304788A34B57C49A",
+  "sha1": "49E3963ADD926E0962DAAD373AEAECAF36738E12",
+  "md5": "1E948F1455E3467D5B83A547FCEC093D",
+  "filenames": [
+    "droidcamaudio.sys"
+  ],
+  "size_bytes": 33808,
+  "company": "Windows (R) Win 7 DDK provider",
+  "product": "DroidCam",
+  "description": "Virtual Audio Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

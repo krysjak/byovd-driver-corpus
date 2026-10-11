@@ -1,0 +1,45 @@
+{
+  "filename": "cmgfve_1.sys",
+  "stored_as": "drivers/cmgfve_1.sys",
+  "sha256": "818C6FAC8EA1CD24388EA34FE4BB8E4DE60A4B2471DCA4C565F9F3A82582D631",
+  "sha1": "65DE14C8953E9D47C3D51993EC2A62573C5473B5",
+  "md5": "69BC760DA2EFE514CC1042B3B5C38224",
+  "filenames": [
+    "cmgfve_1.sys"
+  ],
+  "size_bytes": 210656,
+  "company": "Dell Inc.",
+  "product": "CmgFVE.sys (64b,rls)",
+  "description": "Credant Full Volume Encryption Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 90,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

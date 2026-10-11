@@ -1,0 +1,43 @@
+{
+  "filename": "RtsP2Stor.sys",
+  "stored_as": "drivers/RtsP2Stor.sys",
+  "sha256": "42E1B1251425081D43258D6F94AEDD3D77CCF4C28B05D79D87B755D6F4DD72CE",
+  "sha1": "0117EF0F87BEBC0CED8E541E5C88ED870723580A",
+  "md5": "798330E809C5B3EDB2BA156533C57D1D",
+  "filenames": [
+    "RtsP2Stor.sys"
+  ],
+  "size_bytes": 330176,
+  "company": "Realtek Semiconductor Corp.",
+  "product": "Realtek Pcie CardReader Driver for 2K/XP/Vista/Win7/Win8",
+  "description": "Realtek Pcie CardReader Driver for 2K/XP/Vista/Win7/Win8",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 100,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

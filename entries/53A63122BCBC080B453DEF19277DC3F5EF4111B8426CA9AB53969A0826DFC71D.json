@@ -1,0 +1,46 @@
+{
+  "filename": "GlPciSD.sys",
+  "stored_as": "drivers/GlPciSD.sys",
+  "sha256": "53A63122BCBC080B453DEF19277DC3F5EF4111B8426CA9AB53969A0826DFC71D",
+  "sha1": "EF576992187B58B47837C3532349A091D641CCEF",
+  "md5": "9EF7CAF5A6FD81D6F7AFD0B2D1D21235",
+  "filenames": [
+    "GlPciSD.sys"
+  ],
+  "size_bytes": 228592,
+  "company": "Genesys Logic",
+  "product": "Genesys Logic PCI CardReader Driver",
+  "description": "Genesys Logic PCI CardReader Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 125,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

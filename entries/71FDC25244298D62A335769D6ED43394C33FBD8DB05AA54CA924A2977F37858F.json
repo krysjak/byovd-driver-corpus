@@ -1,0 +1,40 @@
+{
+  "filename": "iaLPSS2i_GPIO2_GLK.sys",
+  "stored_as": "drivers/iaLPSS2i_GPIO2_GLK.sys",
+  "sha256": "71FDC25244298D62A335769D6ED43394C33FBD8DB05AA54CA924A2977F37858F",
+  "sha1": "27406A360E030CB321D0F4F77A1C53D7BCC9B53E",
+  "md5": "8D3E3C431367E3BA632B4396CA662E1A",
+  "filenames": [
+    "iaLPSS2i_GPIO2_GLK.sys",
+    "iaLPSS2i_GPIO2_GLK_1.sys"
+  ],
+  "size_bytes": 96256,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO GPIO Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,42 @@
+{
+  "filename": "fdc.sys",
+  "stored_as": "drivers/fdc.sys",
+  "sha256": "ACE9195D382EED208D1C64AE2452B8FA4D55329C5E23086D7A341C0ED19B8803",
+  "sha1": "85D67588BB26C6E36D4958D646968D4E31A743DA",
+  "md5": "FF4D08D19AA23EAFFE1D594C382E5F2D",
+  "filenames": [
+    "fdc.sys",
+    "fdc_1.sys"
+  ],
+  "size_bytes": 69632,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Floppy Disk Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

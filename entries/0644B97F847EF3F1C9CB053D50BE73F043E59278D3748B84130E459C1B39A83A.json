@@ -1,0 +1,47 @@
+{
+  "filename": "scsiport.sys",
+  "stored_as": "drivers/scsiport.sys",
+  "sha256": "0644B97F847EF3F1C9CB053D50BE73F043E59278D3748B84130E459C1B39A83A",
+  "sha1": "29BC689219960B096E290B4B13CA6CFD6F831329",
+  "md5": "8F3D558B51BF137B516FCC8134AC2964",
+  "filenames": [
+    "scsiport.sys"
+  ],
+  "size_bytes": 226736,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SCSI Port Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,46 @@
+{
+  "filename": "vhdmp.sys",
+  "stored_as": "drivers/vhdmp.sys",
+  "sha256": "690C256F6C5045ADBEB68452A0147F802A89B3BCD49532CAA26C89654113C739",
+  "sha1": "BC44D9A418417D89469C9E7CA92494D387253A75",
+  "md5": "150CA9EDAC79C3EA1D3333FE35624763",
+  "filenames": [
+    "vhdmp.sys",
+    "vhdmp_1.sys"
+  ],
+  "size_bytes": 1058288,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "VHD Miniport Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages",
+    "ZwMapViewOfSection"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "section mapping (kernel R/W surface)"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

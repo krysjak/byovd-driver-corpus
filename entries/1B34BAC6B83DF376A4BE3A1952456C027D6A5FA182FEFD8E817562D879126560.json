@@ -1,0 +1,43 @@
+{
+  "filename": "amdacpksl_2.sys",
+  "stored_as": "drivers/amdacpksl_2.sys",
+  "sha256": "1B34BAC6B83DF376A4BE3A1952456C027D6A5FA182FEFD8E817562D879126560",
+  "sha1": "13E4877D6CD886A4E63B4A67171D78EE06228D06",
+  "md5": "A139F621C5BB4CFF975E87995ED30CBF",
+  "filenames": [
+    "amdacpksl_2.sys"
+  ],
+  "size_bytes": 352864,
+  "company": "Advanced Micro Devices",
+  "product": "AMD KSL Filter Driver",
+  "description": "AMD KSL Filter Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 55,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

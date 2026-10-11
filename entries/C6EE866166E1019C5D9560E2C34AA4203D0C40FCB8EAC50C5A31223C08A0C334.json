@@ -1,0 +1,41 @@
+{
+  "filename": "cdfs.sys",
+  "stored_as": "drivers/cdfs.sys",
+  "sha256": "C6EE866166E1019C5D9560E2C34AA4203D0C40FCB8EAC50C5A31223C08A0C334",
+  "sha1": "BE14A53B8A83A2E837D1E3054CDA15E076C31F5D",
+  "md5": "7343300029A25828E41B5E37279F62E7",
+  "filenames": [
+    "cdfs.sys"
+  ],
+  "size_bytes": 131072,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "CD-ROM File System Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

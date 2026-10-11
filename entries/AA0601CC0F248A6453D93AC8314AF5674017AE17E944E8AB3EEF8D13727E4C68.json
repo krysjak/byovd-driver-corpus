@@ -1,0 +1,43 @@
+{
+  "filename": "amdacpksl_7.sys",
+  "stored_as": "drivers/amdacpksl_7.sys",
+  "sha256": "AA0601CC0F248A6453D93AC8314AF5674017AE17E944E8AB3EEF8D13727E4C68",
+  "sha1": "9F22E9BEF199BAADBD63206D6142EB4409B4FDDC",
+  "md5": "B7B4C1B05ABB20CB3907271E8068A575",
+  "filenames": [
+    "amdacpksl_7.sys"
+  ],
+  "size_bytes": 352864,
+  "company": "Advanced Micro Devices",
+  "product": "AMD KSL Filter Driver",
+  "description": "AMD KSL Filter Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 55,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

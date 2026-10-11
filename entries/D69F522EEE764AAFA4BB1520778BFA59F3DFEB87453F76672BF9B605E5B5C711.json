@@ -1,0 +1,39 @@
+{
+  "filename": "HECIx64.sys",
+  "stored_as": "drivers/HECIx64.sys",
+  "sha256": "D69F522EEE764AAFA4BB1520778BFA59F3DFEB87453F76672BF9B605E5B5C711",
+  "sha1": "4BE472294B90B4EB8E8D7751E8D43C3E19E5622D",
+  "md5": "F1A67CF6EA9DD11BFC730AB990C67D97",
+  "filenames": [
+    "HECIx64.sys"
+  ],
+  "size_bytes": 64472,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Management Engine Interface",
+  "description": "Intel(R) Management Engine Interface",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

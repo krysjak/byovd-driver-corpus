@@ -1,0 +1,39 @@
+{
+  "filename": "amdlog.sys",
+  "stored_as": "drivers/amdlog.sys",
+  "sha256": "C7A5E9B652C3E8391277965EA6A2A9758174DC41233CF336E551DB5B57A263C9",
+  "sha1": "2EDB9516DF29BADD212BC464AFAAAE48BECD8C1E",
+  "md5": "FF318A10EA0B1FA26359804703A62F75",
+  "filenames": [
+    "amdlog.sys"
+  ],
+  "size_bytes": 106608,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "AMD Driver",
+  "description": "AMD LOG UTILITY DRIVER",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,40 @@
+{
+  "filename": "logi_joy_bus_enum.x64.sys",
+  "stored_as": "drivers/logi_joy_bus_enum.x64.sys",
+  "sha256": "79065269B2009DAE18CDF5D9090FE8BAB98DCFC1C52E66F91D62F47038192E9B",
+  "sha1": "B9BA728EA1123AFD8189B547E6D0585CB2A5CB54",
+  "md5": "B1F1ED17A7098189A6A7B81304E783F5",
+  "filenames": [
+    "logi_joy_bus_enum.x64.sys",
+    "logi_joy_bus_enum.x64_1.sys"
+  ],
+  "size_bytes": 45448,
+  "company": "Logitech",
+  "product": "Logitech G Drivers",
+  "description": "Logitech G Drivers",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

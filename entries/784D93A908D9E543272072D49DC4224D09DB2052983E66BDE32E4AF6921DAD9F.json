@@ -1,0 +1,46 @@
+{
+  "filename": "expressvpn-tun.sys",
+  "stored_as": "drivers/expressvpn-tun.sys",
+  "sha256": "784D93A908D9E543272072D49DC4224D09DB2052983E66BDE32E4AF6921DAD9F",
+  "sha1": "DB28B6C763110095FDA71925053DAD5317141CF3",
+  "md5": "4E72AE539702BF5A979B8B382D7F8027",
+  "filenames": [
+    "expressvpn-tun.sys",
+    "expressvpn-tun_1.sys"
+  ],
+  "size_bytes": 41976,
+  "company": "ExpressVPN",
+  "product": "ExpressVPN Wintun Driver",
+  "description": "ExpressVPN Wintun Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process lookup"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

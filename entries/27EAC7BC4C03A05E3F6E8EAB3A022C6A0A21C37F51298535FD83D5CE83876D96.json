@@ -1,0 +1,39 @@
+{
+  "filename": "GSCAuxDriverx64_6.sys",
+  "stored_as": "drivers/GSCAuxDriverx64_6.sys",
+  "sha256": "27EAC7BC4C03A05E3F6E8EAB3A022C6A0A21C37F51298535FD83D5CE83876D96",
+  "sha1": "93BFA94F7CB4DBCBAB87FC7E8F15790D2718916D",
+  "md5": "9D68DD1B98C9AB6C157998A8D2376CFF",
+  "filenames": [
+    "GSCAuxDriverx64_6.sys"
+  ],
+  "size_bytes": 109256,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Graphics System Controller Auxiliary Firmware Interface",
+  "description": "Intel(R) Graphics System Controller Auxiliary Firmware Interface",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "rtl8192se.sys",
+  "stored_as": "drivers/rtl8192se.sys",
+  "sha256": "3868EE0DD6A9FD05FC5EB16FE53F6874A335EB3D46D0B37B2CBDB79A9576DB04",
+  "sha1": "C2B20CEEC99172B16966CB9EE3A2720B4A93944A",
+  "md5": "5065AF94871CA7E884F0C9D92073C378",
+  "filenames": [
+    "rtl8192se.sys"
+  ],
+  "size_bytes": 1222656,
+  "company": "Realtek Semiconductor Corporation                           ",
+  "product": "Realtek RTL81892SE Wireless LAN PCI-E NIC                                     ",
+  "description": "Realtek RTL81892SE NDIS Driverr",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "bcmpciedhd63.sys",
+  "stored_as": "drivers/bcmpciedhd63.sys",
+  "sha256": "8724A7C3CECB9B1ECB597841823253ED67F6B840F5CA97B761E157808D3E2B3D",
+  "sha1": "BC1C2CA68C9F0303AF3FF2B26548276E30FB41F9",
+  "md5": "796B918259C2C8BEEF0FC6ADEC3C0182",
+  "filenames": [
+    "bcmpciedhd63.sys"
+  ],
+  "size_bytes": 1037824,
+  "company": "Broadcom Corp",
+  "product": "Broadcom WiFi Driver wireless driver",
+  "description": "Broadcom WiFi Driver wireless driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

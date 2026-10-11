@@ -1,0 +1,39 @@
+{
+  "filename": "NETwaw10_2.sys",
+  "stored_as": "drivers/NETwaw10_2.sys",
+  "sha256": "D821F2A91F8AFA523EA4A98632CF23331552807881F89024D6A0B86977F6497E",
+  "sha1": "27DA15C87BF783FD7B95FF75A51A2B0EEA593C5D",
+  "md5": "681775933DB3765754F74E5CC5702FC6",
+  "filenames": [
+    "NETwaw10_2.sys"
+  ],
+  "size_bytes": 4889168,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "R Intel Wireless WiFi Link Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

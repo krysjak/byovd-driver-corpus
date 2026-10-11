@@ -1,0 +1,39 @@
+{
+  "filename": "dptf_acpi_1.sys",
+  "stored_as": "drivers/dptf_acpi_1.sys",
+  "sha256": "64D4477EAE77D690438F918105F279A74D3D88EA707E51C685042EB3B3214674",
+  "sha1": "706619765C6D70D0107AA8B7D282907938B8C309",
+  "md5": "4374E77F5A87822867BABF62E31E5A77",
+  "filenames": [
+    "dptf_acpi_1.sys"
+  ],
+  "size_bytes": 77224,
+  "company": "Intel Corporation",
+  "product": "Dynamic Platform Thermal Framework",
+  "description": "DPTF ACPI Device (64-Bit)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

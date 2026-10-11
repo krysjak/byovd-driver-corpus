@@ -1,0 +1,48 @@
+{
+  "filename": "mlx4_bus.sys",
+  "stored_as": "drivers/mlx4_bus.sys",
+  "sha256": "211BDC6BB0720EE7221D77F205BD828AB4172AC4F454877BEAF5E3D74419442C",
+  "sha1": "640189825BA80D7E2DF6F09351626CA276ACF2A0",
+  "md5": "1C652F46B0E067E856632651CC394863",
+  "filenames": [
+    "mlx4_bus.sys",
+    "mlx4_bus_1.sys"
+  ],
+  "size_bytes": 1132336,
+  "company": "Mellanox",
+  "product": "OpenFabrics Windows",
+  "description": "MLX4 Bus Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

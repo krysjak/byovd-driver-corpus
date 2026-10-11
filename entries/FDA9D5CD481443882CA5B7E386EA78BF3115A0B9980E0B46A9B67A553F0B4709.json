@@ -1,0 +1,41 @@
+{
+  "filename": "yk63x64.sys",
+  "stored_as": "drivers/yk63x64.sys",
+  "sha256": "FDA9D5CD481443882CA5B7E386EA78BF3115A0B9980E0B46A9B67A553F0B4709",
+  "sha1": "FD56D44984481ACB55348DE23E2F7C04FEFE39F0",
+  "md5": "A4810E10EEA510A5B503A639A1ACB42E",
+  "filenames": [
+    "yk63x64.sys"
+  ],
+  "size_bytes": 288768,
+  "company": "Marvell",
+  "product": "Marvell Yukon Ethernet Controller",
+  "description": "NDIS6.30 Miniport Driver for Marvell Yukon Ethernet Controller",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

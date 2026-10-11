@@ -1,0 +1,41 @@
+{
+  "filename": "BCMWL63AL.SYS",
+  "stored_as": "drivers/BCMWL63AL.SYS",
+  "sha256": "388107153B70C3107CE2DB72E319A15EF78A6BE776D155F5ECE9F9A64A3B8814",
+  "sha1": "9AFA84F1718E4E144DC3346603898D44B7EDB532",
+  "md5": "34CFED0DFCC0FECF4B5F817D54904E9B",
+  "filenames": [
+    "BCMWL63AL.SYS"
+  ],
+  "size_bytes": 5170176,
+  "company": "Broadcom Corporation",
+  "product": "Broadcom 802.11 Network Adapter wireless driver",
+  "description": "Broadcom 802.11 Network Adapter wireless driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

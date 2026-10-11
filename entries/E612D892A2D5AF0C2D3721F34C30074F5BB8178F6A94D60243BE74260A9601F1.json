@@ -1,0 +1,41 @@
+{
+  "filename": "netbt.sys",
+  "stored_as": "drivers/netbt.sys",
+  "sha256": "E612D892A2D5AF0C2D3721F34C30074F5BB8178F6A94D60243BE74260A9601F1",
+  "sha1": "F041BF97046A138334DDB662BE99739669448585",
+  "md5": "F01D95DB170DE8DD24673D471237C960",
+  "filenames": [
+    "netbt.sys"
+  ],
+  "size_bytes": 360448,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "MBT Transport driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

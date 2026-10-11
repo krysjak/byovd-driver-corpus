@@ -1,0 +1,47 @@
+{
+  "filename": "iacamera64.sys",
+  "stored_as": "drivers/iacamera64.sys",
+  "sha256": "2262DA9DF659CB682E1F4C0FCBE9496E295858978EF4211C599A6571AEA5B3C5",
+  "sha1": "4BA1A1159C571EA1042A654E8D4D80934DAFE271",
+  "md5": "131DC3C676DA77335CD98EF2579E815B",
+  "filenames": [
+    "iacamera64.sys"
+  ],
+  "size_bytes": 10313376,
+  "company": "Intel Corporation",
+  "product": "Intel(R) AVStream Camera",
+  "description": "Intel(R) AVStream Camera",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process lookup"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 105,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

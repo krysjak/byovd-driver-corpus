@@ -1,0 +1,39 @@
+{
+  "filename": "UfxChipidea.sys",
+  "stored_as": "drivers/UfxChipidea.sys",
+  "sha256": "C4E58AE7833097F4AB1264A9888F3790D819BC5F29A2BAD268F8DEC8730BF070",
+  "sha1": "139084DFA88F2CC488F3D3A392C5A53E370D7B36",
+  "md5": "93064B010CDBEE52A44F6D55514B65F9",
+  "filenames": [
+    "UfxChipidea.sys"
+  ],
+  "size_bytes": 140592,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "UFX Chipidea Client Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

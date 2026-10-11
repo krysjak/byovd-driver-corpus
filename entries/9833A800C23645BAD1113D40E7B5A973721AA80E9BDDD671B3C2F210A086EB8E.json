@@ -1,0 +1,39 @@
+{
+  "filename": "dptf_acpi_2.sys",
+  "stored_as": "drivers/dptf_acpi_2.sys",
+  "sha256": "9833A800C23645BAD1113D40E7B5A973721AA80E9BDDD671B3C2F210A086EB8E",
+  "sha1": "67A12840C07322EF2C845E05A3CAFEA8DD9EE161",
+  "md5": "62C3DC41B595CFA91D821F64F6750580",
+  "filenames": [
+    "dptf_acpi_2.sys"
+  ],
+  "size_bytes": 81056,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Dynamic Tuning",
+  "description": "Intel(R) Dynamic Tuning ACPI Participant",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

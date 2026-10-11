@@ -1,0 +1,52 @@
+{
+  "filename": "VBoxSup.sys",
+  "stored_as": "drivers/VBoxSup.sys",
+  "sha256": "55785D57968FD427D7332765D1D811832E8A43DF12668BE4C86F2B7BD18EFD55",
+  "sha1": "EA20C5FB099CD005F4F19440B09C738912DE62C2",
+  "md5": "79BE1DEF92DC68B4178999C0CB01D958",
+  "filenames": [
+    "VBoxSup.sys",
+    "VBoxSup_1.sys"
+  ],
+  "size_bytes": 1057120,
+  "company": "Oracle and/or its affiliates",
+  "product": "Oracle VirtualBox",
+  "description": "VirtualBox Support Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process lookup",
+    "system information set"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,40 @@
+{
+  "filename": "pci_2.sys",
+  "stored_as": "drivers/pci_2.sys",
+  "sha256": "7B0C7874EF57637465DE089E54D2A4C2C71671F7BF34F38223A3FB6E6D637AA0",
+  "sha1": "4871EA1C90EA4DF7A934BE8FD39062566B32BF17",
+  "md5": "D3FA42F3468926F54F5CCD2E64AF3A0A",
+  "filenames": [
+    "pci_2.sys",
+    "pci_3.sys"
+  ],
+  "size_bytes": 611744,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "NT Plug and Play PCI Enumerator",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 90,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

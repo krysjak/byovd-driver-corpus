@@ -1,0 +1,41 @@
+{
+  "filename": "amdfendr_3.sys",
+  "stored_as": "drivers/amdfendr_3.sys",
+  "sha256": "922ADDF96DF6F28DFB66504F332FF31A219F4C8A237DDDC6E0A9386ABE09A20F",
+  "sha1": "C46DF63C3E2727EA2FD5EC6460BACD56B9C894FC",
+  "md5": "46B8FE6E27D744739080CAD4F6A6AE16",
+  "filenames": [
+    "amdfendr_3.sys"
+  ],
+  "size_bytes": 165848,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "AMD Driver",
+  "description": "AMD Crash Defender",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 100,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,42 @@
+{
+  "filename": "iai2c.sys",
+  "stored_as": "drivers/iai2c.sys",
+  "sha256": "9296A14590DFD94A3C728CAF3CA91BA211F27974F9CFF8417CDDC00D1453315C",
+  "sha1": "458A43F7F0674B68504AF1D02EA33F2F6FD5A03F",
+  "md5": "48EDB9B5DAB7D294951A520330F13715",
+  "filenames": [
+    "iai2c.sys",
+    "iai2c_1.sys"
+  ],
+  "size_bytes": 91136,
+  "company": "Intel(R) Corporation",
+  "product": "Intel(R) Serial IO I2C Driver",
+  "description": "Intel(R) Serial IO I2C Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

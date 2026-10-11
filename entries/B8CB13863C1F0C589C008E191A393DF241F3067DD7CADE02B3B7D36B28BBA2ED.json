@@ -1,0 +1,39 @@
+{
+  "filename": "Netwbw02.sys",
+  "stored_as": "drivers/Netwbw02.sys",
+  "sha256": "B8CB13863C1F0C589C008E191A393DF241F3067DD7CADE02B3B7D36B28BBA2ED",
+  "sha1": "C0541D17C4B0293FC97F20F46E53CEF6D606B9FC",
+  "md5": "1F91B1E5FD41BDC3DF8AFFB81C8AA277",
+  "filenames": [
+    "Netwbw02.sys"
+  ],
+  "size_bytes": 3485696,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "Intel® Wireless WiFi Link Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

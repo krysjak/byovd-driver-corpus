@@ -1,0 +1,43 @@
+{
+  "filename": "netbios.sys",
+  "stored_as": "drivers/netbios.sys",
+  "sha256": "29C10B2BD9C7272C7C71462F39252A75DE0159ECCFC58BDF1C407D8C226F0AFC",
+  "sha1": "EC099BA1625A5DC0667EA1D8AC8598B9A6D97355",
+  "md5": "DCB8D72D796A8F7B4173F8C378EE39EF",
+  "filenames": [
+    "netbios.sys"
+  ],
+  "size_bytes": 99632,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "NetBIOS interface driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

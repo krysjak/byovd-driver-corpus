@@ -1,0 +1,43 @@
+{
+  "filename": "AMS-MailBoxDrv.sys",
+  "stored_as": "drivers/AMS-MailBoxDrv.sys",
+  "sha256": "C8D3EA847F70AC079D8911C72258E911F3F26D241700B52C0E47991F23388091",
+  "sha1": "6EE6A9FAF038654776ED6F6EEF0633F7AD1E6797",
+  "md5": "7965363605BCB2BF08C681499A932FB7",
+  "filenames": [
+    "AMS-MailBoxDrv.sys"
+  ],
+  "size_bytes": 125168,
+  "company": "Advanced Micro Devices, Inc",
+  "product": "AMS-MailBoxDrv",
+  "description": "AMS-MailBoxDrv",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

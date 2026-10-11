@@ -1,0 +1,40 @@
+{
+  "filename": "processr_1.sys",
+  "stored_as": "drivers/processr_1.sys",
+  "sha256": "B8B536A31DDBB44EA66371703FCF4DBDA83A674996DADC58F6E122B43F385690",
+  "sha1": "AC2EC652376D28DC9692FE4DC48D450BF6349804",
+  "md5": "791DA3C70652B296EBBD39234B0FF671",
+  "filenames": [
+    "processr_1.sys",
+    "processr_3.sys"
+  ],
+  "size_bytes": 271768,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Processor Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

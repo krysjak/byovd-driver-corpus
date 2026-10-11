@@ -1,0 +1,45 @@
+{
+  "filename": "tcpip.sys",
+  "stored_as": "drivers/tcpip.sys",
+  "sha256": "15034904B98C49B959C848F48ADA109E86F6EE97BA5422FF9A6A61D848C6AF39",
+  "sha1": "5DA4FD9E08F97B78A37C367134B251FC02A8C8D8",
+  "md5": "CF88CBCD74AF47D7C98F99F4D9A7BA4E",
+  "filenames": [
+    "tcpip.sys"
+  ],
+  "size_bytes": 3474920,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "TCP/IP Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process handle access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

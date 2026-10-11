@@ -1,0 +1,43 @@
+{
+  "filename": "cng.sys",
+  "stored_as": "drivers/cng.sys",
+  "sha256": "1C6BEE721C0FB2BCBE02F92308828CBF8E9CEFC1EC131198B0F86627CA54D41F",
+  "sha1": "5552E1AEF89EC1C66B886DA67FF48A8E970E272A",
+  "md5": "605A5A569CEF7F43A0996A1A484904AC",
+  "filenames": [
+    "cng.sys"
+  ],
+  "size_bytes": 964288,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Kernel Cryptography, Next Generation",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "driver loading",
+    "process lookup",
+    "system information set"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

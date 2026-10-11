@@ -1,0 +1,44 @@
+{
+  "filename": "ApxUnit_1.sys",
+  "stored_as": "drivers/ApxUnit_1.sys",
+  "sha256": "73435C52CAF5DEE2C42A21AE0BC8EFAE386268A19913C43511C676647BD8BEAD",
+  "sha1": "C8D64C2340B5441920A937FFAB653B4ABC936CAB",
+  "md5": "39731300EEAD994AF57EB3597DF09086",
+  "filenames": [
+    "ApxUnit_1.sys",
+    "ApxUnit_2.sys"
+  ],
+  "size_bytes": 163840,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Audio Kernel-Mode Proxy Unit Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process address-space attach",
+    "process handle access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 50,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

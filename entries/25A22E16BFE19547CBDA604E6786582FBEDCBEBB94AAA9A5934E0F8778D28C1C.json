@@ -1,0 +1,41 @@
+{
+  "filename": "iaLPSS2_I3C_MTL.sys",
+  "stored_as": "drivers/iaLPSS2_I3C_MTL.sys",
+  "sha256": "25A22E16BFE19547CBDA604E6786582FBEDCBEBB94AAA9A5934E0F8778D28C1C",
+  "sha1": "AB7038E5E575690BE0CAF01EC05FB72B3DA5CE97",
+  "md5": "A06B289C2A3A8AA9029C4FA18B714DAA",
+  "filenames": [
+    "iaLPSS2_I3C_MTL.sys"
+  ],
+  "size_bytes": 156672,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO I3C Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

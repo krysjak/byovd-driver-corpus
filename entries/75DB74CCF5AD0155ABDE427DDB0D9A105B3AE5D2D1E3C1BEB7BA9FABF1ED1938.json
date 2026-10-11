@@ -1,0 +1,41 @@
+{
+  "filename": "TeeDriverW8_5.sys",
+  "stored_as": "drivers/TeeDriverW8_5.sys",
+  "sha256": "75DB74CCF5AD0155ABDE427DDB0D9A105B3AE5D2D1E3C1BEB7BA9FABF1ED1938",
+  "sha1": "38F240C8FD1A56D5811459F1B518DF5CABBCD527",
+  "md5": "82CBD25441A46064294262132734A25D",
+  "filenames": [
+    "TeeDriverW8_5.sys"
+  ],
+  "size_bytes": 233872,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Management Engine Interface",
+  "description": "Intel(R) Management Engine Interface",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 70,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

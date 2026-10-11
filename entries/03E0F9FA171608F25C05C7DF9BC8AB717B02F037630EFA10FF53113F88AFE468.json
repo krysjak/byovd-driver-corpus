@@ -1,0 +1,45 @@
+{
+  "filename": "aehd.sys",
+  "stored_as": "drivers/aehd.sys",
+  "sha256": "03E0F9FA171608F25C05C7DF9BC8AB717B02F037630EFA10FF53113F88AFE468",
+  "sha1": "C50CA95DF00CF18CE868F6D895C68CD05810BE01",
+  "md5": "794D52BCF97AB8A78EBC7758090AB97E",
+  "filenames": [
+    "aehd.sys"
+  ],
+  "size_bytes": 403080,
+  "company": "Google LLC",
+  "product": "Android Emulator hypervisor driver",
+  "description": "Android Emulator hypervisor driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "page locking",
+    "physical address resolution"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

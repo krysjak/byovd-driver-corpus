@@ -1,0 +1,47 @@
+{
+  "filename": "mlx5.sys",
+  "stored_as": "drivers/mlx5.sys",
+  "sha256": "453AD7F8590ADB357405D6DEEC5F868BA4B09AA351D4ABED64EAC6CF0B7754F9",
+  "sha1": "115E6AF6AF6A8738CA15DF13344FE3770BE409DE",
+  "md5": "622726E4BC437E20CA689CD9F81E3D03",
+  "filenames": [
+    "mlx5.sys"
+  ],
+  "size_bytes": 2433440,
+  "company": "Mellanox",
+  "product": "OpenFabrics Windows",
+  "description": "Mellanox ConnectX Adapter NDIS driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "TeeDriverGscW8x64_4.sys",
+  "stored_as": "drivers/TeeDriverGscW8x64_4.sys",
+  "sha256": "1880CB83FF9ECA48D9026250AF75173FCE9A369E9B3048338A174339B33DD1F8",
+  "sha1": "1F7C864420350C781CD09F4F8A2B31A4F75D7D64",
+  "md5": "48A5458CB6CA14AF9FBE8486F8E99C70",
+  "filenames": [
+    "TeeDriverGscW8x64_4.sys"
+  ],
+  "size_bytes": 258104,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Management Engine Interface",
+  "description": "Intel(R) Management Engine Interface",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

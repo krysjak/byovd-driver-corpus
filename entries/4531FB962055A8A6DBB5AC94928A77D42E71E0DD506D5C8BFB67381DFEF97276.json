@@ -1,0 +1,39 @@
+{
+  "filename": "rccfg.sys",
+  "stored_as": "drivers/rccfg.sys",
+  "sha256": "4531FB962055A8A6DBB5AC94928A77D42E71E0DD506D5C8BFB67381DFEF97276",
+  "sha1": "7784ED0C4FF0135D129FFBCD37E385AC05B89154",
+  "md5": "B87470FAB5B027FDC3ECA22424935324",
+  "filenames": [
+    "rccfg.sys"
+  ],
+  "size_bytes": 35112,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "AMD-RAID Configuration driver",
+  "description": "AMD-RAID Configuration driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

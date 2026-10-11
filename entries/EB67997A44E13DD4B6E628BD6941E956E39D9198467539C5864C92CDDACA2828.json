@@ -1,0 +1,41 @@
+{
+  "filename": "WdDevFlt.sys",
+  "stored_as": "drivers/WdDevFlt.sys",
+  "sha256": "EB67997A44E13DD4B6E628BD6941E956E39D9198467539C5864C92CDDACA2828",
+  "sha1": "C83957E8D26473A6AA8F95259F1E1E5BA4056EC3",
+  "md5": "B6F08FE8A3756673A93AF46DE2D97B34",
+  "filenames": [
+    "WdDevFlt.sys"
+  ],
+  "size_bytes": 300424,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft antimalware device filter driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "PsLookupProcessByProcessId",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "process handle access",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

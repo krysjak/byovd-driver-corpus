@@ -1,0 +1,42 @@
+{
+  "filename": "1394ohci.sys",
+  "stored_as": "drivers/1394ohci.sys",
+  "sha256": "9DF5D0EBDBCAF08E3F376AE993ACA8AEDEF266228D8F1DD41D6F79F294840B2F",
+  "sha1": "C7DEA815B5F548A7619F4811D01C0B8AF7BD7BF1",
+  "md5": "5352B0E9134ECB4C304F097C9879DB4D",
+  "filenames": [
+    "1394ohci.sys",
+    "1394ohci_1.sys"
+  ],
+  "size_bytes": 294912,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "1394 OpenHCI Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "NETwtw04_2.sys",
+  "stored_as": "drivers/NETwtw04_2.sys",
+  "sha256": "DC1C03D96D593CF4520D5C24A2330820D674EC5135083D4BEBC8B0FB2DD63B2B",
+  "sha1": "8045590DB77C4241A924F25CAD0A28A00AC97872",
+  "md5": "F181E801430187586BD8E1F4A6EA273A",
+  "filenames": [
+    "NETwtw04_2.sys"
+  ],
+  "size_bytes": 8762936,
+  "company": "Intel Corporation",
+  "product": "Intel® Wireless WiFi Link Adapter",
+  "description": "Intel® Wireless WiFi Link Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

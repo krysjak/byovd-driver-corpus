@@ -1,0 +1,42 @@
+{
+  "filename": "hvservice_2.sys",
+  "stored_as": "drivers/hvservice_2.sys",
+  "sha256": "C9DF62EF78C6AD89C3200EB60244E5779E86BB8AD15B508024CB18FADFECD10D",
+  "sha1": "8BF0EED14A88CDB52F1BF43C39AD472B38FD5B2A",
+  "md5": "5236C3E954FED48C0B0E429F2A0A9AD2",
+  "filenames": [
+    "hvservice_2.sys",
+    "hvservice_3.sys"
+  ],
+  "size_bytes": 103824,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Hypervisor Boot Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

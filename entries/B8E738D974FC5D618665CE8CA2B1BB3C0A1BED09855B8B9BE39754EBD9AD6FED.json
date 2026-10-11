@@ -1,0 +1,43 @@
+{
+  "filename": "sdport.sys",
+  "stored_as": "drivers/sdport.sys",
+  "sha256": "B8E738D974FC5D618665CE8CA2B1BB3C0A1BED09855B8B9BE39754EBD9AD6FED",
+  "sha1": "53D8576B5AAAA6BD8E89E08DB3F98A0AC656B2D0",
+  "md5": "4ACC1409B80C14911F44D7AA9EE94DE9",
+  "filenames": [
+    "sdport.sys"
+  ],
+  "size_bytes": 140600,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SD Host Controller Port Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "dptf_acpi_7.sys",
+  "stored_as": "drivers/dptf_acpi_7.sys",
+  "sha256": "AF97AD9F6F6D711EC59AD36BA05C80B4A79E4DEEF9E9252C7781A52FFF28ED20",
+  "sha1": "557FF091E0B00B77A710507323D1CD00220F9B64",
+  "md5": "F6A4005CEB6FD7E8500D871A3B158046",
+  "filenames": [
+    "dptf_acpi_7.sys"
+  ],
+  "size_bytes": 77192,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Dynamic Tuning",
+  "description": "Intel(R) Dynamic Tuning ACPI Participant",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

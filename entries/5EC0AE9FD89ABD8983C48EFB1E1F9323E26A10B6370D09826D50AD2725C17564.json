@@ -1,0 +1,39 @@
+{
+  "filename": "iaLPSS2_I2C_ADL.sys",
+  "stored_as": "drivers/iaLPSS2_I2C_ADL.sys",
+  "sha256": "5EC0AE9FD89ABD8983C48EFB1E1F9323E26A10B6370D09826D50AD2725C17564",
+  "sha1": "6BFD2236551F17708E752998EDE8940A47E2B74C",
+  "md5": "99EC46C839C60F9C0EEEB614B674C96F",
+  "filenames": [
+    "iaLPSS2_I2C_ADL.sys"
+  ],
+  "size_bytes": 220224,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO I2C Driver v2",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "fs_rec.sys",
+  "stored_as": "drivers/fs_rec.sys",
+  "sha256": "799C95DEC78122055300086193767662A6798B537E21AB2E7B9860BE1E252EA3",
+  "sha1": "4C258A7C69D8FC901DB308F849119519B2B18EBD",
+  "md5": "788BAE29776ABEBE05F1EFA3A3F7747A",
+  "filenames": [
+    "fs_rec.sys"
+  ],
+  "size_bytes": 71072,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "File System Recognizer Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "driver loading"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

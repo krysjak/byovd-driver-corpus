@@ -1,0 +1,43 @@
+{
+  "filename": "athwnx.sys",
+  "stored_as": "drivers/athwnx.sys",
+  "sha256": "8047E2D20724B464B481F06C3AC1FA5734E97F7EC0D86EFEECD76480C84B3959",
+  "sha1": "5812318223F19FA476039EC97E00EA6D46E367F0",
+  "md5": "D03E551165C72F2A4BBDDC566EAA819E",
+  "filenames": [
+    "athwnx.sys"
+  ],
+  "size_bytes": 4233728,
+  "company": "Qualcomm Atheros Communications, Inc.",
+  "product": "Driver for Qualcomm Atheros CB42/CB43/MB42/MB43 Network Adapter",
+  "description": "Qualcomm Atheros Extensible Wireless LAN device driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

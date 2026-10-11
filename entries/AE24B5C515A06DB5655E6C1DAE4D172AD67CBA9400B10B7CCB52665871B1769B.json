@@ -1,0 +1,47 @@
+{
+  "filename": "fvevol.sys",
+  "stored_as": "drivers/fvevol.sys",
+  "sha256": "AE24B5C515A06DB5655E6C1DAE4D172AD67CBA9400B10B7CCB52665871B1769B",
+  "sha1": "8F251C34877627B4CC8C8DD9158A9B11C8E3437D",
+  "md5": "D1A5CB24F8DAE746AB68E1403A035719",
+  "filenames": [
+    "fvevol.sys"
+  ],
+  "size_bytes": 980448,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "BitLocker Drive Encryption Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

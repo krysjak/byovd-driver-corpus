@@ -1,0 +1,49 @@
+{
+  "filename": "BasicRender.sys",
+  "stored_as": "drivers/BasicRender.sys",
+  "sha256": "CBAC7C00AC64C28FA56B735AB4065C9D95FCB992F84B00100309F8737DAA819D",
+  "sha1": "5BD4FBD608CD1EDE801045B2BB87297B540A8CDE",
+  "md5": "62E82D0E4C5E72546747A0C97612509A",
+  "filenames": [
+    "BasicRender.sys"
+  ],
+  "size_bytes": 73728,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Basic Render Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages",
+    "ZwLoadDriver",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "physical address resolution",
+    "process address-space attach",
+    "process handle access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

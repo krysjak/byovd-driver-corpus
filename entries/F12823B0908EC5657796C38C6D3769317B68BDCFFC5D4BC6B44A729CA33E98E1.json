@@ -1,0 +1,40 @@
+{
+  "filename": "amdk8_1.sys",
+  "stored_as": "drivers/amdk8_1.sys",
+  "sha256": "F12823B0908EC5657796C38C6D3769317B68BDCFFC5D4BC6B44A729CA33E98E1",
+  "sha1": "E2E6F92A7481905AD22CF2B9FF09797D96BF0DC4",
+  "md5": "A97E4A26EC88E07B6DDC900223424C63",
+  "filenames": [
+    "amdk8_1.sys",
+    "amdk8_3.sys"
+  ],
+  "size_bytes": 263552,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Processor Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

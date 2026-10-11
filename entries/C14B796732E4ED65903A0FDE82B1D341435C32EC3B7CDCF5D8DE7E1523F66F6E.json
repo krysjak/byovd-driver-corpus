@@ -1,0 +1,39 @@
+{
+  "filename": "TEEDriverW10_3.sys",
+  "stored_as": "drivers/TEEDriverW10_3.sys",
+  "sha256": "C14B796732E4ED65903A0FDE82B1D341435C32EC3B7CDCF5D8DE7E1523F66F6E",
+  "sha1": "B7197020AA93742B4A4252F04C888972291B5EB0",
+  "md5": "277B9BE65B769565D2C88BF446539F1E",
+  "filenames": [
+    "TEEDriverW10_3.sys"
+  ],
+  "size_bytes": 266336,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Management Engine Interface",
+  "description": "Intel(R) Management Engine Interface",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "pluton-heci_1.sys",
+  "stored_as": "drivers/pluton-heci_1.sys",
+  "sha256": "688019578FB97E91321249CF55B6C848CC679C8C5B8B465F89F2D360BA3B115A",
+  "sha1": "1039C75FCB1716FCC442F01368B6EBC71C1BD07C",
+  "md5": "A671486F71AC22D8C5B5256BDED157E3",
+  "filenames": [
+    "pluton-heci_1.sys",
+    "pluton-heci_2.sys"
+  ],
+  "size_bytes": 79256,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Pluton HECI Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 90,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

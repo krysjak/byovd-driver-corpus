@@ -1,0 +1,43 @@
+{
+  "filename": "gna.sys",
+  "stored_as": "drivers/gna.sys",
+  "sha256": "ADF0A51C612499644E616AEFD8C051292C7C0405ACADB5C60D6609D05D4A5982",
+  "sha1": "1F9FE42B907313244D32E9B9E38183140E23CC2E",
+  "md5": "BF631234B2C3C7543E9F1219EAFA4818",
+  "filenames": [
+    "gna.sys"
+  ],
+  "size_bytes": 90304,
+  "company": "Intel Corporation",
+  "product": "Intel (R) Gaussian & Neural Accelerator",
+  "description": "Intel (R) GNA device driver (10.64.2.19041)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 65,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

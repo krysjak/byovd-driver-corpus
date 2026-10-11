@@ -1,0 +1,46 @@
+{
+  "filename": "fsfreedomewintun.sys",
+  "stored_as": "drivers/fsfreedomewintun.sys",
+  "sha256": "8C0487353F66F3DBC786A0AA05C0CB440DAAE4168AA77FBB08A512CC3783FBED",
+  "sha1": "B89E19945E8C3160EB82A0CB7ED4D48C882DED2D",
+  "md5": "3A10D5E81FEE5AF6C10E17C9FA1714E5",
+  "filenames": [
+    "fsfreedomewintun.sys",
+    "fsfreedomewintun_1.sys"
+  ],
+  "size_bytes": 31248,
+  "company": "F-Secure Corporation",
+  "product": "F-Secure Freedome Wintun Driver",
+  "description": "F-Secure Freedome Wintun Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process lookup"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

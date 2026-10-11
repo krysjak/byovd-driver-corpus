@@ -1,0 +1,40 @@
+{
+  "filename": "UcmCxRtk.sys",
+  "stored_as": "drivers/UcmCxRtk.sys",
+  "sha256": "236B7CEBAAFF464C7EE5780A9A8669BB07B473DA06A1B07904E7A54FFC054271",
+  "sha1": "C22037874EEC3F8F752D218710E2F14DF0C47D6C",
+  "md5": "7677DD03C226BE9B8EA2B21F881084FE",
+  "filenames": [
+    "UcmCxRtk.sys",
+    "UcmCxRtk_1.sys"
+  ],
+  "size_bytes": 89128,
+  "company": "Realtek Semiconductor Corp.",
+  "product": "Realtek Semiconductor Corp.",
+  "description": "USB Connector Manager Realtek UCSI Client",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

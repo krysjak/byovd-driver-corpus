@@ -1,0 +1,46 @@
+{
+  "filename": "vmci.sys",
+  "stored_as": "drivers/vmci.sys",
+  "sha256": "E9A45BDDB38925DED64B874644F58A6E8E87A10614ED7A34B9BDCCE6BD3D46C6",
+  "sha1": "19FF3E6B7B988E2A14018B9B8705BE99172D6A1C",
+  "md5": "5B2F4B17924A5BD97EF2B7FFEC16059E",
+  "filenames": [
+    "vmci.sys",
+    "vmci_1.sys"
+  ],
+  "size_bytes": 106536,
+  "company": "Broadcom Inc.",
+  "product": "VMware PCI VMCI Bus Device",
+  "description": "VMware PCI VMCI Bus Device",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "page locking",
+    "physical address resolution"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

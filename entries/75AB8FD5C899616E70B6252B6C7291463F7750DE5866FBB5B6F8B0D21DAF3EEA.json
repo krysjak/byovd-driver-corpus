@@ -1,0 +1,43 @@
+{
+  "filename": "BasicDisplay.sys",
+  "stored_as": "drivers/BasicDisplay.sys",
+  "sha256": "75AB8FD5C899616E70B6252B6C7291463F7750DE5866FBB5B6F8B0D21DAF3EEA",
+  "sha1": "E087422737BA5AD1B0AC553DB8CF3A241CFCE42A",
+  "md5": "6B90CD4EAD021F3A91D7F30F23C37275",
+  "filenames": [
+    "BasicDisplay.sys"
+  ],
+  "size_bytes": 106496,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Basic Display Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx",
+    "ZwLoadDriver",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "driver loading",
+    "physical memory mapping",
+    "system information set"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

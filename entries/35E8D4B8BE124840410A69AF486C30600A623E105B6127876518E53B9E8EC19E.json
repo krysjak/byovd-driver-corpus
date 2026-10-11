@@ -1,0 +1,41 @@
+{
+  "filename": "netadaptercx.sys",
+  "stored_as": "drivers/netadaptercx.sys",
+  "sha256": "35E8D4B8BE124840410A69AF486C30600A623E105B6127876518E53B9E8EC19E",
+  "sha1": "A673F3D365AF6DAE5B299AC690593B7164BFEEA7",
+  "md5": "B22FD227938A4C383E667FC5B6D9E0EF",
+  "filenames": [
+    "netadaptercx.sys"
+  ],
+  "size_bytes": 394752,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Network Adapter Class Extension for WDF",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "process address-space attach"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

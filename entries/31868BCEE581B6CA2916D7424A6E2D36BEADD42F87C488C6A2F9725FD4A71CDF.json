@@ -1,0 +1,39 @@
+{
+  "filename": "FTDIBUS_1.sys",
+  "stored_as": "drivers/FTDIBUS_1.sys",
+  "sha256": "31868BCEE581B6CA2916D7424A6E2D36BEADD42F87C488C6A2F9725FD4A71CDF",
+  "sha1": "EA477D2436F0C52F0780FB3D71784154FFEEA471",
+  "md5": "1079AF0DD98E56BDE579E3B4290D2536",
+  "filenames": [
+    "FTDIBUS_1.sys"
+  ],
+  "size_bytes": 115416,
+  "company": "FTDI Ltd.",
+  "product": "FTDIChip CDM Drivers",
+  "description": "FTDIBUS USB Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 50,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

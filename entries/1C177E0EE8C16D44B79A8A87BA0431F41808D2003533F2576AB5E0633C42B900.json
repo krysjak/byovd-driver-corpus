@@ -1,0 +1,45 @@
+{
+  "filename": "BvWinFsp.sys",
+  "stored_as": "drivers/BvWinFsp.sys",
+  "sha256": "1C177E0EE8C16D44B79A8A87BA0431F41808D2003533F2576AB5E0633C42B900",
+  "sha1": "89698FCFFAD8550C011097D254CF4FF962689BD6",
+  "md5": "F5217D7A646A91B1B07DB9BF5F072AC5",
+  "filenames": [
+    "BvWinFsp.sys"
+  ],
+  "size_bytes": 168512,
+  "company": "Navimatics LLC",
+  "product": "WinFsp",
+  "description": "Windows File System Proxy",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "driver loading",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

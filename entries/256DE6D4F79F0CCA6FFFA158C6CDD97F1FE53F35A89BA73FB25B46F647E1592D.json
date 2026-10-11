@@ -1,0 +1,41 @@
+{
+  "filename": "dam.sys",
+  "stored_as": "drivers/dam.sys",
+  "sha256": "256DE6D4F79F0CCA6FFFA158C6CDD97F1FE53F35A89BA73FB25B46F647E1592D",
+  "sha1": "6AB7281F5D1873F2B48F87397A6EE7D6790B3480",
+  "md5": "D38F44ED72B71F923E0A8AE518260B4F",
+  "filenames": [
+    "dam.sys"
+  ],
+  "size_bytes": 136664,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "DAM Kernel Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "PsLookupProcessByProcessId",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "process handle access",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

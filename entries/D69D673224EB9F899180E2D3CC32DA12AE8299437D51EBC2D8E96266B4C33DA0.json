@@ -1,0 +1,46 @@
+{
+  "filename": "acpi_2.sys",
+  "stored_as": "drivers/acpi_2.sys",
+  "sha256": "D69D673224EB9F899180E2D3CC32DA12AE8299437D51EBC2D8E96266B4C33DA0",
+  "sha1": "9EC1E7F82EF2D3CF4004743DFB4A72D88B1F8DBC",
+  "md5": "8905324CCD30FBE5AF95C0B652ED71DE",
+  "filenames": [
+    "acpi_2.sys",
+    "acpi_3.sys"
+  ],
+  "size_bytes": 873856,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "ACPI Driver for NT",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "ZwLoadDriver",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "driver loading",
+    "physical address resolution",
+    "physical memory mapping",
+    "system information set"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 140,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

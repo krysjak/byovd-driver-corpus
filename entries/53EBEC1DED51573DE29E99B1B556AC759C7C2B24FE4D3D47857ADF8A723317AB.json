@@ -1,0 +1,41 @@
+{
+  "filename": "scsiscan.sys",
+  "stored_as": "drivers/scsiscan.sys",
+  "sha256": "53EBEC1DED51573DE29E99B1B556AC759C7C2B24FE4D3D47857ADF8A723317AB",
+  "sha1": "E43FFF9F210DD82981C2BF20D7B57D7E9AA9037B",
+  "md5": "5AF4C8A3F553ABA303EDA6EEC9C0BF99",
+  "filenames": [
+    "scsiscan.sys"
+  ],
+  "size_bytes": 57344,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SCSI Scanner Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

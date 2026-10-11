@@ -1,0 +1,68 @@
+{
+  "filename": "amdi2c.sys",
+  "stored_as": "drivers/amdi2c.sys",
+  "sha256": "6EA32494A758ED615C1123D590E2BF95BBAC0C075FD913B7F8A9910441BC3B9D",
+  "sha1": "B1580173425335AA4AF446D8AEFEA0361844F36D",
+  "md5": "18704304D13099948EF262501814FC41",
+  "filenames": [
+    "amdi2c.sys",
+    "amdi2c_1.sys",
+    "amdi2c_2.sys"
+  ],
+  "size_bytes": 84264,
+  "company": "Advanced Micro Devices, Inc",
+  "product": "AMD I2C Controller Driver",
+  "description": "AMD I2C Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": true,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {
+    "loldrivers_id": "bd9f084e-b235-4978-bf2a-5f1dc02937df",
+    "category": "vulnerable driver",
+    "verified": "FALSE",
+    "mitre_id": "T1068",
+    "cve": [],
+    "created": "2024-08-15",
+    "commands": [
+      {
+        "Command": "sc.exe create TfSysMon.sys binPath=C:\\windows\\temp\\TfSysMon.sys type=kernel && sc.exe start TfSysMon.sys",
+        "Description": "",
+        "Usecase": "Elevate privileges",
+        "Privileges": "kernel",
+        "OperatingSystem": "Windows 10"
+      }
+    ],
+    "resources": [
+      "https://github.com/BlackSnufkin/BYOVD/tree/main/TfSysMon-Killer"
+    ]
+  },
+  "usage": {
+    "documented": true,
+    "commands": [
+      {
+        "Command": "sc.exe create TfSysMon.sys binPath=C:\\windows\\temp\\TfSysMon.sys type=kernel && sc.exe start TfSysMon.sys",
+        "Description": "",
+        "Usecase": "Elevate privileges",
+        "Privileges": "kernel",
+        "OperatingSystem": "Windows 10"
+      }
+    ],
+    "usecase": "vulnerable driver",
+    "notes": "Documented in LOLDrivers; command/use-case fields are public data."
+  },
+  "duplicate_count": 3
+}

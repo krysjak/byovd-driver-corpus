@@ -1,0 +1,44 @@
+{
+  "filename": "sbp2port.sys",
+  "stored_as": "drivers/sbp2port.sys",
+  "sha256": "7027E3FE0FB1F3BD5600927ECA4A6D0C763FF3695F14B59A757B668BB9D6E55B",
+  "sha1": "D3EF60831401036B748853ACBFF1714BE4A17939",
+  "md5": "B611E8E1919F41054E750CDA92AA2485",
+  "filenames": [
+    "sbp2port.sys",
+    "sbp2port_1.sys"
+  ],
+  "size_bytes": 148912,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "SBP-2 Protocol Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "dptf_cpu_3.sys",
+  "stored_as": "drivers/dptf_cpu_3.sys",
+  "sha256": "EB97B9AE8AB841247F13A9CEC6CE6362B029FBF1960BAA2E50CC4E3A0A4398AF",
+  "sha1": "73934EE08D24EC591E019843459D7BD394C74A94",
+  "md5": "734BF685B5E1843AE447165E25B42B70",
+  "filenames": [
+    "dptf_cpu_3.sys"
+  ],
+  "size_bytes": 73368,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Dynamic Tuning",
+  "description": "Intel(R) Dynamic Tuning CPU Participant",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

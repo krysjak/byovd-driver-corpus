@@ -1,0 +1,39 @@
+{
+  "filename": "mtkwecx.sys",
+  "stored_as": "drivers/mtkwecx.sys",
+  "sha256": "E77858FCCF5A9698F7A5012EC641490DF75E5D8F0CE4B35062D8289FC59711C8",
+  "sha1": "5D690C930849FE9DF8A57D331EFE6978E32A6984",
+  "md5": "2F99E8A1A621C7E6ED1B34F9E79C1B97",
+  "filenames": [
+    "mtkwecx.sys"
+  ],
+  "size_bytes": 2524528,
+  "company": "MediaTek Inc.",
+  "product": "MediaTek Wi-Fi Adapter",
+  "description": "MediaTek Wi-Fi Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

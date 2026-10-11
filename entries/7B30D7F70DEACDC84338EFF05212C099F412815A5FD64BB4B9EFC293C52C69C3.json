@@ -1,0 +1,43 @@
+{
+  "filename": "bowser.sys",
+  "stored_as": "drivers/bowser.sys",
+  "sha256": "7B30D7F70DEACDC84338EFF05212C099F412815A5FD64BB4B9EFC293C52C69C3",
+  "sha1": "F66AD475742614DFF35560FE4D6A6CA218A6D540",
+  "md5": "B05E990F19C541460F3CE2BE093309AD",
+  "filenames": [
+    "bowser.sys"
+  ],
+  "size_bytes": 163840,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "NT Lan Manager Datagram Receiver Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

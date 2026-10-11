@@ -1,0 +1,46 @@
+{
+  "filename": "pmem.sys",
+  "stored_as": "drivers/pmem.sys",
+  "sha256": "42DC33427358A149BC2CB6AFDAA03FB14D624BECF4B955AC5E27814FD4CD0F11",
+  "sha1": "0858A1DDD0108977C522BBD584781FD131D3A357",
+  "md5": "952DA37086339D0E101C49EF4B545D1A",
+  "filenames": [
+    "pmem.sys",
+    "pmem_1.sys"
+  ],
+  "size_bytes": 185848,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Persistent memory driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

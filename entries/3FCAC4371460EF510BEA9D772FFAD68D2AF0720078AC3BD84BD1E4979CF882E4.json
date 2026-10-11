@@ -1,0 +1,39 @@
+{
+  "filename": "ProcLaunchMon.sys",
+  "stored_as": "drivers/ProcLaunchMon.sys",
+  "sha256": "3FCAC4371460EF510BEA9D772FFAD68D2AF0720078AC3BD84BD1E4979CF882E4",
+  "sha1": "38C9C7127A50B6A360828F75A7D9815E17F84294",
+  "md5": "B61E3C79123E8589568111F7D9199FA7",
+  "filenames": [
+    "ProcLaunchMon.sys"
+  ],
+  "size_bytes": 79880,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Time Travel Debugging Process Launch Monitor driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "process handle access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

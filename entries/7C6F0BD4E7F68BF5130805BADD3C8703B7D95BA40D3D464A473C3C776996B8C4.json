@@ -1,0 +1,39 @@
+{
+  "filename": "ipf_acpi.sys",
+  "stored_as": "drivers/ipf_acpi.sys",
+  "sha256": "7C6F0BD4E7F68BF5130805BADD3C8703B7D95BA40D3D464A473C3C776996B8C4",
+  "sha1": "5A6ADE3FC537B20FCA0501E6FBC4A9232937A5EA",
+  "md5": "3638B312FC8CBCA5E34B7C16CF131F66",
+  "filenames": [
+    "ipf_acpi.sys"
+  ],
+  "size_bytes": 90184,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Innovation Platform Framework",
+  "description": "Intel(R) Innovation Platform Framework ACPI Participant",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

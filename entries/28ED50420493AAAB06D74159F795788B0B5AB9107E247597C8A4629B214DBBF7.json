@@ -1,0 +1,41 @@
+{
+  "filename": "amdfendr_1.sys",
+  "stored_as": "drivers/amdfendr_1.sys",
+  "sha256": "28ED50420493AAAB06D74159F795788B0B5AB9107E247597C8A4629B214DBBF7",
+  "sha1": "E8BD8B951B6FEDE2DBCFA3AD16D26D7DE6AE4E72",
+  "md5": "978D3CD0BE776BCB84B0AB742F023A63",
+  "filenames": [
+    "amdfendr_1.sys"
+  ],
+  "size_bytes": 367312,
+  "company": "Advanced Micro Devices, Inc.",
+  "product": "AMD Driver",
+  "description": "AMD Crash Defender",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 100,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

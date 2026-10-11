@@ -1,0 +1,39 @@
+{
+  "filename": "Ndu.sys",
+  "stored_as": "drivers/Ndu.sys",
+  "sha256": "4A0B302C40FCBBE143412F99D811BAF59241EAA27271DA43100581C11B1E4C7E",
+  "sha1": "3168C7EFE2AF3E3F3876C88923EF8BD580C49F34",
+  "md5": "416D3389055D85231A4B8E18686362D5",
+  "filenames": [
+    "Ndu.sys"
+  ],
+  "size_bytes": 192512,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Windows Network Data Usage Monitoring Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

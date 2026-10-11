@@ -1,0 +1,43 @@
+{
+  "filename": "WUDFPf.sys",
+  "stored_as": "drivers/WUDFPf.sys",
+  "sha256": "5E46ACA0C46B2662BC3E4FD0B68C70BB4E6F00A80FD107BA731435981667FA45",
+  "sha1": "A5E07D69772E8330E24934C3E7C118B7516E91F3",
+  "md5": "8018D2073EF8D4B8A1F820DC047731E4",
+  "filenames": [
+    "WUDFPf.sys"
+  ],
+  "size_bytes": 173520,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Windows Driver Foundation - User-mode Driver Framework Platform Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "ZwOpenProcess",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "process address-space attach",
+    "process handle access",
+    "process termination"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

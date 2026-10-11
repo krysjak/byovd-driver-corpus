@@ -1,0 +1,39 @@
+{
+  "filename": "IntcAudioBus.sys",
+  "stored_as": "drivers/IntcAudioBus.sys",
+  "sha256": "07AE13A88DB54A1F0BE267921F53A532753BA951F122A9540DDFF0E66C6C7E80",
+  "sha1": "BC1759C3402D16EA7BA635E3146E27EFA94C5ED4",
+  "md5": "6AD4DBBD2F79CE34AB323E988C3C873B",
+  "filenames": [
+    "IntcAudioBus.sys"
+  ],
+  "size_bytes": 314880,
+  "company": "Intel(R) Corporation",
+  "product": "Intel® Smart Sound Technology (Intel® SST) Bus",
+  "description": "Intel® Smart Sound Technology (Intel® SST) Bus",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

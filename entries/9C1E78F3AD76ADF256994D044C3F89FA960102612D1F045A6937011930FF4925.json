@@ -1,0 +1,40 @@
+{
+  "filename": "intelpep.sys",
+  "stored_as": "drivers/intelpep.sys",
+  "sha256": "9C1E78F3AD76ADF256994D044C3F89FA960102612D1F045A6937011930FF4925",
+  "sha1": "7F4B9B22D1B25C04B2A6B275A626D8D3F568C42A",
+  "md5": "C26D8ACCB6BA137B3ACCDCF58C564793",
+  "filenames": [
+    "intelpep.sys",
+    "intelpep_1.sys"
+  ],
+  "size_bytes": 657888,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Intel Power Engine Plugin",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "Ude.sys",
+  "stored_as": "drivers/Ude.sys",
+  "sha256": "80009C87CB69B489F0CDB5997100DACAADF2A172907892F68067DCF0FC11F51C",
+  "sha1": "8CCDEA39CF91CB8882EC8A565D3C63A48E212330",
+  "md5": "3B44A218EBADD4BD5FEE9D2529ADAF0A",
+  "filenames": [
+    "Ude.sys"
+  ],
+  "size_bytes": 337384,
+  "company": "Intel Corporation",
+  "product": "Intel Telephony Stack",
+  "description": "UDE Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "e2fn.sys",
+  "stored_as": "drivers/e2fn.sys",
+  "sha256": "545B4BAD3CB0A02A4FEAE77480F0447B33F0A3F858DBDDE84C282F77DF898078",
+  "sha1": "569346BB5B14A837AAEE4C986E899FF3A7D53207",
+  "md5": "10E353864C680ED0F688666442E3FDC7",
+  "filenames": [
+    "e2fn.sys"
+  ],
+  "size_bytes": 1427528,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Ethernet Controller I225",
+  "description": "Intel(R) Ethernet Controller (NetAdapterCx 2.2)",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

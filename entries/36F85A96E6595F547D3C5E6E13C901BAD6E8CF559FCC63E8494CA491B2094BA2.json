@@ -1,0 +1,39 @@
+{
+  "filename": "PRI-Driver_1.sys",
+  "stored_as": "drivers/PRI-Driver_1.sys",
+  "sha256": "36F85A96E6595F547D3C5E6E13C901BAD6E8CF559FCC63E8494CA491B2094BA2",
+  "sha1": "AB1F6ED7D9988CAA44C6D8CB6365346C7776885F",
+  "md5": "FF79EEC09B74DDD8FEC59C37D8535F88",
+  "filenames": [
+    "PRI-Driver_1.sys"
+  ],
+  "size_bytes": 378008,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Platform Register Interface Driver",
+  "description": "Intel(R) Platform Register Interface Driver ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,39 @@
+{
+  "filename": "MSIRCOMM.sys",
+  "stored_as": "drivers/MSIRCOMM.sys",
+  "sha256": "92BE91A71A23803E3136B3F32C9BE885718FD4663F48A1D1C676450F6EDE6926",
+  "sha1": "CE65404A8387C1BAD1C0B331DA05C94360C022C7",
+  "md5": "61DF366F2D37F300C5D92861B03612F8",
+  "filenames": [
+    "MSIRCOMM.sys"
+  ],
+  "size_bytes": 69632,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Infra-Red Communications Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

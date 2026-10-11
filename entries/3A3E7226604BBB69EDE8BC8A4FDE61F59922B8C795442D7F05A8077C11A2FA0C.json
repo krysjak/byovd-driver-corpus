@@ -1,0 +1,45 @@
+{
+  "filename": "AppVStrm.sys",
+  "stored_as": "drivers/AppVStrm.sys",
+  "sha256": "3A3E7226604BBB69EDE8BC8A4FDE61F59922B8C795442D7F05A8077C11A2FA0C",
+  "sha1": "6E4B1411D8E3D91D72CE2C55C3589801511DD567",
+  "md5": "C7415379FB9F8DE40CCCC1E9162002FE",
+  "filenames": [
+    "AppVStrm.sys"
+  ],
+  "size_bytes": 177456,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Application Virtualization Streaming Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process handle access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

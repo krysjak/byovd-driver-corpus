@@ -1,0 +1,47 @@
+{
+  "filename": "rdyboost.sys",
+  "stored_as": "drivers/rdyboost.sys",
+  "sha256": "E83D146702F22E6A8FDB19B2F90ED7E745DCC3BCAE1FDC7F8AC8847A793AD2C1",
+  "sha1": "B625D7AB187082D979CA6BC9B0D338090BCD6893",
+  "md5": "873694018375002888A61412CC019C1A",
+  "filenames": [
+    "rdyboost.sys"
+  ],
+  "size_bytes": 316824,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "ReadyBoost Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "process address-space attach",
+    "system information set"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

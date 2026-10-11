@@ -1,0 +1,39 @@
+{
+  "filename": "iaLPSS2_UART2_ADL.sys",
+  "stored_as": "drivers/iaLPSS2_UART2_ADL.sys",
+  "sha256": "A7AE12D6AFE9CFEA7EFC636B37A1FF7B0E3190DF64DA9C5BBD66272E461C0E0E",
+  "sha1": "31EEDE1E78C53ACD645B0775F84867E70153915D",
+  "md5": "8FC8158496B4C3BA378BA7A1F96DC6E1",
+  "filenames": [
+    "iaLPSS2_UART2_ADL.sys"
+  ],
+  "size_bytes": 329320,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO UART Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

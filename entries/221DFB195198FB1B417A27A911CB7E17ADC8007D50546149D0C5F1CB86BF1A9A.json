@@ -1,0 +1,45 @@
+{
+  "filename": "nvpcf.sys",
+  "stored_as": "drivers/nvpcf.sys",
+  "sha256": "221DFB195198FB1B417A27A911CB7E17ADC8007D50546149D0C5F1CB86BF1A9A",
+  "sha1": "A0544B59C7C5C22C29E579B6D05F73637207B37E",
+  "md5": "62BD8F643D2FA264C10EE2A449A1F4C3",
+  "filenames": [
+    "nvpcf.sys"
+  ],
+  "size_bytes": 242816,
+  "company": "NVIDIA Corporation",
+  "product": "NVPCF",
+  "description": "NVIDIA Platform Controllers and Framework",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 115,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

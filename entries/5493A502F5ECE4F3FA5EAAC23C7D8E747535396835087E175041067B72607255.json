@@ -1,0 +1,39 @@
+{
+  "filename": "awealloc.sys",
+  "stored_as": "drivers/awealloc.sys",
+  "sha256": "5493A502F5ECE4F3FA5EAAC23C7D8E747535396835087E175041067B72607255",
+  "sha1": "EF616F847E050C1C2F6EF6FF3C2A6B8E512A3AF6",
+  "md5": "4DB300DC68D6313671E122B3FC6B2411",
+  "filenames": [
+    "awealloc.sys"
+  ],
+  "size_bytes": 36304,
+  "company": "Olof Lagerkvist",
+  "product": "imdisk",
+  "description": "AWE Allocation Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

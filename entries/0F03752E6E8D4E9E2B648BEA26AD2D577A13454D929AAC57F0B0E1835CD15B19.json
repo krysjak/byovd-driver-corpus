@@ -1,0 +1,45 @@
+{
+  "filename": "cht4nx64.sys",
+  "stored_as": "drivers/cht4nx64.sys",
+  "sha256": "0F03752E6E8D4E9E2B648BEA26AD2D577A13454D929AAC57F0B0E1835CD15B19",
+  "sha1": "7DA07E996E705F3EAB5454E1F9B8D9E91D5B2EE4",
+  "md5": "26FA1F3228DD627CC772D7F98A066D4D",
+  "filenames": [
+    "cht4nx64.sys"
+  ],
+  "size_bytes": 537904,
+  "company": "Chelsio Communications",
+  "product": "Chelsio Communications Unified Network I/O Controller",
+  "description": "Chelsio Communications Unified Network I/O Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

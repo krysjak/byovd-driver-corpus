@@ -1,0 +1,41 @@
+{
+  "filename": "MhiHost.sys",
+  "stored_as": "drivers/MhiHost.sys",
+  "sha256": "5054E023AD7C3013CA80DCD0A469183825B2E6951AB81BEF5A3B5232DB2F0055",
+  "sha1": "4F284F7C9A637CAF5A8E50DC8596239C375CE3C6",
+  "md5": "56643D8DAE3E981A4A49173816837090",
+  "filenames": [
+    "MhiHost.sys"
+  ],
+  "size_bytes": 175952,
+  "company": "Qualcomm Technologies, Inc.",
+  "product": "Qualcomm Modem Host Interface Driver",
+  "description": "QUALCOMM Modem Host Interface Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

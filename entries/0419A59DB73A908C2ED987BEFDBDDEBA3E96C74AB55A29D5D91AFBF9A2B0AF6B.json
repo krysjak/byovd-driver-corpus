@@ -1,0 +1,39 @@
+{
+  "filename": "HECI_1.sys",
+  "stored_as": "drivers/HECI_1.sys",
+  "sha256": "0419A59DB73A908C2ED987BEFDBDDEBA3E96C74AB55A29D5D91AFBF9A2B0AF6B",
+  "sha1": "233095064A32D9410D6194C72C29828D181E9C14",
+  "md5": "6FAB8EE0457E9795D93B91405766E674",
+  "filenames": [
+    "HECI_1.sys"
+  ],
+  "size_bytes": 56320,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Management Engine Interface",
+  "description": "Intel(R) Management Engine Interface",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

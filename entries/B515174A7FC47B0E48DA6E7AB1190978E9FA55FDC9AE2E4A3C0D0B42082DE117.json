@@ -1,0 +1,39 @@
+{
+  "filename": "NDKPing.sys",
+  "stored_as": "drivers/NDKPing.sys",
+  "sha256": "B515174A7FC47B0E48DA6E7AB1190978E9FA55FDC9AE2E4A3C0D0B42082DE117",
+  "sha1": "0B3E2C19F1C851E43285C0361D8E4A2AD7D8EF52",
+  "md5": "B64B91C41B77FCD873C38F8BDCD2C4A7",
+  "filenames": [
+    "NDKPing.sys"
+  ],
+  "size_bytes": 112112,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "RDMA Sample Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "amd_dpfc_2.sys",
+  "stored_as": "drivers/amd_dpfc_2.sys",
+  "sha256": "852EEBACDBF7CC314B1FCE5560230B4AA9F23C16F41056ED6DA246E15ABE9A0F",
+  "sha1": "DA10E94DC3A8F7F119B101BE87CEB43434978EF9",
+  "md5": "85708C3CB9CA2CAE50F5B65D9AD2B58D",
+  "filenames": [
+    "amd_dpfc_2.sys"
+  ],
+  "size_bytes": 59072,
+  "company": "Advanced Micro Devices",
+  "product": "AMD Dynamic Power and Frequency Control Service Driver",
+  "description": "AMD Dynamic Power and Frequency Control Service Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 105,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

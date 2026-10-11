@@ -1,0 +1,41 @@
+{
+  "filename": "iaStorF_2.sys",
+  "stored_as": "drivers/iaStorF_2.sys",
+  "sha256": "0487990C54851DE824196E1E2E859C4A4E9C90896CFD97141E0445A72FC18446",
+  "sha1": "806888DF30D7C7E4DFA56901122A296ABDEC8DF0",
+  "md5": "80CA8D11B20F6DE39BE00875636C3C8E",
+  "filenames": [
+    "iaStorF_2.sys"
+  ],
+  "size_bytes": 28128,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Rapid Storage Technology Filter driver ",
+  "description": "Intel(R) Rapid Storage Technology Filter driver - x86",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

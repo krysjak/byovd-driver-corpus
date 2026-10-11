@@ -1,0 +1,46 @@
+{
+  "filename": "iaStorV.sys",
+  "stored_as": "drivers/iaStorV.sys",
+  "sha256": "7E862C0367B382ADE309DEA6BEB95FD2EED15CAE8BDDA37658D66484C00F88BB",
+  "sha1": "95DFC01672BB6667FC3AE4F9C1E349385F31B25F",
+  "md5": "061FA45F59C7328C4749B0E5BAA9FC52",
+  "filenames": [
+    "iaStorV.sys",
+    "iaStorV_1.sys"
+  ],
+  "size_bytes": 413088,
+  "company": "Intel Corporation",
+  "product": "Intel Matrix Storage Manager driver",
+  "description": "Intel Matrix Storage Manager driver - x64",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

@@ -1,0 +1,41 @@
+{
+  "filename": "stream.sys",
+  "stored_as": "drivers/stream.sys",
+  "sha256": "C162F0DC9EECA81D13243747A35196F7F8F0DC1C316E9B88AF8A0F6CD5EEE6FA",
+  "sha1": "1F231A3146D8BA4E181C17621F58233B4B7F7BFC",
+  "md5": "35F5FAEBECFE4646D966D23AB1D74052",
+  "filenames": [
+    "stream.sys"
+  ],
+  "size_bytes": 118784,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "WDM CODEC Class Device Driver 2.0",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

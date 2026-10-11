@@ -1,0 +1,39 @@
+{
+  "filename": "ipf_smbus.sys",
+  "stored_as": "drivers/ipf_smbus.sys",
+  "sha256": "672EB5C1D67AD52586713AC80131CDF6C21DA5CB3EE9CB211AE14FAEB8F8EE83",
+  "sha1": "38A38F8F0E1AA9AF7BCD88BAED788989422AB39A",
+  "md5": "F5D24E39FC4064431229EF03B6E2B572",
+  "filenames": [
+    "ipf_smbus.sys"
+  ],
+  "size_bytes": 73288,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Innovation Platform Framework",
+  "description": "Intel(R) Innovation Platform Framework SMBUS Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

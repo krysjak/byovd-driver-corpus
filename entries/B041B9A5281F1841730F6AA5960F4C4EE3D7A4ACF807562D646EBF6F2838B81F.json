@@ -1,0 +1,39 @@
+{
+  "filename": "iaLPSS2_UART2_1.sys",
+  "stored_as": "drivers/iaLPSS2_UART2_1.sys",
+  "sha256": "B041B9A5281F1841730F6AA5960F4C4EE3D7A4ACF807562D646EBF6F2838B81F",
+  "sha1": "E99BE7D2A185A287302F0C65E2AC597B81669AA2",
+  "md5": "010A4E99410D8C557099A4568B79A4FB",
+  "filenames": [
+    "iaLPSS2_UART2_1.sys"
+  ],
+  "size_bytes": 305760,
+  "company": "Intel Corporation",
+  "product": "Intel(R) Serial IO Driver",
+  "description": "Intel(R) Serial IO UART Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

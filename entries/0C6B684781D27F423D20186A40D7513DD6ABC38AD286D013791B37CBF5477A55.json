@@ -1,0 +1,41 @@
+{
+  "filename": "iaStorA_1.sys",
+  "stored_as": "drivers/iaStorA_1.sys",
+  "sha256": "0C6B684781D27F423D20186A40D7513DD6ABC38AD286D013791B37CBF5477A55",
+  "sha1": "2E35581C262F81BA931EA0DB1962CCE268949FCC",
+  "md5": "71341219FBB4BAB7F2462C4267DAB594",
+  "filenames": [
+    "iaStorA_1.sys"
+  ],
+  "size_bytes": 644968,
+  "company": "Intel Corporation",
+  "product": "Intel Rapid Storage Technology driver ",
+  "description": "Intel Rapid Storage Technology driver - x64",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

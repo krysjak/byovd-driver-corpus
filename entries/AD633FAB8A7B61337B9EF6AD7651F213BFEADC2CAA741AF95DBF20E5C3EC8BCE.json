@@ -1,0 +1,39 @@
+{
+  "filename": "rteth.sys",
+  "stored_as": "drivers/rteth.sys",
+  "sha256": "AD633FAB8A7B61337B9EF6AD7651F213BFEADC2CAA741AF95DBF20E5C3EC8BCE",
+  "sha1": "E810F67F541FC664B3991F8A2D0E0B8DB25515B4",
+  "md5": "30993B838ACFB0F1D6F2B416A40BBA76",
+  "filenames": [
+    "rteth.sys"
+  ],
+  "size_bytes": 86016,
+  "company": "Realtek",
+  "product": "Realtek PCIe GBE Family Adapters",
+  "description": "Realtek PCIe GBE Family Controller Flight",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

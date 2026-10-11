@@ -1,0 +1,39 @@
+{
+  "filename": "snxpserx.sys",
+  "stored_as": "drivers/snxpserx.sys",
+  "sha256": "3C75C74BD1929CB4D1E589C9FC7228224C5FDAE835610CB8AA53BDD3CBAE9AC7",
+  "sha1": "AB07B6B292E32E59E67B60842E1AB14ABEF623F8",
+  "md5": "58BC27E1765EFC90ACB0413C4F08306D",
+  "filenames": [
+    "snxpserx.sys"
+  ],
+  "size_bytes": 93088,
+  "company": "SUNIX Co., Ltd.",
+  "product": "SUNIX Multi I/O Card",
+  "description": "SUNIX Serial Driver (x86)",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 90,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

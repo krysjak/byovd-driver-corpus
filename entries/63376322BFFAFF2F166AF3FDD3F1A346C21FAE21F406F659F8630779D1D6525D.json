@@ -1,0 +1,39 @@
+{
+  "filename": "VSTAZL6.SYS",
+  "stored_as": "drivers/VSTAZL6.SYS",
+  "sha256": "63376322BFFAFF2F166AF3FDD3F1A346C21FAE21F406F659F8630779D1D6525D",
+  "sha1": "E3DCA8F5408291D57AE5A5AAF565DCD8E237B38E",
+  "md5": "0C4540311E11664B245A263E1154CEF8",
+  "filenames": [
+    "VSTAZL6.SYS"
+  ],
+  "size_bytes": 292864,
+  "company": "Conexant Systems, Inc.",
+  "product": "SoftK56 Modem Driver",
+  "description": "HSF_HWAZL WDM driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

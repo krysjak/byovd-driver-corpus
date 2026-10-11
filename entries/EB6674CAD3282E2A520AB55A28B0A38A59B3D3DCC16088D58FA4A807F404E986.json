@@ -1,0 +1,39 @@
+{
+  "filename": "dlusbaudio_x64.sys",
+  "stored_as": "drivers/dlusbaudio_x64.sys",
+  "sha256": "EB6674CAD3282E2A520AB55A28B0A38A59B3D3DCC16088D58FA4A807F404E986",
+  "sha1": "1259B6E10E1C7F539ECD655E872342C11303AD52",
+  "md5": "36AB6683C7490748E4E6C1ABC19EF802",
+  "filenames": [
+    "dlusbaudio_x64.sys"
+  ],
+  "size_bytes": 237784,
+  "company": "DisplayLink Corp.",
+  "product": "DisplayLink USB Audio 2.0 Class Driver",
+  "description": "DisplayLink USB Audio Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

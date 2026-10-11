@@ -1,0 +1,40 @@
+{
+  "filename": "iagpio.sys",
+  "stored_as": "drivers/iagpio.sys",
+  "sha256": "FAAA46F22944E043A90AE6E9F0F86AF187FC2819C563DA375B2A409347BB2C35",
+  "sha1": "2A697703D2D8913D2874614014DAE4B0F7571601",
+  "md5": "9E5AECAB5F05218D9AC923E7CEA1CE15",
+  "filenames": [
+    "iagpio.sys",
+    "iagpio_1.sys"
+  ],
+  "size_bytes": 36352,
+  "company": "Intel(R) Corporation",
+  "product": "Intel(R) Serial IO GPIO Controller Driver",
+  "description": "Intel(R) Serial IO GPIO Controller Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

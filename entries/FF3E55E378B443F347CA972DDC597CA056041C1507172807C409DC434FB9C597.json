@@ -1,0 +1,39 @@
+{
+  "filename": "dlusbaudio_2.sys",
+  "stored_as": "drivers/dlusbaudio_2.sys",
+  "sha256": "FF3E55E378B443F347CA972DDC597CA056041C1507172807C409DC434FB9C597",
+  "sha1": "08ED7F089DDB2941B644BBCFCE8C1842894C0A4D",
+  "md5": "C91FB4A53E3A39B35747563D69C8FCBC",
+  "filenames": [
+    "dlusbaudio_2.sys"
+  ],
+  "size_bytes": 168280,
+  "company": "DisplayLink Corp.",
+  "product": "DisplayLink USB Audio 2.0 Class Driver",
+  "description": "DisplayLink USB Audio Driver",
+  "machine": "0x14c",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl"
+  ],
+  "capability_profile": [
+    "MDL allocation"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

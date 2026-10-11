@@ -1,0 +1,41 @@
+{
+  "filename": "gnf.sys",
+  "stored_as": "drivers/gnf.sys",
+  "sha256": "4A406C7CFAE7C320F58666BAB8A47D1801DD7CCFC8834A183A5E2F3905442DE9",
+  "sha1": "9FA778C41746F1D0D10AEF7526B97C68127CC886",
+  "md5": "0153A075648EBCD347BA87F8649CA51A",
+  "filenames": [
+    "gnf.sys"
+  ],
+  "size_bytes": 102416,
+  "company": "Windows (R) Win 7 DDK provider",
+  "product": "GTB Extreme Network Driver",
+  "description": "GTB Extreme Network Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

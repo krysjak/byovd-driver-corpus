@@ -1,0 +1,56 @@
+{
+  "filename": "igdkmdnd64_5.sys",
+  "stored_as": "drivers/igdkmdnd64_5.sys",
+  "sha256": "BF870F9BB2A6C93A01F0B50EECCF71F656F734EFBC7CFC926CF56F1788C3456D",
+  "sha1": "90BC7F78C9DD976235515EAEF0EEC9059D100B81",
+  "md5": "FF3860280AD08A80B9B03DCD24017869",
+  "filenames": [
+    "igdkmdnd64_5.sys"
+  ],
+  "size_bytes": 50821824,
+  "company": "Intel Corporation",
+  "product": "Intel HD Graphics Drivers for Windows(R)",
+  "description": "Intel Graphics Kernel Mode New Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmCopyMemory",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwLoadDriver",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "arbitrary memory copy",
+    "driver loading",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "process address-space attach",
+    "process handle access",
+    "process lookup"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 180,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

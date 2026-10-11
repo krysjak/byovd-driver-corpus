@@ -1,0 +1,43 @@
+{
+  "filename": "winhv.sys",
+  "stored_as": "drivers/winhv.sys",
+  "sha256": "DF2020BE376215D828C809D1C1D44FEDEC778CABE18C71E5E2E9F6AE92B5668E",
+  "sha1": "A55EDF5FFBA9A8D06D65B29E603A11975BF80C88",
+  "md5": "B0DBDE1F92183ACA0058AC09EA12C31C",
+  "filenames": [
+    "winhv.sys"
+  ],
+  "size_bytes": 75248,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Windows Hypervisor Interface Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "ZwSetSystemInformation"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "system information set"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

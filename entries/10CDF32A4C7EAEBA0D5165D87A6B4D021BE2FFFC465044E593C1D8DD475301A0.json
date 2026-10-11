@@ -1,0 +1,41 @@
+{
+  "filename": "rt27cx21x64.sys",
+  "stored_as": "drivers/rt27cx21x64.sys",
+  "sha256": "10CDF32A4C7EAEBA0D5165D87A6B4D021BE2FFFC465044E593C1D8DD475301A0",
+  "sha1": "5B21A15AF222F13182E62BD0C89934D1D885DAE2",
+  "md5": "28652E234EF05ACE0A492CD101E8BC4F",
+  "filenames": [
+    "rt27cx21x64.sys"
+  ],
+  "size_bytes": 921088,
+  "company": "Realtek                                        ",
+  "product": "Realtek PCIe Ethernet Controller                                        ",
+  "description": "Realtek PCIe Ethernet Controller NetAdapterCx 2.2 Driver                                        ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

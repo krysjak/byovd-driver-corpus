@@ -1,0 +1,41 @@
+{
+  "filename": "rtots640x64.sys",
+  "stored_as": "drivers/rtots640x64.sys",
+  "sha256": "F62D9F3E8DA87C45605FE8B8D2F365BC005F4784B49DCF40C5E87E5593AEDB5B",
+  "sha1": "5265CF4BE90F577755D293EE8356108D82F634A6",
+  "md5": "61DC9559AFD1E1C9195C7EC0D27A8259",
+  "filenames": [
+    "rtots640x64.sys"
+  ],
+  "size_bytes": 1460736,
+  "company": "Realtek                                        ",
+  "product": "Realtek 8125/8126/8136/8168/8169 PCI/PCIe Adapters                                        ",
+  "description": "Realtek 8125/8126/8136/8168/8169 NDIS 6.40 64-bit Driver                                        ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

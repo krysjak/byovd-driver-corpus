@@ -1,0 +1,46 @@
+{
+  "filename": "wintun.sys",
+  "stored_as": "drivers/wintun.sys",
+  "sha256": "1A7BB3555C5419BEFB1A5F54267DCAE9A7AF16749DDF4EEF9B431FCF0B863110",
+  "sha1": "1E0DD7B0D0C0B880BF6864134D1E792E80E875FC",
+  "md5": "43D91124FE8112D0027842824DAD7326",
+  "filenames": [
+    "wintun.sys",
+    "wintun_1.sys"
+  ],
+  "size_bytes": 29592,
+  "company": "WireGuard LLC",
+  "product": "Wintun Driver",
+  "description": "Wintun Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process lookup"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

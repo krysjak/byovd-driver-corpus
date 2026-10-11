@@ -1,0 +1,47 @@
+{
+  "filename": "cldflt.sys",
+  "stored_as": "drivers/cldflt.sys",
+  "sha256": "AA4FABFA1BEDC600AD52F7124EDFE6896A337B4D6478840F62C0EA890477E4D9",
+  "sha1": "B9055B606A9BA93C589221A3891EE00250A0F16A",
+  "md5": "8D1403963E4BB426961E8AF3DC024180",
+  "filenames": [
+    "cldflt.sys"
+  ],
+  "size_bytes": 602112,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Cloud Files Mini Filter Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmProbeAndLockPages",
+    "PsLookupProcessByProcessId",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "process address-space attach",
+    "process handle access",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

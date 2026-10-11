@@ -1,0 +1,43 @@
+{
+  "filename": "WiMan_7.sys",
+  "stored_as": "drivers/WiMan_7.sys",
+  "sha256": "9282E6072EE1CA053D78FDC3639A7D2D8BADC60BB2426539CAC091680B89A1EB",
+  "sha1": "33EB57DFA68FAA49F3E0C2B80ACD445E02973334",
+  "md5": "E3D6C44B498B9F74A799091360AB5148",
+  "filenames": [
+    "WiMan_7.sys"
+  ],
+  "size_bytes": 166480,
+  "company": "",
+  "product": "",
+  "description": "",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

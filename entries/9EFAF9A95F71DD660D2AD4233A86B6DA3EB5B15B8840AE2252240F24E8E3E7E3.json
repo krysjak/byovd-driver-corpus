@@ -1,0 +1,41 @@
+{
+  "filename": "rt68cx21x64.sys",
+  "stored_as": "drivers/rt68cx21x64.sys",
+  "sha256": "9EFAF9A95F71DD660D2AD4233A86B6DA3EB5B15B8840AE2252240F24E8E3E7E3",
+  "sha1": "BDF64498D3E3FAA7A03730980BEAF9D64BE0CA3E",
+  "md5": "516A932C9D7A0294121045C8A8122BBB",
+  "filenames": [
+    "rt68cx21x64.sys"
+  ],
+  "size_bytes": 831448,
+  "company": "Realtek                                        ",
+  "product": "Realtek PCIe Ethernet Controller                                        ",
+  "description": "Realtek PCIe Ethernet Controller NetAdapterCx 2.2 Driver                                        ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

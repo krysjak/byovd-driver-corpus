@@ -1,0 +1,42 @@
+{
+  "filename": "tpm_2.sys",
+  "stored_as": "drivers/tpm_2.sys",
+  "sha256": "35CA6FC27DBF6AD15ECCC66FE0D7E274E946FBC451E9417F6D7346B295CEBC65",
+  "sha1": "BFC04E5E0D21AD7D31DED7E9BFF9DBBF69C5D911",
+  "md5": "27B5E4E372A7B68A1F47676351E7A34A",
+  "filenames": [
+    "tpm_2.sys",
+    "tpm_3.sys"
+  ],
+  "size_bytes": 374176,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "TPM Device Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

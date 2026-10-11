@@ -1,0 +1,45 @@
+{
+  "filename": "atind60a.sys",
+  "stored_as": "drivers/atind60a.sys",
+  "sha256": "CEB38E216A6E6263CE1AD9A61B5715F2F59555DCCD4DC15103B6012E00F8A991",
+  "sha1": "CEB443ADB2175BDD9551CC3AD9979516C9266377",
+  "md5": "267DFE5D6577A7D148B3C46C4CAB659E",
+  "filenames": [
+    "atind60a.sys"
+  ],
+  "size_bytes": 544360,
+  "company": "Broadcom Limited",
+  "product": "Broadcom NetXtreme Gigabit Ethernet Driver",
+  "description": "Broadcom NetXtreme Gigabit Ethernet NDIS6.x Unified Driver.",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 115,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

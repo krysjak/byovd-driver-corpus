@@ -1,0 +1,54 @@
+{
+  "filename": "Vid_2.sys",
+  "stored_as": "drivers/Vid_2.sys",
+  "sha256": "7F90AADC25CA83DED17A3DE262A64C6DEFD6EE6E50C5ED71F86F7D0B9CC3AC91",
+  "sha1": "5D85BD805F7B818343BCD7C225F7C36D82E9A058",
+  "md5": "F6B66498AC898D43B083576B411529EB",
+  "filenames": [
+    "Vid_2.sys",
+    "Vid_3.sys"
+  ],
+  "size_bytes": 914840,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Microsoft Hyper-V Virtualization Infrastructure Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "KeStackAttachProcess",
+    "MmCopyVirtualMemory",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages",
+    "ZwOpenSection",
+    "ZwSetSystemInformation",
+    "ZwTerminateProcess"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "cross-process memory copy",
+    "page locking",
+    "physical memory mapping",
+    "process address-space attach",
+    "process termination",
+    "section object access",
+    "system information set"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 155,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "local",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

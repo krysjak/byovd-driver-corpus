@@ -1,0 +1,49 @@
+{
+  "filename": "vmx86.sys",
+  "stored_as": "drivers/vmx86.sys",
+  "sha256": "4BFB88A5EBCC36A1D7C45F5B4D51BDC44BBB42179ACD023B35EE8BA87ECD9543",
+  "sha1": "7DBB9E8284C5FD2F8EC771C84AC0422B47BD0C99",
+  "md5": "EF15D6C224D31A39A0D39E6C5CDCAF45",
+  "filenames": [
+    "vmx86.sys"
+  ],
+  "size_bytes": 100920,
+  "company": "Broadcom Inc.",
+  "product": "VMware kernel driver",
+  "description": "VMware kernel driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": false,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

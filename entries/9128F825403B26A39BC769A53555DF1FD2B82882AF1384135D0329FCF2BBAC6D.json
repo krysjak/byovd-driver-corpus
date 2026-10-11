@@ -1,0 +1,45 @@
+{
+  "filename": "k57nd60a.sys",
+  "stored_as": "drivers/k57nd60a.sys",
+  "sha256": "9128F825403B26A39BC769A53555DF1FD2B82882AF1384135D0329FCF2BBAC6D",
+  "sha1": "1FC8F5F8FC2F021BA908D928A0FD1BA2B96B9F1D",
+  "md5": "8438B8A45E16258064C19FBEC4EE069F",
+  "filenames": [
+    "k57nd60a.sys"
+  ],
+  "size_bytes": 446464,
+  "company": "Broadcom Corporation",
+  "product": "Broadcom NetLink (TM) Gigabit Ethernet Driver",
+  "description": "Broadcom NetLink (TM) Gigabit Ethernet NDIS6.x Unified Driver.",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

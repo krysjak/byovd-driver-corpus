@@ -1,0 +1,43 @@
+{
+  "filename": "amdpsp_4.sys",
+  "stored_as": "drivers/amdpsp_4.sys",
+  "sha256": "AA09BAF79AE92424ABC96E42D1F30DD0A60DA62CB9091BD4BC74F36AEEDF932F",
+  "sha1": "2CB17A5A474C66F5CE2A68D7C03CF7399874D86E",
+  "md5": "8954D35CAF3A6E37C6DE8F90A883E288",
+  "filenames": [
+    "amdpsp_4.sys"
+  ],
+  "size_bytes": 52656,
+  "company": "Advanced Micro Devices, Inc. ",
+  "product": "Advanced Micro Devices, Inc. amdpsp sys",
+  "description": "amdpsp sys",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 85,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

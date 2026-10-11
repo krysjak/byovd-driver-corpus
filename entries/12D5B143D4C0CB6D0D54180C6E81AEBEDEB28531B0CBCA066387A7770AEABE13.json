@@ -1,0 +1,41 @@
+{
+  "filename": "IntcOED_3.sys",
+  "stored_as": "drivers/IntcOED_3.sys",
+  "sha256": "12D5B143D4C0CB6D0D54180C6E81AEBEDEB28531B0CBCA066387A7770AEABE13",
+  "sha1": "5E4B0C1CE3665C825EC517CBCD5416B619F08319",
+  "md5": "A0CCF433825DB61A87B7F6EA240F1741",
+  "filenames": [
+    "IntcOED_3.sys"
+  ],
+  "size_bytes": 1131896,
+  "company": "Intel(R) Corporation",
+  "product": "Intel® Smart Sound Technology (Intel® SST) OED",
+  "description": "Intel® Smart Sound Technology (Intel® SST) OED",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

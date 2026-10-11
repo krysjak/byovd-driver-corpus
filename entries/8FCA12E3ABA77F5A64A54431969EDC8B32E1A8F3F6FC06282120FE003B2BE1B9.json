@@ -1,0 +1,44 @@
+{
+  "filename": "bxvbda.sys",
+  "stored_as": "drivers/bxvbda.sys",
+  "sha256": "8FCA12E3ABA77F5A64A54431969EDC8B32E1A8F3F6FC06282120FE003B2BE1B9",
+  "sha1": "0CC5AA83F863A0A877B44B7F1D7AC79A284C4586",
+  "md5": "56B18293198BA954762BC0688AB82571",
+  "filenames": [
+    "bxvbda.sys",
+    "bxvbda_1.sys"
+  ],
+  "size_bytes": 534944,
+  "company": "QLogic Corporation",
+  "product": "QLogic Gigabit Ethernet",
+  "description": "QLogic Gigabit Ethernet VBD",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpaceEx",
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "physical memory mapping",
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

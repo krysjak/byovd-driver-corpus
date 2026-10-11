@@ -1,0 +1,46 @@
+{
+  "filename": "usbport.sys",
+  "stored_as": "drivers/usbport.sys",
+  "sha256": "D18A63273C3DC26D1EA4550CC63DC59F44FD523C7CF6190FE151BE0D95D3989A",
+  "sha1": "AAA88F3E9A94BC4E3A410352562C9416B2B93553",
+  "md5": "351520B1C913628D7B2297A243F00FE8",
+  "filenames": [
+    "usbport.sys",
+    "usbport_1.sys"
+  ],
+  "size_bytes": 509400,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "USB 1.1 & 2.0 Port Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

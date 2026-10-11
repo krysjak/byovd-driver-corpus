@@ -1,0 +1,42 @@
+{
+  "filename": "rfcomm.sys",
+  "stored_as": "drivers/rfcomm.sys",
+  "sha256": "A5E9B12EBAAFDA10B2BE4610B5618DBFD568AF4276A1C780AA4B4B6A208CB2ED",
+  "sha1": "84C3E0ECB1E2E9F6732015846889AD461031D17B",
+  "md5": "856F80DC85931317D7C454F21C0B6650",
+  "filenames": [
+    "rfcomm.sys",
+    "rfcomm_1.sys"
+  ],
+  "size_bytes": 253952,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Bluetooth RFCOMM Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "unsigned",
+  "is_signed": false,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "PsLookupProcessByProcessId"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

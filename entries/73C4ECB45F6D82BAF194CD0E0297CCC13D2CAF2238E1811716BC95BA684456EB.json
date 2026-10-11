@@ -1,0 +1,41 @@
+{
+  "filename": "ISH_3.sys",
+  "stored_as": "drivers/ISH_3.sys",
+  "sha256": "73C4ECB45F6D82BAF194CD0E0297CCC13D2CAF2238E1811716BC95BA684456EB",
+  "sha1": "2C3937D04E7C6403E3FBA9E929A2D2D548D810E3",
+  "md5": "69EBCAD2DAB8626CE3F95775FD42350A",
+  "filenames": [
+    "ISH_3.sys"
+  ],
+  "size_bytes": 158096,
+  "company": "Intel",
+  "product": "ISS",
+  "description": "Intel(R) Integrated Sensor Solution",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmGetPhysicalAddress",
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 75,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

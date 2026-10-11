@@ -1,0 +1,41 @@
+{
+  "filename": "cnghwassist.sys",
+  "stored_as": "drivers/cnghwassist.sys",
+  "sha256": "8D79879E02F6DC19F04743D78004E228D3EBF64A5CC3A57D0E0B624091BE5765",
+  "sha1": "6165749C0EEEDEA854FF473D0477E6E5A7687A05",
+  "md5": "3E4D2BAEFC5BEFD32EA3923BCB96BFBF",
+  "filenames": [
+    "cnghwassist.sys"
+  ],
+  "size_bytes": 75056,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "CNG Hardware Assist algorithm provider",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

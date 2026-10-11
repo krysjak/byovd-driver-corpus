@@ -1,0 +1,39 @@
+{
+  "filename": "AMDPCIDev.sys",
+  "stored_as": "drivers/AMDPCIDev.sys",
+  "sha256": "48FDADD0651BE4D5081CC636C0CCDA30C602506F4C02ED58D9A3E46B74C4564D",
+  "sha1": "2D0B685A5F6B46E74499DB29D3D5F56144220C39",
+  "md5": "F5B4FC4DBF511C6DB3EAAC710421EB4C",
+  "filenames": [
+    "AMDPCIDev.sys"
+  ],
+  "size_bytes": 39048,
+  "company": "Advanced Micro Devices",
+  "product": "AMD PCI Device driver",
+  "description": "AMD PCI Device driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "process handle access"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

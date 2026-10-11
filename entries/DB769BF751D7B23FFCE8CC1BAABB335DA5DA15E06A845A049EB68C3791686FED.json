@@ -1,0 +1,44 @@
+{
+  "filename": "nvraid.sys",
+  "stored_as": "drivers/nvraid.sys",
+  "sha256": "DB769BF751D7B23FFCE8CC1BAABB335DA5DA15E06A845A049EB68C3791686FED",
+  "sha1": "76772B44ABB64BB9437307E354A62AA83FB6201F",
+  "md5": "FB6829DFAE5EA01864C3CFE35452F7E3",
+  "filenames": [
+    "nvraid.sys",
+    "nvraid_1.sys"
+  ],
+  "size_bytes": 151472,
+  "company": "NVIDIA Corporation",
+  "product": "NVIDIA nForce(TM) RAID Driver",
+  "description": "NVIDIA® nForce(TM) RAID Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

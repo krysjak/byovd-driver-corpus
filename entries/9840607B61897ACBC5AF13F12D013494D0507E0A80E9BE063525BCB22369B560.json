@@ -1,0 +1,41 @@
+{
+  "filename": "imdisk.sys",
+  "stored_as": "drivers/imdisk.sys",
+  "sha256": "9840607B61897ACBC5AF13F12D013494D0507E0A80E9BE063525BCB22369B560",
+  "sha1": "409E03F912D7822DFE63DA2CD739BF92A2563C73",
+  "md5": "E8F81F9BA6245ECAE906957117CD7204",
+  "filenames": [
+    "imdisk.sys"
+  ],
+  "size_bytes": 63976,
+  "company": "Olof Lagerkvist",
+  "product": "imdisk",
+  "description": "ImDisk Virtual Disk Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "ZwMapViewOfSection",
+    "ZwOpenSection"
+  ],
+  "capability_profile": [
+    "section mapping (kernel R/W surface)",
+    "section object access"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

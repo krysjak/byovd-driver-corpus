@@ -1,0 +1,39 @@
+{
+  "filename": "IntelTACD.sys",
+  "stored_as": "drivers/IntelTACD.sys",
+  "sha256": "27E3DF3778E939D5FBFBC0428A6EF60516B7EAEB555ECC0A97833C7E37A09882",
+  "sha1": "DE8FA9CF347EE6DCD5FC63EEEE359C35B42F7F03",
+  "md5": "22ECBDE59F8A5901D29BBBCB54979E7E",
+  "filenames": [
+    "IntelTACD.sys"
+  ],
+  "size_bytes": 59952,
+  "company": "Intel Corporation",
+  "product": "Intel Telemetry Aggregator Consumer Driver",
+  "description": "Intel Telemetry Aggregator Consumer Driver ",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

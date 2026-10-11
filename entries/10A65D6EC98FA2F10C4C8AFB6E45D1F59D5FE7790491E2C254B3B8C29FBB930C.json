@@ -1,0 +1,43 @@
+{
+  "filename": "RTKVHD64_2.sys",
+  "stored_as": "drivers/RTKVHD64_2.sys",
+  "sha256": "10A65D6EC98FA2F10C4C8AFB6E45D1F59D5FE7790491E2C254B3B8C29FBB930C",
+  "sha1": "9B8F1AF6703A904E1A1F44B897CDEB08CC852254",
+  "md5": "CE18D4E4D2030B625726E117262CA37A",
+  "filenames": [
+    "RTKVHD64_2.sys"
+  ],
+  "size_bytes": 6333912,
+  "company": "Realtek Semiconductor Corp.",
+  "product": "Realtek(r) High Definition Audio Function Driver",
+  "description": "Realtek(r) High Definition Audio Function Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": true,
+  "missing_probe_validation": true,
+  "byovd_score": 110,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

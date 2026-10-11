@@ -1,0 +1,44 @@
+{
+  "filename": "bttflt.sys",
+  "stored_as": "drivers/bttflt.sys",
+  "sha256": "0F65089C4A1B84B51D46CB758FE06AD3651EEECC72ED4A82DAD15BC419F60AD5",
+  "sha1": "C94903347F972FC60AB2A92D6D05319BD14B9BBF",
+  "md5": "EBB4AC45D7A7040352CD206D0201B31C",
+  "filenames": [
+    "bttflt.sys",
+    "bttflt_1.sys"
+  ],
+  "size_bytes": 79176,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "VHD BTT Filter Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmGetPhysicalAddress",
+    "MmMapIoSpaceEx"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "physical address resolution",
+    "physical memory mapping"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 2
+}

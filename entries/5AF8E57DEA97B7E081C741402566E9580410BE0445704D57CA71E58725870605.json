@@ -1,0 +1,39 @@
+{
+  "filename": "Apfiltr_3.sys",
+  "stored_as": "drivers/Apfiltr_3.sys",
+  "sha256": "5AF8E57DEA97B7E081C741402566E9580410BE0445704D57CA71E58725870605",
+  "sha1": "9681C0EC6A6AD03BBA26143C2F856F43B70FA2BD",
+  "md5": "995EBACAFBE57B22A5568F4B519803A4",
+  "filenames": [
+    "Apfiltr_3.sys"
+  ],
+  "size_bytes": 605320,
+  "company": "Alps Electric Co., Ltd.",
+  "product": "Alps Touch Pad Driver",
+  "description": "Alps Touch Pad Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "MmMapIoSpace"
+  ],
+  "capability_profile": [
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 60,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

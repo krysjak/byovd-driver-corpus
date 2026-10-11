@@ -1,0 +1,43 @@
+{
+  "filename": "pdc.sys",
+  "stored_as": "drivers/pdc.sys",
+  "sha256": "83487A10400C635328957D47A5F43540E971C9328A83D46455391AF3A5C6838C",
+  "sha1": "4A2BF68DAD8F79071A84ED1AC74EF725628F9DD3",
+  "md5": "CFE716E7843009AE733BFE3748C0651C",
+  "filenames": [
+    "pdc.sys"
+  ],
+  "size_bytes": 214504,
+  "company": "Microsoft Corporation",
+  "product": "Microsoft® Windows® Operating System",
+  "description": "Power Dependency Coordinator Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "KeStackAttachProcess",
+    "PsLookupProcessByProcessId",
+    "ZwOpenProcess"
+  ],
+  "capability_profile": [
+    "process address-space attach",
+    "process handle access",
+    "process lookup"
+  ],
+  "creates_device": true,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 0,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "candidate_drivers",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

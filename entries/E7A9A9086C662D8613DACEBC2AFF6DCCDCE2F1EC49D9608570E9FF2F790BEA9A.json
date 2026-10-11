@@ -1,0 +1,43 @@
+{
+  "filename": "RTKVHD64_10.sys",
+  "stored_as": "drivers/RTKVHD64_10.sys",
+  "sha256": "E7A9A9086C662D8613DACEBC2AFF6DCCDCE2F1EC49D9608570E9FF2F790BEA9A",
+  "sha1": "4ED445BDB46B72ED8C595724318EBDAF6AB03CCA",
+  "md5": "8CC349A13E5FA7857A92F3DDFA2AA36D",
+  "filenames": [
+    "RTKVHD64_10.sys"
+  ],
+  "size_bytes": 7227992,
+  "company": "Realtek Semiconductor Corp.",
+  "product": "Realtek(r) High Definition Audio Function Driver",
+  "description": "Realtek(r) High Definition Audio Function Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmMapIoSpace",
+    "MmProbeAndLockPages"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "page locking",
+    "physical memory mapping"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": true,
+  "byovd_score": 80,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:hp",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}

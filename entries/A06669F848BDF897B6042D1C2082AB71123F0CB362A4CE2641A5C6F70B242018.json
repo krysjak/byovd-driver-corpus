@@ -1,0 +1,47 @@
+{
+  "filename": "npu_kmd.sys",
+  "stored_as": "drivers/npu_kmd.sys",
+  "sha256": "A06669F848BDF897B6042D1C2082AB71123F0CB362A4CE2641A5C6F70B242018",
+  "sha1": "57B6C619ED61E90152492D1B8BFF04F29A661020",
+  "md5": "0A3189640984010926FBD6BCA30C0369",
+  "filenames": [
+    "npu_kmd.sys"
+  ],
+  "size_bytes": 3871712,
+  "company": "Intel(R) Corporation",
+  "product": "Intel(R) NPU Driver",
+  "description": "Kernel Mode Driver",
+  "machine": "0x8664",
+  "is_kernel_driver": true,
+  "signature": "signed",
+  "is_signed": true,
+  "dangerous_imports": [
+    "IoAllocateMdl",
+    "MmAllocateContiguousMemory",
+    "MmGetPhysicalAddress",
+    "MmProbeAndLockPages",
+    "ZwLoadDriver"
+  ],
+  "capability_profile": [
+    "MDL allocation",
+    "contiguous physical allocation",
+    "driver loading",
+    "page locking",
+    "physical address resolution"
+  ],
+  "creates_device": false,
+  "creates_symlink": false,
+  "missing_probe_validation": false,
+  "byovd_score": 65,
+  "in_loldrivers": false,
+  "in_ms_blocklist": false,
+  "source": "oem:dell",
+  "loldrivers": {},
+  "usage": {
+    "documented": false,
+    "commands": [],
+    "usecase": "",
+    "notes": "No public documentation. Candidate by heuristic: dangerous imports present."
+  },
+  "duplicate_count": 1
+}
